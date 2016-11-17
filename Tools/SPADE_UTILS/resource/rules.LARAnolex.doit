@@ -1,0 +1,2730 @@
+0.08 6305 PP -> 2 IN NP |
+0.95 4635 NP -> 2 NP | SBAR
+0.79 4545 VP -> 2 VBD | SBAR
+0.11 3230 NP -> 2 DT NN |
+0.91 2940 NP -> 2 NP | VP
+0.06 1965 NP -> 2 NP PP |
+0.78 1720 VP -> 3 VP | CC VP
+0.99 1460 NP -> 3 NP , | SBAR
+0.14 1315 NP -> 3 DT JJ NN |
+0.05 1240 S -> 2 NP VP |
+0.97 1160 S -> 5 S , | NP VP .
+0.8 1055 VP -> 2 VBP | SBAR
+0.13 1010 NP -> 2 JJ NNS |
+1.0 980 S -> 5 S , | CC S .
+0.57 960 VP -> 2 VBZ | SBAR
+1.0 900 NP -> 4 NP , | SBAR ,
+1.0 895 SINV -> 7 `` S , '' | VP NP .
+0.99 895 NP -> 4 NP , SBAR , |
+0.98 850 S -> 5 SBAR , | NP VP .
+0.07 835 VP -> 2 TO VP |
+0.09 720 SBAR -> 2 WHNP S |
+0.02 715 NP -> 2 NP | PP
+0.21 675 NP -> 2 NP VP |
+0.08 665 PP -> 2 TO NP |
+0.09 660 VP -> 2 VB NP |
+0.13 655 NP -> 2 NP SBAR |
+0.99 640 S -> 7 `` S , '' | NP VP .
+0.96 625 NP -> 2 NP | PRN
+0.12 615 NP -> 2 DT NNS |
+0.94 595 NP -> 4 NP : | NP .
+0.73 595 VP -> 2 VB | SBAR
+0.21 550 S -> 5 PP , | NP VP .
+0.96 540 NP -> 3 NP PP | SBAR
+0.82 505 VP -> 2 VBG | SBAR
+0.13 500 VP -> 2 VBG NP |
+0.1 500 VP -> 2 VBN PP |
+0.1 485 NP -> 2 JJ NN |
+0.94 460 VP -> 4 VP , | CC VP
+0.99 415 PRN -> 3 , S , |
+0.12 415 NP -> 3 DT NN NN |
+0.98 410 PRN -> 3 , | S ,
+0.93 390 NP -> 3 DT NN | S
+0.76 390 VP -> 2 VBN | SBAR
+0.9 380 S -> 4 S : | S .
+0.03 345 NP -> 2 NNP NNP |
+0.96 340 S -> 4 SBAR , | NP VP
+0.14 330 NP -> 4 NP , NP , |
+0.08 325 VP -> 2 VBD NP |
+0.08 310 NP -> 2 NN NNS |
+0.88 305 VP -> 3 VBD NP | SBAR
+0.46 300 NP -> 2 NP PRN |
+0.84 285 VP -> 3 VB NP | SBAR
+0.15 270 VP -> 2 VBN | S
+1.0 265 S -> 4 S , | CC S
+1.0 265 NP -> 4 NP , | VP ,
+0.9 260 NP -> 3 NP PP | VP
+0.98 260 NP -> 4 NP , VP , |
+0.15 250 NP -> 3 DT JJ NNS |
+0.18 235 NP -> 4 DT JJ NN NN |
+0.05 235 QP -> 3 $ CD CD |
+0.94 235 NP -> 3 DT NN | SBAR
+0.07 230 NP -> 2 CD NNS |
+0.52 230 NP -> 3 NP , | PP
+0.09 225 NP -> 2 PRP$ NN |
+0.03 225 VP -> 2 MD VP |
+0.09 220 VP -> 3 VB NP | PP
+0.05 220 NP -> 3 NP CC NP |
+0.74 215 VP -> 3 VB NP | S
+0.12 210 VP -> 2 VBN NP |
+0.98 210 S -> 6 S , '' | NP VP .
+0.39 210 PRN -> 3 -LRB- NP -RRB- |
+0.98 205 NP -> 3 NP , | VP
+0.73 205 S -> 3 S | CC S
+0.02 200 SBAR -> 2 IN S |
+0.02 195 SBAR -> 2 IN | S
+0.05 195 VP -> 2 VBZ NP |
+0.04 190 VP -> 2 VBZ VP |
+0.08 190 NP -> 2 NP NN |
+0.84 185 VP -> 3 VBN PP | S
+0.07 180 VP -> 3 VB NP PP |
+0.09 175 VP -> 2 VBP NP |
+0.05 175 VP -> 2 VBD VP |
+1.0 175 VP -> 4 VBD NP , | S
+0.12 170 NP -> 2 QP NNS |
+0.01 170 S -> 2 NP | VP
+0.41 170 NP -> 3 NP : | NP
+1.0 165 SINV -> 6 S , '' | VP NP .
+0.17 165 NP -> 3 JJ JJ NNS |
+0.04 160 NP -> 2 CD NN |
+0.14 160 NP -> 2 NNP CD |
+0.12 160 NP -> 3 DT ADJP NN |
+0.12 155 NP -> 3 JJ NN NNS |
+0.06 145 PP -> 2 IN S |
+0.32 145 S -> 4 PP , | NP VP
+0.17 145 NP -> 4 DT JJ JJ NN |
+0.06 140 VP -> 2 VB VP |
+0.97 140 NP -> 4 NP PP , | SBAR
+0.09 140 NP -> 3 DT NNP NN |
+0.11 140 NP -> 2 PRP$ NNS |
+0.06 130 VP -> 3 VBD NP PP |
+0.02 130 SBAR -> 2 WHNP | S
+1.0 125 NP -> 5 NP , NP , | SBAR
+0.06 125 NP -> 2 DT NNP |
+0.2 125 NP -> 2 ADJP NNS |
+0.08 120 NP -> 2 NN NN |
+0.48 120 NP -> 4 NP , PP , |
+0.05 120 SBAR -> 2 WHADVP S |
+0.1 120 VP -> 2 VBG PP |
+0.15 120 NP -> 3 PRP$ JJ NN |
+0.77 120 S -> 4 S | CC S .
+0.14 120 NP -> 2 NP | ADJP
+1.0 115 SINV -> 5 S , | VP NP .
+0.28 115 NP -> 3 NP | : NP
+0.08 115 ADJP -> 2 RB JJ |
+0.77 115 SBAR -> 3 SBAR | CC SBAR
+0.68 115 VP -> 3 VBG NP | S
+0.96 115 VP -> 3 VBD PP | SBAR
+0.24 115 NP -> 3 DT CD NNS |
+0.06 115 VP -> 2 VB PP |
+1.0 115 NP -> 2 NNS | SBAR
+0.18 110 NP -> 3 DT NN NNS |
+0.03 110 VP -> 2 VBP VP |
+0.05 105 VP -> 3 VBD NP | PP
+1.0 105 NP -> 4 DT JJ NN | S
+1.0 105 NP -> 4 NP | : NP :
+0.07 105 VP -> 2 VBD S |
+1.0 105 VP -> 3 VBN PP | SBAR
+0.68 105 ADJP -> 2 JJ | SBAR
+1.0 105 NP -> 4 NP : NP : |
+0.5 100 VP -> 3 VBD NP | S
+0.09 100 NP -> 2 NP NNS |
+0.91 100 S -> 6 NP , S , | VP .
+1.0 100 S -> 6 CC SBAR , | NP VP .
+0.43 100 NP -> 4 NP PP , | PP
+0.95 100 NP -> 3 NP PP | S
+0.07 100 VP -> 2 VBD PP |
+0.86 95 S -> 6 NP , | S , VP .
+0.9 95 VP -> 3 VBG NP | SBAR
+1.0 95 PRN -> 3 : NP : |
+0.38 95 NP -> 4 NP , | PP ,
+0.09 95 ADJP -> 2 JJ PP |
+0.09 95 NP -> 3 DT NNP NNP |
+0.11 90 NP -> 2 NP ADJP |
+0.03 90 NP -> 3 NNP NNP NNP |
+0.95 90 NP -> 3 NP NN | S
+0.05 90 VP -> 2 VBN S |
+1.0 85 VP -> 4 VBD NP PP | SBAR
+1.0 85 SBAR -> 4 SBAR , | CC SBAR
+0.46 85 VP -> 4 VBD NP , | PP
+0.89 85 VP -> 5 VP , | VP CC VP
+0.03 85 NP -> 2 NP NP |
+0.06 85 VP -> 2 VBZ S |
+0.11 80 ADVP -> 2 RB PP |
+0.01 75 VP -> 2 VBD SBAR |
+0.79 75 VP -> 5 VP , VP | CC VP
+0.94 75 VP -> 5 VBD NP PP , | S
+0.75 75 S -> 6 CC | SBAR , NP VP .
+0.1 75 VP -> 3 VBN PP | PP
+1.0 75 VP -> 3 VBN NP | SBAR
+0.22 75 VP -> 2 VB ADVP |
+0.15 75 PP -> 2 IN PP |
+1.0 75 VP -> 4 VB NP PP | SBAR
+0.06 70 NP -> 2 QP NN |
+0.93 70 NP -> 2 NN | SBAR
+1.0 70 NP -> 2 NNS | S
+0.18 70 NP -> 4 DT NN NN NN |
+0.58 70 VP -> 5 VBD NP PP , | PP
+0.18 70 NP -> 3 DT JJS NN |
+0.81 65 ADJP -> 2 ADJP | SBAR
+0.01 65 VP -> 2 VBN | PP
+0.11 65 NP -> 4 DT NNP NNP NNP |
+1.0 65 NP -> 2 NN | S
+1.0 65 VP -> 4 VBD NP , | SBAR
+0.22 65 VP -> 2 VBN ADVP |
+0.22 65 NP -> 3 NP PP VP |
+0.15 65 NP -> 4 DT NNP NNP NN |
+0.07 60 NP -> 2 NNP NNS |
+0.09 60 VP -> 4 VBD NP PP | PP
+0.23 60 NP -> 3 QP JJ NNS |
+0.15 60 NP -> 3 PRP$ NN NN |
+0.03 60 NP -> 3 NP PP PP |
+0.2 60 NP -> 5 NP , CC NP , |
+1.0 60 NP -> 3 NP | VP .
+0.04 60 QP -> 2 CD CD |
+1.0 55 VP -> 4 VB NP , | S
+0.85 55 VP -> 4 VB NP , | SBAR
+0.21 55 NP -> 4 DT JJ JJ NNS |
+0.05 55 VP -> 2 VBN VP |
+0.05 55 VP -> 3 VBG NP PP |
+0.06 55 VP -> 2 VBZ PP |
+0.48 55 PRN -> 3 -LRB- PP -RRB- |
+0.1 55 NP -> 3 JJ JJ NN |
+0.04 55 VP -> 2 VB S |
+1.0 55 S -> 6 `` S , | NP VP .
+0.92 55 VP -> 4 VB NP PP | S
+0.13 55 VP -> 3 VB PRT NP |
+0.32 55 NP -> 2 CD CD |
+0.85 55 NP -> 3 PRP$ NN | S
+0.13 55 QP -> 4 RB $ CD CD |
+0.77 50 VP -> 3 VB S | SBAR
+0.77 50 VP -> 3 VB PP | S
+0.1 50 NP -> 3 PRP$ JJ NNS |
+1.0 50 VP -> 3 VBZ NP | SBAR
+0.91 50 VP -> 4 VBD NP PP | S
+0.05 50 VP -> 2 VBG | S
+0.91 50 NP -> 3 NP | PRN SBAR
+1.0 50 VP -> 4 VBD S , | S
+0.91 50 NP -> 4 DT JJ NN | SBAR
+1.0 50 VP -> 3 VBN S | SBAR
+1.0 50 PRN -> 2 S , |
+0.03 50 NP -> 2 $ CD |
+0.03 50 NP -> 3 NP PP | PP
+0.08 50 VP -> 2 VBD ADJP |
+1.0 50 VP -> 4 VBD SBAR , | S
+0.91 50 VP -> 4 VBZ : | `` S
+1.0 50 S -> 6 SBAR , | NP ADVP VP .
+0.91 50 VP -> 3 VB ADVP | SBAR
+0.71 50 S -> 3 S : | S
+0.05 45 NP -> 3 NP JJ NN |
+0.05 45 NP -> 4 NNP NNP NNP NNP |
+0.9 45 VP -> 4 VBD , | `` S
+0.1 45 NX -> 3 NX CC NX |
+0.09 45 ADVP -> 2 NP RB |
+0.9 45 VP -> 5 VB NP PP , | SBAR
+1.0 45 NP -> 5 NP PP , SBAR , |
+0.33 45 NP -> 3 NNP NN NNS |
+1.0 45 PRN -> 4 , '' S , |
+1.0 45 VP -> 4 VBZ NP , | S
+1.0 45 NP -> 5 NP PP , | SBAR ,
+0.82 45 NP -> 3 NP : | S
+0.09 45 NP -> 3 NP NN NN |
+0.82 45 VP -> 3 VB PP | SBAR
+0.06 45 ADVP -> 2 RB RB |
+0.9 45 VP -> 3 VB ADJP | SBAR
+1.0 45 VP -> 4 VBD : | `` S
+1.0 45 S -> 6 S , | CC S . ''
+0.04 45 VP -> 3 VBG NP | PP
+1.0 45 PRN -> 4 , '' | S ,
+0.14 45 NP -> 3 NNS CC NNS |
+1.0 45 VP -> 4 VBD PP , | S
+0.07 45 VP -> 3 VBN NP PP |
+0.82 45 VP -> 3 VBD ADJP | SBAR
+0.89 40 VP -> 3 VBD , | S
+0.57 40 VP -> 3 VBN NP | S
+0.03 40 VP -> 2 VB | S
+0.04 40 VP -> 2 VBZ ADJP |
+0.11 40 SBAR -> 2 WHPP S |
+1.0 40 PRN -> 3 , | SINV ,
+0.07 40 VP -> 2 VBP PP |
+0.73 40 ADJP -> 3 RB JJ | SBAR
+0.1 40 NP -> 4 DT JJ CD NNS |
+0.89 40 VP -> 3 VBG PP | SBAR
+1.0 40 NP -> 4 NP PP , | VP
+1.0 40 NP -> 3 NP PP | PRN
+0.44 40 ADVP -> 2 ADVP | SBAR
+0.89 40 NP -> 4 NP | -LRB- NP -RRB-
+1.0 40 PRN -> 3 , SINV , |
+1.0 40 VP -> 4 VBN PP , | SBAR
+0.73 40 NP -> 3 NP PRN | SBAR
+1.0 40 NP -> 3 JJ NN | SBAR
+0.03 40 VP -> 2 VBD | S
+0.05 40 VP -> 3 VBN PP PP |
+0.04 40 S -> 3 NP ADVP VP |
+0.78 35 VP -> 4 VP | : CC VP
+0.7 35 VP -> 4 VBD | SBAR , S
+0.88 35 S -> 3 S , | S
+0.22 35 S -> 6 PP , | NP VP . ''
+0.18 35 VP -> 2 VBG ADVP |
+0.05 35 VP -> 3 VBZ NP PP |
+1.0 35 S -> 6 SBAR , | NP VP . ''
+0.33 35 VP -> 2 ADVP VBN |
+0.25 35 NP -> 4 DT ADJP JJ NN |
+0.64 35 NP -> 3 NP | PRN PP
+1.0 35 NP -> 3 NP | SBAR PP
+0.24 35 NP -> 5 DT JJ JJ NN NN |
+1.0 35 S -> 7 PP , S , | CC S .
+0.08 35 NP -> 3 DT NN S |
+0.05 35 VP -> 3 VBN NP | PP
+1.0 35 S -> 7 `` S , '' | VP NP .
+0.13 35 NP -> 3 PRP$ NN NNS |
+0.08 35 VP -> 3 VBD PP PP |
+0.11 35 VP -> 4 VB NP PP | PP
+0.88 35 VP -> 3 VBP NP | SBAR
+1.0 35 VP -> 3 VBP ADJP | SBAR
+0.15 35 S -> 2 NP NP |
+1.0 35 NP -> 3 DT NNS | S
+0.05 35 NP -> 4 NP , | CC NP
+0.14 35 NP -> 4 DT ADJP NN NN |
+0.78 35 VP -> 3 VBG PP | S
+0.11 35 NP -> 2 DT JJ |
+0.12 35 NP -> 3 NP JJ NNS |
+0.27 35 S -> 6 CC PP , | NP VP .
+1.0 35 PRN -> 3 : S : |
+0.05 35 VP -> 4 VBD NP PP PP |
+1.0 35 NP -> 4 NP SBAR , | PP
+1.0 35 VP -> 5 VP , '' | CC VP
+0.06 35 NP -> 3 NP PP SBAR |
+0.05 35 VP -> 3 VBZ NP | PP
+0.12 30 VP -> 3 VB PP | PP
+0.18 30 S -> 6 NP , PP , | VP .
+1.0 30 NP -> 4 `` NP '' | PRN
+1.0 30 S -> 7 `` S , | CC S . ''
+0.86 30 PRN -> 3 : PP : |
+0.11 30 S -> 2 NP ADJP |
+1.0 30 VP -> 4 VBN NP , | S
+1.0 30 NP -> 3 NP NN | SBAR
+0.06 30 ADJP -> 2 JJ | S
+0.05 30 VP -> 2 VBP ADJP |
+0.55 30 NP -> 3 NP PRN | PP
+1.0 30 VP -> 5 VBD NP PP , | SBAR
+0.19 30 NP -> 2 DT NX |
+1.0 30 S -> 6 `` SBAR , | NP VP .
+0.03 30 VP -> 2 VBG S |
+1.0 30 VP -> 4 VP CC VP | SBAR
+1.0 30 VP -> 3 VBD , | SBAR
+1.0 30 VP -> 4 VBZ NP , | SBAR
+1.0 30 NP -> 3 JJ NN | S
+0.86 30 NP -> 4 NP | SBAR , PP
+0.19 30 NP -> 3 PDT DT NN |
+1.0 30 NP -> 4 NP ADJP , | VP
+0.06 30 VP -> 3 VBD PP | PP
+0.05 30 VP -> 2 VB ADJP |
+1.0 30 VP -> 4 VBD NP NP | S
+1.0 30 VP -> 3 VBD S | SBAR
+1.0 30 VP -> 4 VBZ , | `` S
+1.0 30 S -> 6 S , '' | CC S .
+0.33 30 NP -> 5 DT `` JJ NN '' |
+1.0 30 VP -> 4 VBG NP PP | S
+0.67 30 VP -> 5 VB NP PP , | PP
+1.0 30 VP -> 5 VBD , ADVP , | SBAR
+0.6 30 VP -> 3 VP , | VP
+0.67 30 VP -> 4 VBZ NP , | PP
+0.12 30 VP -> 2 VBD ADVP |
+0.86 30 S -> 6 PP , S | CC S .
+0.6 30 VP -> 3 VBD PP | S
+0.5 30 PRN -> 5 -LRB- NP , NP -RRB- |
+0.86 30 S -> 6 S , | NP VP . ''
+0.14 30 NP -> 2 ADJP NN |
+0.14 30 ADJP -> 3 RB JJ PP |
+0.75 30 S -> 5 S : | CC S .
+0.1 30 NP -> 2 JJR NNS |
+0.55 30 S -> 4 S | NP VP .
+1.0 30 NP -> 3 NP | VP PP
+0.13 30 S -> 4 PP | NP VP .
+0.21 30 ADVP -> 2 IN PP |
+0.02 30 NP -> 3 NP , SBAR |
+0.67 30 VP -> 3 VBN ADVP | S
+0.67 30 S -> 4 NP , | VP .
+0.19 25 VP -> 3 VBD ADJP | PP
+0.09 25 NP -> 2 NNP NN |
+0.83 25 S -> 6 NP , SBAR , | VP .
+1.0 25 NP -> 3 NP | `` SBAR
+0.83 25 S -> 6 NP , | SBAR , VP .
+1.0 25 S -> 7 S , | S , CC S .
+0.02 25 VP -> 2 VBZ | S
+1.0 25 NP -> 5 NP PP , VP , |
+0.03 25 VP -> 2 VBP | S
+0.13 25 NP -> 4 DT JJ NNP NN |
+0.01 25 VP -> 2 VB | PP
+0.56 25 S -> 4 SBAR | NP VP .
+0.03 25 VP -> 2 VBP S |
+0.71 25 VP -> 3 VBZ PP | SBAR
+1.0 25 NP -> 4 NP | VP , SBAR
+0.04 25 VP -> 3 VBD RB VP |
+0.83 25 NP -> 2 NP | S
+1.0 25 S -> 7 PP , SBAR , | NP VP .
+0.15 25 PP -> 3 PP CC PP |
+1.0 25 VP -> 6 VP , VP , | CC VP
+1.0 25 S -> 5 NP , | S , VP
+0.05 25 NP -> 5 NP , NP CC NP |
+0.83 25 PRN -> 3 -LRB- NNP -RRB- |
+1.0 25 NP -> 4 NNP NNP PRN | NNP
+0.03 25 S -> 5 S , CC | S .
+0.22 25 QP -> 3 # CD CD |
+1.0 25 NP -> 4 NP : SBAR : |
+1.0 25 VP -> 4 VBD NP NP | SBAR
+0.21 25 SBAR -> 2 DT S |
+0.63 25 NP -> 4 NNP NNP NNP . |
+1.0 25 NP -> 3 NP NP | SBAR
+0.83 25 PRN -> 3 , | SBAR ,
+1.0 25 NP -> 4 NP , '' | SBAR
+1.0 25 NP -> 5 NP PP , | VP ,
+0.04 25 PP -> 2 VBG NP |
+1.0 25 NP -> 4 NP VP , | SBAR
+1.0 25 VP -> 4 VBP NP , | S
+0.05 25 ADJP -> 2 JJ S |
+1.0 25 PRN -> 5 , '' S , | ``
+1.0 25 S -> 6 `` S , | CC S .
+0.63 25 VP -> 4 VP | CC VP PP
+0.02 25 VP -> 2 VBD | PP
+0.83 25 PRN -> 3 , SBAR , |
+0.22 25 NP -> 2 DT QP |
+0.03 25 VP -> 3 MD RB VP |
+0.29 25 VP -> 3 VBZ ADJP | SBAR
+1.0 25 VP -> 6 VP , | VP , CC VP
+1.0 25 VP -> 5 VB NP PP , | S
+1.0 25 S -> 5 NP , S , | VP
+0.19 25 NP -> 4 DT JJ NN NNS |
+0.25 25 NP -> 5 DT NNP NNP NNP NN |
+1.0 25 VP -> 4 VBZ ADJP , | SBAR
+0.5 25 PP -> 4 IN `` NP '' |
+1.0 25 S -> 7 S , S , | CC S .
+0.01 25 VP -> 3 VP CC VP |
+0.03 25 VP -> 3 VBP RB VP |
+0.08 25 NP -> 3 CD JJ NNS |
+1.0 25 NP -> 4 NP : | S .
+0.83 25 VP -> 4 VP | CC ADVP VP
+1.0 25 NP -> 4 NNP NNP | PRN NNP
+1.0 25 S -> 6 CC S , | CC S .
+0.1 25 NP -> 3 DT NN SBAR |
+0.09 25 NP -> 5 NNP NNP NNP NNP NNP |
+0.83 25 VP -> 4 VBN PP , | S
+0.26 25 NP -> 3 NP NN S |
+1.0 25 S -> 5 S : | S . ''
+0.71 25 VP -> 4 VBN NP , | PP
+0.24 25 NP -> 5 DT JJ , JJ NN |
+1.0 25 S -> 7 `` SBAR , | NP VP . ''
+1.0 25 PRN -> 5 , '' | S , ``
+0.11 25 NP -> 3 DT JJR NN |
+1.0 25 NP -> 3 NP '' | SBAR
+0.08 25 NP -> 4 DT NNP NN NN |
+0.1 25 NP -> 3 DT NNS NN |
+0.8 20 VP -> 3 VBD ADVP | SBAR
+0.57 20 SBAR -> 3 IN , | S
+0.22 20 VP -> 3 VBG NP ADVP |
+1.0 20 NX -> 2 NX | PRN
+0.8 20 VP -> 6 VBD NP PP PP , | PP
+0.57 20 VP -> 3 VBG ADVP | S
+0.67 20 VP -> 3 VB PRT | SBAR
+0.33 20 NP -> 2 VBG NN |
+1.0 20 S -> 5 SBAR , | NP ADVP VP
+1.0 20 NP -> 7 NP PP ADJP , | VP , PP
+0.57 20 VP -> 2 NNS | SBAR
+1.0 20 VP -> 4 VBN S , | PP
+0.57 20 S -> 3 SBAR | NP VP
+0.09 20 NP -> 3 NNP NNP NNS |
+0.01 20 NP -> 3 NP , NP |
+1.0 20 VP -> 4 VBD ADJP , | S
+1.0 20 VP -> 6 VBD PP , PP , | SBAR
+0.1 20 NP -> 3 RB DT NN |
+0.19 20 VP -> 2 VBP ADVP |
+0.03 20 NP -> 3 JJ NN NN |
+1.0 20 NP -> 6 JJ , JJ NN NN NNS |
+0.02 20 S -> 5 ADVP , | NP VP .
+0.2 20 SBAR -> 3 IN | `` S
+0.21 20 NP -> 5 DT JJ NN NN NN |
+0.15 20 S -> 6 CC | PP , NP VP .
+0.17 20 VP -> 3 VBG ADVP PP |
+1.0 20 ADJP -> 2 ADJP | PRN
+0.13 20 VP -> 3 VBG PP | PP
+1.0 20 S -> 5 SBAR , | `` NP VP
+0.57 20 VP -> 3 VBN PRT | S
+1.0 20 VP -> 3 VP , | SBAR
+0.12 20 NP -> 3 CD NN NNS |
+0.8 20 NP -> 5 NP PP PP , | PP
+0.29 20 VP -> 3 VBP ADJP | PP
+0.04 20 PP -> 3 ADVP IN NP |
+0.17 20 NP -> 2 DT JJS |
+1.0 20 VP -> 4 VP , | RB VP
+1.0 20 S -> 7 ADVP , S , | CC S .
+1.0 20 VP -> 4 VBN PP PP | S
+0.12 20 S -> 6 NP , | PP , VP .
+0.5 20 S -> 3 NP ADJP | SBAR
+1.0 20 NP -> 3 PRP$ NNS | S
+1.0 20 NP -> 5 `` NP , '' | SBAR
+0.57 20 VP -> 4 VBG NP , | PP
+1.0 20 VP -> 5 VP CC VP , | S
+1.0 20 NP -> 6 NNP NNP NNP NNP NNP . |
+0.05 20 NP -> 2 NP ADVP |
+0.36 20 NP -> 3 CD JJ NN |
+0.14 20 NP -> 4 NN CC NN NNS |
+1.0 20 PRN -> 4 , | NP VP ,
+1.0 20 NP -> 3 NP NNS | S
+1.0 20 VP -> 3 VBG ADVP | SBAR
+0.17 20 NP -> 4 PRP$ JJ JJ NN |
+1.0 20 S -> 7 NP , SBAR , | NP VP .
+1.0 20 PRN -> 4 , '' | SINV ,
+1.0 20 VP -> 4 VB PRT NP | SBAR
+1.0 20 NP -> 7 NP PP ADJP , VP , | PP
+0.8 20 VP -> 4 VBP NP , | PP
+0.01 20 NP -> 3 NP , | NP
+1.0 20 VP -> 6 VBD NP PP PP , | SBAR
+1.0 20 PRN -> 4 , '' SINV , |
+1.0 20 NP -> 3 NP VP | SBAR
+1.0 20 VP -> 3 VBD : | SBAR
+1.0 20 S -> 7 ADVP , SBAR , | NP VP .
+0.29 20 PRN -> 3 -LRB- S -RRB- |
+1.0 20 VP -> 4 VBN PP PP | SBAR
+0.8 20 NP -> 4 NP | : SBAR :
+0.1 20 NP -> 3 DT NNP NNS |
+1.0 20 NP -> 3 NP | PRN :
+1.0 20 VP -> 4 VBN S , | SBAR
+0.36 20 VP -> 4 VB NP , | PP
+0.33 20 NX -> 2 NNP NNP |
+0.12 20 NP -> 4 JJ JJ NN NNS |
+0.67 20 VP -> 3 ADVP VBN | SBAR
+0.05 20 S -> 4 S | : S .
+0.04 20 PP -> 2 VBG PP |
+0.13 20 PP -> 2 IN ADJP |
+1.0 20 VP -> 4 VBD PP , | SBAR
+0.12 20 VP -> 3 VBD NP NP |
+0.04 20 NP -> 3 NNP CC NNP |
+1.0 20 VP -> 5 VP | CC VP , S
+0.8 20 S -> 7 PP , | SBAR , NP VP .
+0.13 20 NP -> 3 DT VBG NN |
+1.0 20 S -> 5 S , | VP NP .
+0.33 20 NP -> 4 DT NNS CC NNS |
+0.4 20 NP -> 5 DT JJ JJ JJ NN |
+0.8 20 PRN -> 2 , | S
+1.0 20 PRN -> 4 , NP VP , |
+0.75 15 ADJP -> 2 ADJP PRN |
+0.75 15 S -> 7 ADVP , | SBAR , NP VP .
+0.17 15 NP -> 2 UCP NNS |
+1.0 15 VP -> 4 VBD NP | S PP
+0.08 15 NP -> 2 JJR NN |
+0.08 15 NP -> 2 DT NNPS |
+0.12 15 VP -> 3 VBZ ADVP PP |
+1.0 15 VP -> 4 VB NP NP | SBAR
+1.0 15 VP -> 3 VBN PP | PRN
+1.0 15 VP -> 5 VBG NP PP , | SBAR
+0.75 15 NP -> 3 NP | VP SBAR
+1.0 15 S -> 5 `` NP VP , '' |
+1.0 15 ADVP -> 3 ADVP , | SBAR
+0.06 15 VP -> 3 VBD ADVP PP |
+0.11 15 ADJP -> 3 ADJP | CC ADJP
+1.0 15 ADJP -> 3 ADJP PP | SBAR
+0.06 15 VP -> 3 VB NP ADVP |
+1.0 15 VP -> 4 VBP NP , | SBAR
+1.0 15 NP -> 5 NP PP ADJP , | VP
+1.0 15 VP -> 5 VB ADJP PP , | S
+1.0 15 VP -> 4 VBG PP , | S
+1.0 15 VP -> 3 VBP ADVP | S
+0.75 15 NP -> 6 NP : | NP : CC NP
+1.0 15 NP -> 5 NP : CC NP : |
+0.03 15 S -> 2 ADVP VP |
+1.0 15 VP -> 3 VB ADVP | S
+1.0 15 S -> 4 NP `` VP '' |
+0.09 15 NP -> 3 NN CC NN |
+0.75 15 VP -> 3 VBP NP | S
+0.6 15 VP -> 3 VBN ADJP | SBAR
+0.05 15 VP -> 3 VBP NP | PP
+1.0 15 PRN -> 3 -LRB- ADJP -RRB- |
+1.0 15 NP -> 5 NP , | VP , ''
+0.25 15 S -> 5 NP , | PP , VP
+1.0 15 VP -> 3 VBZ , | S
+1.0 15 VP -> 4 VBZ NP PP | SBAR
+1.0 15 NP -> 3 JJ NNS | S
+0.75 15 VP -> 3 VBN , | PP
+1.0 15 SINV -> 6 `` S , | VP NP .
+1.0 15 S -> 6 : SBAR , | NP VP .
+1.0 15 VP -> 4 VBZ ADJP , | PP
+0.11 15 VP -> 3 VBD ADJP PP |
+0.16 15 NP -> 3 DT CD NN |
+0.2 15 VP -> 2 VB PRT |
+0.75 15 VP -> 3 VBG PRT | SBAR
+0.14 15 VP -> 3 ADVP VB NP |
+1.0 15 VP -> 4 VBP ADJP , | SBAR
+0.25 15 VP -> 3 VBZ NP | S
+0.75 15 VP -> 3 VP | : NP
+1.0 15 VP -> 6 VP , | CC VP , PP
+0.38 15 NP -> 4 PDT DT JJ NN |
+0.19 15 NP -> 4 NP , ADJP , |
+0.21 15 NP -> 2 NNS S |
+0.43 15 NP -> 5 NP , NP , '' |
+0.75 15 S -> 7 NP , | SBAR , NP VP .
+0.5 15 NP -> 3 NP VP | PP
+0.75 15 VP -> 3 VBN ADVP | SBAR
+0.12 15 NP -> 4 DT NN CC NN |
+1.0 15 NP -> 4 NP | VP , PP
+0.07 15 VP -> 3 ADVP VBN PP |
+0.75 15 NP -> 3 NNP NNP . |
+0.38 15 NP -> 3 DT QP NNS |
+0.38 15 VP -> 3 ADVP VBN | S
+0.33 15 NP -> 4 JJ NNP NNP NNS |
+1.0 15 S -> 6 S , | S , CC S
+1.0 15 S -> 6 `` S , '' | NP VP
+0.09 15 NX -> 2 JJ NN |
+1.0 15 VP -> 5 VBG NP PP , | S
+0.5 15 VP -> 4 VBD ADJP , | PP
+1.0 15 VP -> 4 VBD ADVP , | S
+1.0 15 S -> 6 S , S , | CC S
+1.0 15 PRN -> 3 : ADJP : |
+1.0 15 NP -> 3 NP | VP VP
+0.6 15 S -> 5 PP , | `` NP VP
+0.25 15 S -> 5 NP , PP , | VP
+0.5 15 NP -> 4 `` JJ '' NNS |
+0.75 15 NP -> 6 NP : NP : | CC NP
+0.07 15 VP -> 3 VB ADVP PP |
+0.17 15 VP -> 4 VBN PP PP | PP
+0.05 15 NP -> 5 NP , | CC NP ,
+1.0 15 VP -> 3 VB , | SBAR
+0.75 15 NP -> 3 NP PP | UCP
+1.0 15 S -> 6 CC S , | NP VP .
+0.07 15 ADJP -> 2 RB JJR |
+0.1 15 VP -> 3 VBZ ADVP NP |
+1.0 15 NP -> 4 NP , ADJP | S
+1.0 15 NP -> 6 NP , NP , SBAR , |
+1.0 15 VP -> 5 VB PRT NP PP | SBAR
+1.0 15 NP -> 5 NP , NP , | VP
+0.05 15 S -> 3 S CC S |
+1.0 15 VP -> 5 VBN NP PP , | S
+0.13 15 NP -> 2 DT CD |
+0.75 15 PP -> 4 PP , PP , |
+0.27 15 ADJP -> 3 RB JJ SBAR |
+0.03 15 NP -> 3 NP , PP |
+0.13 15 NP -> 2 JJS NNS |
+1.0 15 VP -> 5 VBN PP PP , | SBAR
+1.0 15 VP -> 4 ADVP VBN PP | S
+0.15 15 S -> 2 NP PP |
+0.38 15 NP -> 3 NP PP PRN |
+1.0 15 VP -> 4 VBD NP ADVP | SBAR
+0.75 15 NP -> 2 NNP . |
+0.17 15 VP -> 3 VBD PRT NP |
+1.0 15 VP -> 4 VBG NP , | S
+0.2 15 VP -> 4 VB PRT NP | PP
+1.0 15 NP -> 5 NP | : CC NP :
+1.0 15 VP -> 4 VP | CC `` VP
+0.27 15 VP -> 3 VB ADVP SBAR |
+0.38 15 PRN -> 3 -LRB- SBAR -RRB- |
+0.23 15 NP -> 2 NN S |
+1.0 15 NP -> 3 NP PP , |
+0.01 15 NP -> 4 NP , | NP ,
+0.27 15 VP -> 4 VBG PRT NP | PP
+0.6 15 ADJP -> 2 VBN NP |
+1.0 15 VP -> 4 VBP PP , | S
+1.0 15 NP -> 5 NP , VP , '' |
+0.12 15 NP -> 3 DT ADJP NNS |
+1.0 15 NP -> 6 NP , NP , | SBAR ,
+0.07 15 VP -> 3 VB ADVP | PP
+1.0 15 VP -> 5 VBD ADJP PP , | PP
+0.43 15 VP -> 3 VBD ADVP | S
+0.75 15 VP -> 4 VP | CC RB VP
+1.0 15 S -> 5 SINV , | NP VP .
+0.21 15 NP -> 3 NN NNP NNP |
+1.0 15 VP -> 5 VP , | CC ADVP VP
+1.0 15 VP -> 5 VBZ ADJP PP , | S
+0.38 15 PP -> 4 PP , | CC PP
+1.0 15 ADJP -> 3 JJ RB | S
+0.07 15 PP -> 2 PP PP |
+0.03 15 VP -> 2 VBP | PP
+0.04 15 VP -> 2 VBG VP |
+1.0 15 VP -> 3 VBZ ADVP | SBAR
+0.02 15 VP -> 2 VB SBAR |
+1.0 15 ADJP -> 3 JJ PP | S
+0.6 15 NP -> 6 NP , CC NP , | PP
+1.0 15 NP -> 3 NP VP | VP
+1.0 15 NP -> 4 NP PRN , | PP
+1.0 15 VP -> 4 VBN ADVP , | PP
+0.14 15 VP -> 3 VBD NP ADVP |
+0.23 15 NP -> 6 NNP NNP NNP NNP NNP NNP |
+0.04 15 VP -> 3 VBZ ADVP VP |
+1.0 10 VP -> 4 VB S , | S
+0.67 10 VP -> 4 VBP PP , | PP
+1.0 10 NP -> 3 NP | : PP
+0.67 10 VP -> 3 VBD | `` S
+0.04 10 QP -> 3 CD TO CD |
+0.22 10 NP -> 4 CD JJ NN NNS |
+1.0 10 NP -> 3 NP ADVP | SBAR
+0.25 10 SBAR -> 3 WHNP , | S
+1.0 10 VP -> 3 VB , | S
+0.06 10 S -> 3 PP | NP VP
+1.0 10 VP -> 4 VBD | SBAR , PP
+1.0 10 NP -> 4 NP | : PP :
+0.17 10 NP -> 3 DT NP NN |
+0.67 10 VP -> 6 VP , CC VP , | PP
+1.0 10 S -> 5 NP , SBAR , | VP
+1.0 10 NP -> 5 NP , VP , | SBAR
+0.14 10 S -> 3 S | : S
+0.15 10 NP -> 2 PRP$ NX |
+0.4 10 VP -> 4 ADVP VBZ NP PP |
+1.0 10 SINV -> 8 `` S , '' | VP NP PP .
+1.0 10 S -> 6 S , | CC , S .
+1.0 10 NP -> 6 NP PP , NP , | VP
+0.1 10 VP -> 3 VBZ ADJP | S
+1.0 10 S -> 6 S : | CC S . ''
+0.67 10 VP -> 4 VBD PP PP | S
+0.25 10 S -> 7 ADVP , | PP , NP VP .
+0.5 10 NP -> 3 QP JJ NN |
+1.0 10 VP -> 5 VB NP PP PP | S
+0.22 10 NP -> 4 JJ , JJ NNS |
+0.67 10 S -> 6 `` S : | S . ''
+0.18 10 NP -> 2 IN NN |
+1.0 10 VP -> 5 VBD ADVP NP , | PP
+1.0 10 VP -> 4 VP | CC PRN VP
+0.67 10 VP -> 4 VBD NP S | PP
+0.67 10 VP -> 7 VBD NP PP , PP , | PP
+1.0 10 NP -> 2 NP , |
+0.05 10 ADVP -> 2 ADVP PP |
+0.67 10 NP -> 6 NP , NP CC NP , |
+0.67 10 NP -> 6 NP , NP , NP , |
+1.0 10 VP -> 5 VP , | CC RB VP
+0.17 10 VP -> 3 VBD S | PP
+1.0 10 S -> 7 CC SBAR , | NP ADVP VP .
+1.0 10 NP -> 4 NP SBAR | : NP
+1.0 10 S -> 5 S , | S CC S
+1.0 10 VP -> 3 VB ADJP | PRN
+1.0 10 VP -> 4 VB , | `` S
+0.67 10 VP -> 4 VBN NP , | SBAR
+1.0 10 S -> 5 NP , | SBAR , VP
+0.5 10 S -> 3 NP | PRN VP
+1.0 10 S -> 4 NP `` ADJP '' |
+0.67 10 ADJP -> 2 NN PP |
+1.0 10 VP -> 3 VBP PP | S
+1.0 10 PRN -> 3 : VP : |
+1.0 10 VP -> 4 VBN PRT NP | S
+0.04 10 VP -> 3 VBD ADVP | PP
+1.0 10 NP -> 6 NNP NNP NNP . PRN | NNP
+1.0 10 NP -> 4 NP | PRN , SBAR
+0.22 10 NP -> 5 DT ADJP JJ NN NN |
+1.0 10 S -> 8 CC PP , | SBAR , NP VP .
+1.0 10 NP -> 4 NP JJ NN | S
+1.0 10 PRN -> 4 : CC ADJP : |
+1.0 10 NP -> 6 NP PP , | VP , PP
+1.0 10 VP -> 4 VBN NP ADVP | SBAR
+0.33 10 VP -> 4 VP | CC VP SBAR
+1.0 10 S -> 7 NP , | S , ADVP VP .
+0.25 10 NP -> 3 NP PP | ADJP
+0.22 10 NP -> 3 DT NN VBZ |
+0.06 10 PP -> 2 TO S |
+1.0 10 S -> 6 CONJP SINV , | CC S .
+1.0 10 PRN -> 5 , '' SINV , | ``
+0.5 10 ADVP -> 2 RP PP |
+1.0 10 VP -> 4 VBP ADVP ADJP | SBAR
+1.0 10 VP -> 5 VBD ADVP NP , | S
+0.07 10 NP -> 3 RB JJ NN |
+1.0 10 S -> 5 NP , | S VP .
+0.67 10 VP -> 4 VBD S PP | SBAR
+0.06 10 NP -> 3 NN NN NN |
+0.67 10 VP -> 5 VBG NP PP , | PP
+1.0 10 S -> 5 S , | CC SINV .
+1.0 10 VP -> 4 VBG PRT NP | S
+1.0 10 VP -> 4 VBN NP PP | SBAR
+1.0 10 VP -> 4 VBN NP PP | S
+0.18 10 NP -> 3 NP PRN PP |
+1.0 10 NP -> 5 DT `` NN NN '' |
+0.67 10 S -> 8 ADVP , PP , | NP VP . ''
+0.07 10 VP -> 3 VBN S | PP
+1.0 10 SINV -> 7 VP NP , | `` S . ''
+0.67 10 VP -> 3 VBZ PP | S
+1.0 10 NP -> 3 JJ NNS | SBAR
+0.02 10 NP -> 5 NP , | NP CC NP
+0.67 10 PRN -> 3 : SBAR : |
+1.0 10 VP -> 4 VBD S NP | PP
+0.67 10 VP -> 5 VBN NP PP , | PP
+1.0 10 NP -> 4 NP JJ NN | SBAR
+1.0 10 VP -> 4 VBN ADVP PP | SBAR
+1.0 10 VP -> 3 VBP ADVP | SBAR
+0.13 10 NP -> 4 JJ JJ JJ NNS |
+0.07 10 SBAR -> 3 SBAR CC SBAR |
+0.01 10 VP -> 2 VBG | PP
+1.0 10 NP -> 4 NP , NP | SBAR
+1.0 10 VP -> 4 VP , | ADVP VP
+0.12 10 NP -> 2 PRP$ JJ |
+0.11 10 NP -> 2 NN CD |
+1.0 10 VP -> 4 VB PRT NP | S
+1.0 10 VP -> 4 VBD S , | PP
+1.0 10 NP -> 3 NP | : ADVP
+0.67 10 NP -> 4 NP | PRN , PP
+1.0 10 S -> 6 `` S , | VP NP .
+1.0 10 S -> 6 S : | `` S . ''
+0.18 10 VP -> 3 ADVP VBZ NP |
+0.11 10 ADJP -> 2 VBN PP |
+1.0 10 NP -> 3 DT NNS | SBAR
+1.0 10 VP -> 5 VBN ADVP PP , | S
+1.0 10 VP -> 4 VB S , | SBAR
+1.0 10 VP -> 5 VBD S , '' | S
+1.0 10 NP -> 7 DT NN , NN , CC NN |
+0.1 10 VP -> 2 VBG ADJP |
+0.17 10 VP -> 3 VB ADVP NP |
+0.01 10 VP -> 2 VBP SBAR |
+1.0 10 NP -> 4 NN NN NN NNS |
+1.0 10 VP -> 4 VBD ADJP , | SBAR
+0.1 10 NP -> 2 NNP NNPS |
+0.06 10 VP -> 3 VB ADJP PP |
+0.04 10 VP -> 3 VB PP PP |
+1.0 10 NP -> 6 NP PP , PP | SBAR .
+1.0 10 S -> 5 S , S | CC S
+1.0 10 NP -> 4 DT JJR JJ NNS |
+0.4 10 NP -> 2 NP | UCP
+0.15 10 NP -> 3 PRP$ NNP NN |
+1.0 10 VP -> 5 VBD NP PP PP | SBAR
+0.5 10 NP -> 3 CD TO CD |
+1.0 10 VP -> 6 VBD NP PP S , | SBAR
+0.25 10 ADJP -> 3 RB JJ | S
+0.07 10 NP -> 3 DT JJ QP |
+1.0 10 VP -> 5 VB PP PP PP | PP
+1.0 10 VP -> 3 VB ADJP PRN |
+0.5 10 S -> 4 S , | NP VP
+0.02 10 NP -> 3 NP : NP |
+0.07 10 ADJP -> 3 ADJP CC ADJP |
+0.17 10 NP -> 5 DT JJ NNP NNP NN |
+0.5 10 NX -> 7 NX , NX , NX CC NX |
+1.0 10 VP -> 4 VBG PP , | SBAR
+0.29 10 NP -> 4 DT CD JJ NNS |
+0.4 10 NP -> 4 NNP NNP NN NN |
+1.0 10 VP -> 4 VBD | SBAR , SBAR
+0.25 10 NP -> 3 DT JJ NX |
+1.0 10 VP -> 6 VBD NP PP PP , | S
+0.29 10 VP -> 4 VBN PP , | PP
+1.0 10 S -> 7 NP , S , | ADVP VP .
+1.0 10 NP -> 3 JJR JJ NN |
+0.22 10 PRN -> 3 , PP , |
+0.4 10 NP -> 6 NP : NP : | NP .
+1.0 10 NP -> 4 NP , NP | PRN
+1.0 10 VP -> 3 VP | CONJP VP
+0.04 10 S -> 4 S , CC | S
+0.25 10 S -> 7 ADVP , PP , | NP VP .
+1.0 10 VP -> 4 VBD SBAR , | SBAR
+1.0 10 VP -> 5 VBG PRT PP , | S
+0.67 10 VP -> 4 VBD PP NP | SBAR
+0.29 10 ADJP -> 3 RB RBR JJ |
+1.0 10 NP -> 4 NP : PP : |
+0.11 10 ADJP -> 2 NP JJ |
+0.03 10 VP -> 4 VB NP | PP PP
+1.0 10 VP -> 4 VB PP , | S
+0.09 10 VP -> 3 VBZ NP ADVP |
+1.0 10 VP -> 4 VBP PP , | SBAR
+0.25 10 ADJP -> 3 RBR JJ S |
+0.15 10 VP -> 3 VBP ADVP NP |
+0.03 10 NP -> 3 NN NN NNS |
+1.0 10 ADJP -> 5 RB JJ CC JJ | SBAR
+1.0 10 NP -> 7 NP PP ADJP , PP , | VP
+0.5 10 NP -> 3 JJ NNP CD |
+1.0 10 S -> 6 S , '' | VP NP .
+0.18 10 S -> 7 PP , PP , | NP VP .
+1.0 10 NP -> 5 JJ JJ NNS CC NNS |
+0.67 10 NP -> 4 NP VP , | PP
+0.03 10 NP -> 2 JJ NNP |
+1.0 10 NP -> 4 NP PRN , | SBAR
+0.33 10 VP -> 2 NNS S |
+1.0 10 S -> 6 `` NP ADVP VP , '' |
+1.0 10 NP -> 3 NP . | NP
+0.05 10 ADJP -> 3 RB JJ | PP
+1.0 10 VP -> 5 VB CC VB NP | S
+0.07 10 VP -> 3 VBZ ADJP | PP
+0.03 10 ADJP -> 2 ADJP | PP
+1.0 10 S -> 6 S , CC , | S .
+1.0 10 NP -> 6 NNP NNP NNP . | PRN NNP
+0.5 10 VP -> 4 VB PP , | PP
+0.5 10 NP -> 3 NP NNS S |
+1.0 10 S -> 6 ADVP , S , | CC S
+0.67 10 VP -> 5 VBD PP PP , | SBAR
+0.07 10 NP -> 2 NNS NNS |
+1.0 10 S -> 4 S , | S .
+1.0 10 NP -> 5 NP PP PP , | SBAR
+0.29 10 S -> 7 PP , | S , CC S .
+1.0 10 VP -> 5 VBD S , '' | PP
+1.0 10 VP -> 6 VBD NP PP | S , SBAR
+1.0 10 SINV -> 6 ADVP VP NP , | SBAR .
+0.22 10 VP -> 4 VB NP ADVP | PP
+0.09 10 VP -> 3 VBG PRT NP |
+1.0 10 VP -> 5 VBD NP PP PP | S
+0.5 10 NP -> 5 DT JJ CD NN NN |
+0.03 10 VP -> 3 VB NP NP |
+1.0 10 VP -> 4 VBG NP PP | SBAR
+1.0 10 VP -> 4 VBN S , | S
+1.0 10 NP -> 6 DT `` JJ JJ NN '' |
+0.06 10 VP -> 3 VB ADJP | PP
+1.0 10 VP -> 4 VBZ PP , | SBAR
+0.5 10 NP -> 4 NP JJS JJ NN |
+1.0 10 VP -> 5 VB NP NP , | S
+0.22 10 NP -> 4 NP -LRB- NP -RRB- |
+1.0 10 NP -> 6 NP PP PP PP , | PP
+1.0 10 S -> 5 S , | `` NP VP
+1.0 10 VP -> 4 SBAR , | MD VP
+1.0 10 S -> 5 SBAR , | S VP .
+1.0 10 ADJP -> 4 ADJP PP , | SBAR
+0.13 10 NP -> 2 NNS NN |
+1.0 10 VP -> 4 VB PRT PP | SBAR
+0.07 10 QP -> 5 JJR IN $ CD CD |
+0.1 10 NP -> 4 DT JJ NN S |
+0.67 10 VP -> 4 VBD ADVP PP | SBAR
+1.0 10 NP -> 4 DT ADJP NN | S
+0.4 10 VP -> 2 NN | SBAR
+1.0 10 NP -> 5 NP , | VP , SBAR
+1.0 10 VP -> 5 VBN PP NP , | SBAR
+1.0 10 S -> 6 SBAR , | ADVP NP VP .
+0.4 10 VP -> 4 ADVP VBN PP | PP
+0.5 10 S -> 3 NP PRN | VP
+1.0 10 VP -> 4 VBP ADJP , | S
+0.18 10 S -> 7 PP , | PP , NP VP .
+1.0 10 S -> 3 NP , | VP
+1.0 10 VP -> 3 ADVP VBG | SBAR
+0.67 10 NP -> 4 NP : | CC NP
+0.67 10 S -> 6 ADVP , S | CC S .
+0.67 10 VP -> 4 VBG PP PP | PP
+0.33 10 PRN -> 3 -LRB- JJ -RRB- |
+1.0 10 VP -> 4 VBD SBAR , | PP
+1.0 10 VP -> 4 VBD NP PP | PRN
+1.0 10 S -> 2 ADJP | SBAR
+0.5 10 S -> 6 PP , '' | NP VP .
+0.03 10 VP -> 3 VB NP S |
+1.0 10 NP -> 6 NP ADJP , | VP , PP
+1.0 10 VP -> 5 VBD ADJP NP , | PP
+1.0 10 S -> 3 S , | VP
+1.0 10 NP -> 5 NP , ADJP , | VP
+0.18 10 VP -> 4 VBD PP , | PP
+0.03 10 VP -> 3 VBP NP PP |
+1.0 10 S -> 5 SBAR , | ADVP NP VP
+1.0 10 NP -> 5 NP ADJP , | VP .
+0.1 10 VP -> 3 VB PRT PP |
+0.13 10 VP -> 4 VB PRT NP PP |
+1.0 10 VP -> 5 VBZ , PP , | SBAR
+0.09 10 NP -> 4 NP JJ JJ NN |
+0.03 10 VP -> 4 VB NP PP PP |
+1.0 10 NP -> 6 NP PP , VP , | PP
+1.0 10 VP -> 4 VBN ADVP PP | S
+1.0 10 NP -> 3 NP '' | VP
+0.18 10 NP -> 3 NNP JJ NNS |
+0.14 10 VP -> 3 VBD PRT PP |
+1.0 10 S -> 4 SBARQ | NP VP .
+1.0 10 PRN -> 5 , '' | SINV , ``
+0.18 10 NP -> 3 NP | : S
+1.0 10 NP -> 6 NP ADJP , VP , | PP
+0.02 10 VP -> 3 MD ADVP VP |
+0.02 10 VP -> 2 VBN SBAR |
+0.67 10 VP -> 4 VBP RB ADJP | SBAR
+1.0 10 VP -> 4 VBG PRT PP | S
+1.0 10 VP -> 6 VP , VP , | ADVP VP
+1.0 10 ADJP -> 3 ADJP S | SBAR
+1.0 10 ADJP -> 4 RB RB JJ | SBAR
+0.4 10 NP -> 6 NP : | NP : NP .
+0.2 10 NP -> 4 DT JJ NNP NNP |
+0.07 10 NP -> 3 DT JJ NNP |
+0.18 10 NP -> 3 NNP NNP NN |
+0.15 10 NP -> 4 CD JJ JJ NNS |
+0.12 10 S -> 6 PP , | NP ADVP VP .
+1.0 10 VP -> 6 VP , | VP , ADVP VP
+0.67 10 WHNP -> 2 WP NN |
+0.1 10 NP -> 3 NP PP S |
+1.0 10 NP -> 3 VBG NN | SBAR
+1.0 10 VP -> 5 VBD PRT NP , | S
+0.12 10 NP -> 5 DT JJ NNP NN NN |
+1.0 10 NP -> 4 NP : VP : |
+1.0 10 VP -> 6 VB NP , ADVP , | SBAR
+0.09 10 VP -> 3 VBN PP NP |
+0.06 10 NX -> 2 NN NNS |
+0.03 10 PP -> 2 IN SBAR |
+1.0 10 VP -> 4 VBD NP PP PRN |
+0.18 10 NP -> 4 JJ NNS CC NNS |
+1.0 10 VP -> 5 VBN PP PP , | S
+1.0 10 VP -> 5 VBZ NP PP , | S
+0.2 10 VP -> 2 NP PP |
+1.0 10 VP -> 4 VBG NP PRT | SBAR
+0.05 10 VP -> 3 VBN PP S |
+0.67 10 NP -> 6 NP : | NP , CC NP
+0.06 10 NP -> 7 NP , NP , NP CC NP |
+0.67 10 VP -> 5 VP CC VP , | PP
+0.01 10 VP -> 2 VBZ SBAR |
+1.0 10 S -> 8 CC PP , SBAR , | NP VP .
+0.02 10 NP -> 3 NP | PP SBAR
+0.67 10 VP -> 5 VBP NP PP , | SBAR
+0.09 10 NP -> 3 DT NAC NN |
+0.25 10 NP -> 5 NN , NN CC NN |
+1.0 10 ADJP -> 3 ADJP S SBAR |
+0.29 10 NP -> 3 DT VBN NN |
+1.0 10 SINV -> 8 `` S , '' '' | VP NP .
+1.0 10 SINV -> 7 VP NP : | `` S . ''
+0.15 10 NP -> 3 PDT DT NNS |
+0.5 10 S -> 6 S , | NP ADVP VP .
+1.0 10 NP -> 4 NP | SBAR : NP
+0.5 10 VP -> 4 VBN NP NP | PP
+1.0 10 VP -> 4 VBD ADVP , | SBAR
+1.0 10 VP -> 4 VBP NP PP | SBAR
+0.2 10 VP -> 2 NN PP |
+0.06 10 PP -> 3 NP IN NP |
+1.0 10 SINV -> 9 `` S , '' | VP NP , S .
+1.0 10 NP -> 3 NP | VP :
+0.5 10 S -> 5 PP , | NP ADVP VP
+0.5 10 PRN -> 3 -LRB- VP -RRB- |
+1.0 10 ADJP -> 2 VBN | SBAR
+0.13 10 NP -> 4 DT JJ ADJP NN |
+0.09 10 NX -> 2 NN NN |
+0.03 10 ADVP -> 2 NP RBR |
+1.0 10 NP -> 4 NP | : VP :
+0.05 10 VP -> 2 VBN ADJP |
+1.0 10 NP -> 4 DT NNP NN | S
+0.13 10 NP -> 4 NP , | ADJP ,
+1.0 10 VP -> 3 ADVP VBP | SBAR
+0.08 10 NP -> 4 PRP$ JJ NN NN |
+0.06 10 PP -> 3 PP | CC PP
+1.0 5 NP -> 7 DT VBN JJ , ADJP PRN | NN
+0.03 5 VP -> 3 VBN PRT | PP
+1.0 5 S -> 8 PP , | SBAR , NP ADVP VP .
+1.0 5 S -> 13 S : | S : S : S : S , CC S .
+1.0 5 VP -> 4 VB ADVP PP | S
+1.0 5 NP -> 5 NP , | NP , UCP
+1.0 5 NP -> 7 JJ -LRB- JJ NN -RRB- | JJ NN
+1.0 5 NP -> 7 DT `` JJ JJ NN '' NN |
+1.0 5 NP -> 4 PRP$ ADJP NN | S
+1.0 5 NP -> 6 NNP NNP CC NNP NNP . |
+0.08 5 VP -> 4 VBD PP PP | PP
+1.0 5 VP -> 3 MD : | VP
+1.0 5 NP -> 3 NP | : ADJP
+1.0 5 VP -> 5 ADVP VBN PP , | S
+1.0 5 NP -> 4 NP | -LRB- SBAR -RRB-
+0.2 5 VP -> 4 ADVP VBD PP | PP
+1.0 5 NX -> 2 JJR NN |
+1.0 5 VP -> 4 VBZ S , | S
+0.11 5 VP -> 3 VBN NP ADVP |
+0.03 5 NP -> 3 RBR DT NN |
+1.0 5 VP -> 5 VBD NP NP , | S
+1.0 5 NP -> 8 NN NN NN NNP NNP NNP PRN NNS |
+1.0 5 NP -> 5 NNP NNP NNP NNP . |
+0.5 5 VP -> 3 ADVP VBD | SBAR
+1.0 5 VP -> 5 VBZ SBAR , '' | S
+1.0 5 S -> 8 `` S , '' | CC S , SBAR
+0.5 5 VP -> 4 VB PRT PP PP |
+0.33 5 S -> 6 `` S | : S . ''
+0.11 5 S -> 2 SBAR VP |
+1.0 5 NP -> 6 NP : CC PRN NP : |
+1.0 5 NP -> 4 NP , | SBAR PRN
+0.5 5 NP -> 3 ADVP DT NN |
+1.0 5 VP -> 7 VB NP PP , | SBAR , PP
+0.13 5 NP -> 2 RB CD |
+1.0 5 VP -> 4 VP : | CONJP VP
+1.0 5 PP -> 5 PP , PP , | PP
+0.05 5 NP -> 3 NP | PP S
+1.0 5 VP -> 5 MD `` SBAR , | VP
+1.0 5 VP -> 4 ADVP VB NP | SBAR
+1.0 5 S -> 9 PP `` NP , '' | S , VP .
+1.0 5 VP -> 5 VP CC VP NP | S
+1.0 5 S -> 5 ADVP | : NP VP .
+1.0 5 NP -> 3 NP NP | VP
+1.0 5 VP -> 5 VB NP PP | : SBAR
+1.0 5 NP -> 4 DT JJ | PRN NN
+1.0 5 VP -> 4 VBG NP , | SBAR
+1.0 5 VP -> 4 VBG SBAR , | SBAR
+0.07 5 NP -> 6 NP , NP , CC NP |
+1.0 5 VP -> 4 VBP PRN PP | PRN
+0.05 5 VP -> 4 VBN NP PP | PP
+1.0 5 S -> 8 S : | S , S CC S .
+0.33 5 VP -> 4 VB NP PRT | PP
+1.0 5 NP -> 4 NP , | `` S
+0.17 5 NP -> 3 NN CC NNS |
+1.0 5 S -> 13 CC , `` ADVP , '' | S , `` NP VP . ''
+1.0 5 VP -> 5 VBN NP PP PP | S
+1.0 5 NX -> 4 NX | : NP :
+0.05 5 VP -> 3 VBG NP NP |
+0.5 5 PP -> 4 TO `` NP '' |
+1.0 5 VP -> 9 VP , VP , VP : | `` : NP
+1.0 5 S -> 7 PP , S | CC S PP .
+0.5 5 VP -> 3 VBP NP VP |
+1.0 5 NP -> 4 NP | PRN TO NP
+1.0 5 NP -> 5 : NP , | VP .
+1.0 5 S -> 6 CC | S PRN NP VP .
+1.0 5 VP -> 2 NNP | SBAR
+0.5 5 NP -> 4 DT ADJP NNP NNP |
+1.0 5 VP -> 6 VBD NP , | PP , S
+1.0 5 PP -> 3 IN NP | SBAR
+1.0 5 VP -> 8 VP : VP : | VP : CC VP
+1.0 5 NP -> 5 PRP$ JJ JJ NNP NNP |
+1.0 5 NP -> 4 PRP$ RB JJ NN |
+1.0 5 VP -> 5 VBD PRT NP PP | S
+0.07 5 NP -> 2 NN SBAR |
+1.0 5 S -> 9 PP , NP , PP , | VP . ''
+1.0 5 S -> 6 PP , | SBAR NP VP .
+1.0 5 FRAG -> 3 SBAR , | NP
+1.0 5 NP -> 6 DT NNS , NNS CC NNS |
+0.02 5 ADJP -> 2 JJ NP |
+1.0 5 S -> 8 ADVP , PP , '' | NP VP .
+0.2 5 S -> 4 NP , | NP VP
+1.0 5 VP -> 5 VB PRT NP ADVP | SBAR
+1.0 5 S -> 6 NP PP , | NP VP .
+0.5 5 SINV -> 8 `` S , '' VP NP | PP .
+1.0 5 PRN -> 7 -LRB- CC , ADVP , NP -RRB- |
+0.25 5 VP -> 3 NN NP | PP
+0.2 5 SINV -> 3 MD NP VP |
+1.0 5 ADJP -> 4 RB VBN PRT | SBAR
+1.0 5 VP -> 5 VB , ADVP , | SBAR
+0.5 5 SINV -> 9 `` S , '' VP NP , | S .
+0.5 5 SBAR -> 3 QP | WHNP S
+0.5 5 VP -> 3 ADVP VBP S |
+0.33 5 NP -> 4 DT JJ NNP NNS |
+0.11 5 VP -> 4 VP : | CC VP
+1.0 5 S -> 9 `` PP , | SBAR , NP VP . ''
+0.11 5 VP -> 3 VBN ADVP S |
+0.25 5 NP -> 3 PDT PRP$ NNS |
+1.0 5 UCP -> 5 RB S , | CC SBAR
+0.03 5 NP -> 3 ADJP NN NNS |
+0.5 5 PP -> 4 PP | : CC PP
+1.0 5 VP -> 7 VBD NP PP , PP , | SBAR
+1.0 5 VP -> 5 VBZ PP : | `` S
+1.0 5 VP -> 5 VBP | SBAR PRN , ADVP
+1.0 5 NP -> 5 NP , '' | SBAR ,
+0.33 5 NP -> 3 PRP$ NNS NNS |
+1.0 5 VP -> 6 VBN NP PP , PP , |
+1.0 5 NP -> 5 DT RB JJ NN NNS |
+1.0 5 NP -> 6 DT ADJP `` NN NNS '' |
+0.02 5 ADJP -> 2 RBR JJ |
+0.17 5 NP -> 6 DT NNP NNP CC NNP NNP |
+0.02 5 PP -> 3 JJ IN NP |
+0.17 5 NP -> 3 JJR NN NN |
+0.2 5 NP -> 3 NP | CC S
+0.11 5 NP -> 3 CD NN NN |
+1.0 5 VP -> 4 VBN NP | : SBAR
+0.09 5 NP -> 3 RB JJ NNS |
+1.0 5 NP -> 3 NP VP | S
+1.0 5 S -> 8 PP , `` S , CC S '' |
+0.33 5 NP -> 4 NP CC ADVP NP |
+1.0 5 S -> 8 PP , NP , | PP , VP .
+1.0 5 VP -> 4 RB S , | SBAR
+1.0 5 VP -> 2 VP PRN |
+1.0 5 VP -> 4 VB PP PP | SBAR
+0.5 5 VP -> 3 VBN | : ADVP
+1.0 5 VP -> 5 VBN NP NP , | S
+0.5 5 NP -> 3 PRP$ VBN NNS |
+0.07 5 VP -> 4 VBG NP PP PP |
+0.5 5 S -> 6 LST PP , | NP VP .
+0.08 5 S -> 5 NP , PP , VP |
+1.0 5 VP -> 4 VBZ ADVP NP | SBAR
+1.0 5 S -> 3 NP NP | S
+1.0 5 VP -> 5 `` VBN '' PP | ADVP
+1.0 5 S -> 9 CC , | SBAR : `` NP VP . ''
+0.25 5 NP -> 2 RB NNS |
+1.0 5 VP -> 4 VB NP ADVP | S
+0.17 5 ADVP -> 3 NP RB PP |
+0.05 5 S -> 4 NP | PRN VP .
+1.0 5 NP -> 4 NP ADJP , | SBAR
+1.0 5 S -> 7 S , CC S , | PP .
+1.0 5 S -> 6 SBAR , S | CC S .
+1.0 5 VP -> 4 VBZ | SBAR , SBAR
+0.03 5 NP -> 3 NP NN NNS |
+0.33 5 VP -> 4 VBN CC VBN PP |
+1.0 5 NP -> 3 PRP$ NN | SBAR
+0.01 5 VP -> 2 VBZ | PP
+1.0 5 S -> 6 S : S , | CC S
+1.0 5 S -> 6 `` CC NP VP , '' |
+1.0 5 VP -> 6 VBP PRT NP PP , | S
+1.0 5 NP -> 4 NP VBG NN | SBAR
+1.0 5 VP -> 6 VBN ADVP PP | S , PP
+1.0 5 VP -> 7 VBG , UCP , PP , | NP
+0.25 5 NX -> 7 NX , NX , | NX CC NX
+1.0 5 NP -> 4 DT `` NX '' |
+1.0 5 VP -> 6 VBN PP , PP , | SBAR
+1.0 5 VP -> 5 VBG NP NP , | SBAR
+1.0 5 NP -> 4 NP : | NP X
+1.0 5 NP -> 5 NP | : RB NP :
+1.0 5 S -> 11 S : | S : S : S : CC S .
+1.0 5 VP -> 5 VBZ ADVP NP , | SBAR
+1.0 5 VP -> 4 VBN | SBAR , SBAR
+1.0 5 S -> 5 S PRN : | S .
+1.0 5 NP -> 6 NP | VP , PP , NP
+1.0 5 NP -> 12 NP PP PP , VP , ADJP , | CC VP , PP
+0.05 5 VP -> 3 VB PRT | PP
+1.0 5 VP -> 3 VBZ S | SBAR
+1.0 5 VP -> 4 CONJP VP | CC VP
+1.0 5 NP -> 3 NN NNS S |
+1.0 5 VP -> 2 VBG | PRN
+1.0 5 NP -> 4 NNP JJ VBN NNS |
+1.0 5 NP -> 5 DT NN `` NX '' |
+0.33 5 SBARQ -> 2 WHADVP SQ |
+1.0 5 VP -> 5 ADVP VBN S , | S
+1.0 5 VP -> 4 VBG PP ADVP PP |
+1.0 5 NP -> 7 DT VBN JJ , ADJP | PRN NN
+0.17 5 NP -> 3 JJ ADJP NNS |
+1.0 5 NP -> 5 PRP JJ JJ JJ NN |
+0.13 5 NP -> 4 NNP NNP ADJP NNS |
+1.0 5 VP -> 5 VBD `` ADVP '' | SBAR
+1.0 5 NP -> 6 NP PP PP , SBAR , |
+1.0 5 VP -> 5 VBZ | SBAR , '' S
+0.1 5 VP -> 2 NN | PP
+0.13 5 VP -> 3 VBZ ADVP ADJP |
+1.0 5 S -> 7 NP , '' | SBAR , VP .
+0.17 5 S -> 6 ADVP , | NP VP . ''
+0.08 5 VP -> 4 VB | CC VB NP
+1.0 5 NP -> 6 NP JJ NNP CD NNS NNS |
+0.33 5 S -> 8 ADVP , | PP , NP VP . ''
+1.0 5 VP -> 3 VBD S | S
+1.0 5 SINV -> 8 VP NP : | `` S . '' ''
+1.0 5 NP -> 4 NP PRN TO NP |
+1.0 5 S -> 7 `` SBAR , '' | NP VP .
+1.0 5 VP -> 2 VBN | PRN
+1.0 5 VP -> 4 VBP `` ADJP '' |
+1.0 5 VP -> 5 VBD SBAR , '' | S
+1.0 5 NP -> 4 DT ADJP NNP NNS |
+0.5 5 ADJP -> 2 RB NP |
+1.0 5 VP -> 4 VBD S NP | SBAR
+1.0 5 SBAR -> 5 SBAR , '' | CC SBAR
+0.17 5 NP -> 5 NNS , NNS CC NNS |
+1.0 5 S -> 7 S , | CC S , PP .
+1.0 5 ADJP -> 4 ADJP PP PP | SBAR
+0.09 5 VP -> 3 VB | PP SBAR
+1.0 5 VP -> 4 VBD : | `` FRAG
+1.0 5 VP -> 5 VBD NP S , | S
+1.0 5 ADJP -> 4 ADJP , ADJP , |
+1.0 5 VP -> 5 VB NP '' PP | PP
+1.0 5 VP -> 5 VB NP ADVP '' | SBAR
+1.0 5 PP -> 2 TO PRN |
+1.0 5 S -> 10 CC `` NP , '' | S , '' VP .
+1.0 5 ADJP -> 5 `` RB JJ '' | PP
+0.33 5 NP -> 5 PRP$ JJ NNP NN NN |
+1.0 5 NP -> 6 `` JJ '' NN NN NNS |
+0.33 5 NP -> 3 JJS NNP NNS |
+1.0 5 S -> 8 `` CC | SBAR , NP VP : .
+1.0 5 VP -> 3 VBP | SBAR SBAR
+1.0 5 NP -> 5 NP ADJP JJ JJ NNS |
+1.0 5 VP -> 5 VBD PP NP , | S
+0.5 5 ADJP -> 3 JJ RB | SBAR
+0.11 5 VP -> 3 VB S PP |
+1.0 5 ADJP -> 2 QP NNS |
+1.0 5 NP -> 7 NP SBAR : `` : ADJP | VP
+1.0 5 VP -> 4 VP | CC : VP
+1.0 5 VP -> 7 VBZ NP PP , PP , | PP
+1.0 5 VP -> 5 VBG ADJP ADVP , | S
+0.25 5 NP -> 5 DT NNP NNP JJ NN |
+1.0 5 S -> 9 ADVP , S , PP , | NP VP .
+0.5 5 NP -> 5 DT NNS NN NN NN |
+0.08 5 QP -> 2 CC JJR |
+1.0 5 NP -> 4 NP PP ADVP | SBAR
+1.0 5 VP -> 4 VBG PRT NP | UCP
+1.0 5 VP -> 5 VBD `` NP , | PP
+0.33 5 VP -> 3 NP VBN PP |
+1.0 5 NP -> 4 NP | PP : SBAR
+0.25 5 VP -> 3 VP : | NP
+1.0 5 VP -> 4 VBZ | S : S
+1.0 5 VP -> 3 VBZ ADJP | UCP
+1.0 5 VP -> 8 VP , VP , | VP , CC VP
+1.0 5 VP -> 7 VB NP PP , ADVP , | PP
+1.0 5 S -> 8 CC NP , PP , | VP . ''
+1.0 5 S -> 6 S , CC | PRN S .
+0.5 5 VP -> 4 VBG PP , | PP
+0.5 5 VP -> 3 VBZ PRT | SBAR
+1.0 5 VP -> 5 VBG PP PP , | S
+0.05 5 S -> 3 CC NP VP |
+1.0 5 NP -> 5 DT CD JJS NN NNS |
+1.0 5 VP -> 4 VBD , | `` ADVP
+1.0 5 NP -> 5 NP : | `` S .
+1.0 5 VP -> 6 VBP , | CONJP VB , NP
+1.0 5 NP -> 5 NP | VP , VP ,
+1.0 5 SINV -> 7 ADVP , | S , VP NP .
+0.05 5 S -> 3 ADVP | NP VP
+0.5 5 NP -> 4 DT VBG NN NNS |
+0.11 5 NP -> 4 JJ NNP NNP NNP |
+0.5 5 VP -> 4 VBN PRT NP | SBAR
+0.5 5 VP -> 5 VBD PP PP , | PP
+1.0 5 VP -> 4 VBP S , | SBAR
+1.0 5 S -> 13 S : S : S : S : S , | CC S .
+1.0 5 S -> 6 CC SBAR , | NP ADVP VP
+1.0 5 S -> 9 ADVP , S , | PP , NP VP .
+1.0 5 PRN -> 6 , '' '' | S , ``
+1.0 5 VP -> 5 VB PP PP , | SBAR
+1.0 5 SINV -> 7 S , '' '' | VP NP .
+1.0 5 VP -> 6 VBD NP NP | S PP PP
+0.13 5 SBAR -> 3 IN IN S |
+1.0 5 NP -> 5 DT JJ ADJP NN NN |
+1.0 5 VP -> 4 NN NP PRN PP |
+1.0 5 VP -> 4 ADVP VBD NP | S
+1.0 5 S -> 9 ADVP , ADVP , SBAR , | NP VP .
+1.0 5 NP -> 7 NP SBAR : `` | : ADJP VP
+0.5 5 NP -> 5 DT JJ JJ NNP NNS |
+1.0 5 NP -> 6 DT JJ `` NN '' NN |
+1.0 5 VP -> 2 VP | PRN
+1.0 5 NP -> 5 NP | : NP , SBAR
+0.13 5 S -> 3 NP PP VP |
+1.0 5 VP -> 5 VP CC VP NP | PRN
+1.0 5 VP -> 6 VBD S , S , | PP
+1.0 5 VP -> 6 VP : | VP : CC VP
+1.0 5 S -> 3 S | PRN .
+0.06 5 NP -> 2 RB NNP |
+1.0 5 S -> 6 S CC ADVP , | S .
+1.0 5 S -> 11 S : S : | S : S : CC S .
+1.0 5 NP -> 5 NNP NNPS NN NNP NNP |
+0.05 5 VP -> 4 VBN NP PP PP |
+1.0 5 VP -> 3 VBP SBAR | SBAR
+0.08 5 SBAR -> 2 WHADJP S |
+0.33 5 NP -> 4 JJ CC JJ NNS |
+1.0 5 VP -> 4 VBP PRT NP | SBAR
+1.0 5 NP -> 5 NP NP PP , | PP
+0.07 5 VP -> 3 VBD RB NP |
+1.0 5 VP -> 4 VBD PRT ADVP | S
+1.0 5 S -> 9 ADVP , SBAR , NP , | S VP .
+0.01 5 S -> 7 `` S , | '' NP VP .
+1.0 5 S -> 8 SBAR , NP , | ADVP , VP .
+1.0 5 VP -> 5 VB NP , | CC PP
+1.0 5 SINV -> 6 CC VBZ NP ADJP | PP .
+0.5 5 NP -> 5 JJ , JJ JJ NNS |
+1.0 5 ADVP -> 6 RB CC | PRN `` RB ''
+1.0 5 S -> 6 S , | CC S , ADVP
+1.0 5 S -> 4 S | `` CC S
+1.0 5 S -> 6 ADVP , | SBAR , NP VP
+0.5 5 PRN -> 3 -LRB- ADVP -RRB- |
+1.0 5 S -> 7 CC NP , S , | VP .
+0.5 5 NP -> 8 NP : NP : NP , | CC NP
+0.5 5 VP -> 4 VB NP '' | PP
+1.0 5 VP -> 6 VBZ PRT , ADVP , | SBAR
+1.0 5 S -> 6 `` SBARQ . '' | NP VP
+1.0 5 VP -> 5 VBN ADVP NP , | SBAR
+1.0 5 S -> 6 S , | NP NP VP .
+1.0 5 NP -> 7 NP , NP , PP , | PP
+0.5 5 VP -> 7 VP , VP , | VP CC VP
+1.0 5 VP -> 4 VBZ PRT ADVP | SBAR
+1.0 5 S -> 7 CC | SBAR , PRN NP VP .
+1.0 5 S -> 8 S CC S | : CC , S .
+1.0 5 VP -> 4 VB NP PP | VP
+1.0 5 S -> 5 S , | CC SQ .
+0.33 5 ADJP -> 3 NP JJ PP |
+1.0 5 VP -> 2 JJ | SBAR
+1.0 5 NP -> 4 NP , SBAR | PRN
+0.06 5 NP -> 4 DT NNP JJ NN |
+1.0 5 S -> 6 S , | CC PRN S .
+1.0 5 VP -> 4 VB NP | : PP
+1.0 5 VP -> 3 PRN | VB NP
+1.0 5 NP -> 8 NP PP , NP , PP , | VP
+1.0 5 VP -> 5 VBP ADVP NP , | PP
+1.0 5 VP -> 4 VBN ADJP , | SBAR
+1.0 5 S -> 8 CC ADVP , S , | CC S .
+1.0 5 VP -> 4 VBD NP PRT | PP
+0.14 5 NP -> 8 NP , NP , | NP , CC NP
+1.0 5 VP -> 6 VP CC VP , | CC VP
+1.0 5 VP -> 6 VBD PRT PP PP NP | SBAR
+1.0 5 VP -> 6 VBN PRT NP PP , | SBAR
+1.0 5 VP -> 4 VBP ADVP , | S
+1.0 5 S -> 6 `` S : S , '' |
+1.0 5 NP -> 6 JJ , ADJP , JJ NNS |
+0.33 5 NP -> 5 NP , ADVP NP , |
+0.14 5 S -> 2 NP ADVP |
+1.0 5 VP -> 5 DT `` VP | CC VP
+1.0 5 VP -> 3 VBG | `` S
+1.0 5 S -> 6 CC S , | CC SINV .
+1.0 5 S -> 6 NP VP , | CC VP .
+1.0 5 S -> 6 PP SBAR , | NP VP .
+0.14 5 NP -> 3 NP SBAR | PP
+1.0 5 VP -> 5 CC VP | CC PRN VP
+1.0 5 VP -> 4 VB NP | SBAR PP
+1.0 5 S -> 8 S , | NP , PP , VP .
+1.0 5 VP -> 4 VBZ : | `` NP
+1.0 5 NP -> 2 CD NNPS |
+0.09 5 S -> 7 PP , ADVP , | NP VP .
+1.0 5 VP -> 3 VBG | : NP
+1.0 5 PRN -> 4 : NP SBAR : |
+1.0 5 NP -> 5 NP : PP : | SBAR
+1.0 5 VP -> 3 VBZ SBAR | PRN
+0.5 5 S -> 6 PP , S , | CC S
+0.07 5 NP -> 3 VBG NN NNS |
+0.25 5 VP -> 3 VBZ PRT PP |
+1.0 5 NP -> 3 NP PRN `` |
+1.0 5 VP -> 4 ADVP VBG PP | SBAR
+0.01 5 NP -> 4 NP , CC NP |
+1.0 5 S -> 6 S , '' | CC RB S
+1.0 5 S -> 5 NP | : PP : VP
+1.0 5 S -> 5 SBAR , S | NP VP
+0.5 5 NP -> 8 NP : | NP : NP , CC NP
+1.0 5 NP -> 7 DT JJ , JJ JJ NN NN |
+1.0 5 NX -> 2 NP | SBAR
+0.07 5 VP -> 4 VBG NP PP | PP
+1.0 5 VP -> 8 VP : VP : VP : | CC VP
+1.0 5 UCP -> 3 PP | CC SBAR
+0.5 5 S -> 6 PP ADVP , | NP VP .
+0.33 5 VP -> 4 VBD PP PP NP |
+1.0 5 NP -> 5 DT ADJP NN NN | S
+1.0 5 VP -> 5 VBD | SBAR , '' S
+0.5 5 NP -> 5 PRP$ JJ NNS CC NNS |
+0.14 5 UCP -> 3 VP CC ADJP |
+1.0 5 VP -> 5 VB ADJP , '' | PP
+1.0 5 VP -> 9 VP CC VP CC VP , PP , | PP
+1.0 5 VP -> 5 VBP NP PP , | S
+0.11 5 ADVP -> 2 IN NP |
+0.33 5 NP -> 3 NP | `` S
+1.0 5 S -> 7 ADVP , | PRN `` NP VP .
+1.0 5 S -> 5 S | CC S : .
+1.0 5 VP -> 3 VBN '' | S
+1.0 5 S -> 5 PP : | NP VP .
+1.0 5 VP -> 6 VBZ ADVP NP PP , | S
+0.05 5 VP -> 3 VBZ NP | ADVP
+1.0 5 S -> 7 S | CC S , IN S .
+1.0 5 NP -> 6 RB DT JJ JJ NN NN |
+0.33 5 VP -> 4 VBN PP PP NP |
+1.0 5 NP -> 5 DT `` JJ NNS '' |
+1.0 5 S -> 9 PP , PP , '' S | : S .
+0.09 5 VP -> 4 VBZ | : `` S
+1.0 5 SINV -> 5 FRAG , | VP NP .
+0.07 5 NP -> 2 RB JJ |
+1.0 5 VP -> 3 NNS FRAG | PRN
+1.0 5 S -> 7 CC SBAR , | PRN NP VP .
+1.0 5 S -> 7 CC SBAR , PRN | NP VP .
+1.0 5 VP -> 3 NN PP | SBAR
+1.0 5 VP -> 5 VBZ ADJP S , | SBAR
+0.02 5 ADJP -> 2 ADJP PP |
+1.0 5 X -> 5 CC NP NP | SBAR .
+1.0 5 S -> 7 S , CC S : | S .
+1.0 5 S -> 9 S , S : | CC S CC S .
+1.0 5 S -> 4 NP : | NP .
+1.0 5 VP -> 4 VBZ PRT | `` S
+1.0 5 S -> 6 SBAR , | NP , VP .
+0.33 5 S -> 7 CC NP , | PP , VP .
+0.05 5 ADJP -> 2 RB PP |
+0.2 5 NP -> 3 QP NNP NNS |
+1.0 5 VP -> 3 VBP PRT | S
+1.0 5 S -> 7 ADVP , ADVP , | NP VP .
+1.0 5 S -> 6 S , CC PRN | S .
+1.0 5 NP -> 2 RB VBZ |
+1.0 5 ADVP -> 5 ADVP , CC ADVP , |
+0.5 5 S -> 7 CC | SBAR , NP ADVP VP .
+1.0 5 VP -> 10 VP , | VP , VP , VP , CC VP
+0.14 5 VP -> 3 VBG ADVP S |
+1.0 5 VP -> 5 VB ADVP | SBAR , SBAR
+0.33 5 S -> 6 CC | S , NP VP .
+1.0 5 S -> 9 ADVP PRN NP VP , | CC NP VP .
+1.0 5 S -> 6 SINV , '' | NP VP .
+1.0 5 VP -> 5 VBN S , '' | S
+0.14 5 NP -> 3 DT NNS S |
+1.0 5 VP -> 10 VP , VP , VP , VP , | CC VP
+1.0 5 NP -> 4 NP JJS NN RB |
+1.0 5 VP -> 5 VB NP NP PP | SBAR
+0.5 5 NP -> 5 NP CC NP , | PP
+1.0 5 S -> 7 S CC S , | IN S .
+1.0 5 VP -> 5 VBZ PP | PP , PP
+1.0 5 S -> 9 `` S | CC S , CC S . ''
+1.0 5 S -> 7 ADVP , | PP , NP `` VP
+1.0 5 S -> 6 S , | CC ADVP S .
+0.25 5 PP -> 5 PP , | CC RB PP
+1.0 5 PP -> 5 IN S , | RB S
+1.0 5 VP -> 5 VBD CC VBD | : NP
+1.0 5 VP -> 7 VB NP NP PP PP , | S
+1.0 5 PRN -> 5 , '' PRN , | ``
+1.0 5 S -> 8 PP , | `` S , CC S ''
+0.5 5 ADJP -> 2 VBN SBAR |
+1.0 5 NP -> 7 NP PP , PP PP , | VP
+1.0 5 S -> 5 INTJ , S | CC S
+1.0 5 S -> 6 `` SQ '' | NP VP .
+1.0 5 NP -> 5 NP SBAR , PP , |
+0.17 5 NP -> 4 PRP$ NN NN NN |
+1.0 5 VP -> 4 VBZ NP | : NP
+1.0 5 SINV -> 8 S , '' VP NP , | S .
+0.5 5 PP -> 2 RB S |
+0.1 5 NP -> 3 DT JJR NNS |
+0.09 5 NX -> 5 NX , NX CC NX |
+0.5 5 VP -> 4 VB PP , | SBAR
+0.5 5 NP -> 4 DT JJR NNP NN |
+0.33 5 VP -> 4 VBD S | PP SBAR
+1.0 5 S -> 4 NP SBAR | VP .
+1.0 5 NP -> 3 NNP NNS | S
+0.33 5 NP -> 4 DT ADJP JJ NNS |
+1.0 5 VP -> 4 VBN , | SBAR ,
+1.0 5 UCP -> 4 PP , | CC S
+1.0 5 VP -> 4 VBD NP NP | VP
+0.05 5 VP -> 4 VBZ RB ADVP VP |
+0.5 5 ADJP -> 5 ADJP , | ADJP CC ADJP
+1.0 5 VP -> 5 VBD RB ADJP | S NP
+1.0 5 NP -> 8 NP PP , NP , ADJP , | VP
+1.0 5 NP -> 4 DT NNS NNS NN |
+1.0 5 S -> 6 `` SBARQ '' | NP VP .
+0.17 5 NP -> 4 `` NP '' PRN |
+1.0 5 S -> 8 ADVP , PP , | SBAR NP VP .
+1.0 5 VP -> 5 ADVP VB NP | : NP
+1.0 5 S -> 5 SBAR | S : CC S
+1.0 5 NP -> 4 NP , NP '' |
+1.0 5 FRAG -> 3 PP | : ADVP
+0.33 5 VP -> 4 VB NP , | ADVP
+0.25 5 S -> 7 CC , | PP , NP VP .
+1.0 5 S -> 9 CC , SBAR : | `` NP VP . ''
+1.0 5 NP -> 6 DT `` NN CC NN | S
+0.13 5 VP -> 4 VP | CC VP NP
+0.33 5 NP -> 4 NNS CC NN NNS |
+1.0 5 S -> 5 SBAR , : | NP VP
+1.0 5 VP -> 3 ADVP NP | SBAR
+1.0 5 VP -> 5 MD RB `` VP '' |
+1.0 5 S -> 9 ADVP , | SBAR , NP ADVP VP . ''
+1.0 5 S -> 7 NP , SBAR , | VP . ''
+0.5 5 NP -> 6 DT NN , NN CC NN |
+1.0 5 VP -> 5 VBD ADVP | SBAR , SBAR
+1.0 5 VP -> 4 VBN | SBAR , S
+1.0 5 S -> 7 S : CC S , | CC S
+1.0 5 VP -> 5 VB PRT NP ADVP | S
+1.0 5 VP -> 3 VBP ADJP | S
+1.0 5 VP -> 4 VBG NP ADVP | S
+1.0 5 S -> 4 ADJP , | NP VP
+1.0 5 NP -> 4 NP `` PP '' |
+0.13 5 VP -> 3 VBP NP SBAR |
+1.0 5 VP -> 6 VB S , PP , | PP
+1.0 5 PRN -> 3 -LRB- NAC -RRB- |
+1.0 5 VP -> 3 PRN VB NP |
+0.5 5 ADJP -> 3 JJR CC JJR |
+1.0 5 VP -> 4 VBP PRT NP | S
+1.0 5 S -> 7 SBAR , | RB NP VP . ''
+1.0 5 NP -> 3 NNP NNP NX |
+1.0 5 S -> 5 SBAR , S | CC S
+1.0 5 VP -> 5 VBN ADVP S , | PP
+1.0 5 SINV -> 2 VBZ NP |
+0.25 5 VP -> 4 VBN | S , PP
+0.03 5 VP -> 3 VBN PRT PP |
+0.17 5 VP -> 4 VBD RB ADVP VP |
+0.17 5 NP -> 4 DT JJS NN NNS |
+1.0 5 ADJP -> 2 JJR S |
+1.0 5 VP -> 5 VP | CC VP CC VP
+0.33 5 VP -> 3 VBD ADJP ADVP |
+1.0 5 S -> 8 CC NP , | S , VP . ''
+1.0 5 NP -> 8 NP | VP VP , '' VP , SBAR
+1.0 5 VP -> 4 VBD ADVP PP | ADVP
+0.05 5 NP -> 3 ADJP JJ NNS |
+1.0 5 VP -> 4 VBN S '' | PP
+1.0 5 NP -> 6 `` NP , '' SBAR , |
+0.5 5 SBAR -> 3 QP WHNP S |
+1.0 5 S -> 7 PP , '' '' | NP VP .
+1.0 5 VP -> 5 VBD NP SBAR , | PP
+1.0 5 UCP -> 4 ADVP , | CC PP
+1.0 5 NP -> 3 NNP NNS | SBAR
+1.0 5 VP -> 4 VB ADVP , | SBAR
+1.0 5 VP -> 4 VBG S , | S
+1.0 5 VP -> 3 NN NP | S
+1.0 5 VP -> 4 VBP S , | S
+1.0 5 S -> 8 ADVP , SBAR , | NP ADVP VP .
+0.08 5 NP -> 5 NP , NP , | NP
+0.17 5 ADVP -> 3 RB RB RB |
+1.0 5 NP -> 4 NP SBAR : | SBAR
+1.0 5 VP -> 6 VBG PP , SBAR , | S
+1.0 5 VP -> 4 VBD PP NP | S
+1.0 5 S -> 6 S CC S | CC S .
+1.0 5 NP -> 5 DT NN NNP NNP NN |
+0.33 5 VP -> 4 VBD ADJP PP | PP
+1.0 5 VP -> 6 VBG NP NP PP , | S
+1.0 5 S -> 8 CC | SBAR , '' NP VP . ''
+1.0 5 NP -> 3 NP NNS | SBAR
+0.33 5 VP -> 4 VBD PRT PP PP |
+1.0 5 NP -> 17 NP , NP , | NP , NP , NP , NP , NP , NP CC NP
+1.0 5 S -> 13 S : S : | S : S : S , CC S .
+0.5 5 VP -> 7 VP , VP , VP | CC VP
+1.0 5 NP -> 10 DT JJ NN , NN , NN CC NNS NN |
+1.0 5 S -> 8 PP , PRN | `` NP VP . ''
+0.33 5 VP -> 4 ADVP VBD NP PP |
+0.13 5 NP -> 4 DT JJ QP NNS |
+1.0 5 SBAR -> 4 SBAR , | ADVP SBAR
+1.0 5 NP -> 7 NP : | NP : NP CC NP
+1.0 5 S -> 7 S , '' | NP NP VP .
+1.0 5 VP -> 4 VBD , | `` SBAR
+1.0 5 VP -> 5 VBD ADJP PP NP | S
+1.0 5 NP -> 6 DT `` ADJP NN | SBAR ''
+1.0 5 S -> 6 S | CC S CC S .
+1.0 5 VP -> 4 VP , | CONJP VP
+1.0 5 VP -> 5 VBZ NP S , | S
+1.0 5 S -> 9 ADVP , | S , PP , NP VP .
+1.0 5 VP -> 3 VP | PRN NP
+1.0 5 VP -> 7 VBD , ADVP , | SBAR , S
+1.0 5 VP -> 6 VBD NP , | PP , PP
+1.0 5 VP -> 4 VB | -LRB- NP -RRB-
+1.0 5 S -> 6 `` S | : S , ''
+1.0 5 VP -> 3 VBZ NP | PRN
+1.0 5 FRAG -> 4 PRN | `` INTJ .
+1.0 5 VP -> 5 VBD ADVP PP , | S
+0.07 5 VP -> 3 VBP ADVP PP |
+1.0 5 VP -> 4 VB PRT ADVP | SBAR
+1.0 5 SBARQ -> 5 `` WHADVP SQ . '' |
+0.33 5 VP -> 3 VBN PP PRN |
+0.5 5 VP -> 4 VBP NP : | SBAR
+1.0 5 VP -> 4 VP CC VP | S
+0.5 5 UCP -> 3 ADJP CC NP |
+1.0 5 VP -> 4 VBP `` NP | SBAR
+1.0 5 VP -> 4 VBZ SBAR , | SBAR
+0.06 5 NP -> 2 VBN NNS |
+0.14 5 PRN -> 3 , ADVP , |
+1.0 5 QP -> 3 # , CD |
+1.0 5 NP -> 5 DT JJ NN NN | SBAR
+1.0 5 VP -> 5 `` VB '' NP | PP
+1.0 5 SINV -> 7 ADVP , S , | VP NP .
+1.0 5 VP -> 5 VB ADVP SBAR , | SBAR
+0.14 5 NP -> 5 DT JJ JJ NNS NN |
+1.0 5 ADJP -> 3 QP RB JJ |
+0.17 5 NP -> 4 DT VBG NN NN |
+1.0 5 NP -> 7 `` NP '' | PRN , SBAR ,
+1.0 5 NP -> 4 NP NN NN | S
+0.11 5 VP -> 3 VBN | ADVP S
+1.0 5 S -> 8 PP , SBAR , | NP ADVP VP .
+1.0 5 NP -> 2 JJ | S
+1.0 5 NP -> 7 `` S , '' | CC `` NP
+1.0 5 SINV -> 6 S | VP NP , S .
+1.0 5 S -> 13 S : S : S : S : | S , CC S .
+1.0 5 S -> 9 CC ADVP , NP VP , | CC S .
+1.0 5 NP -> 6 DT NN NNS CC NN NNS |
+1.0 5 S -> 7 NP , | S , VP . ''
+1.0 5 SBAR -> 4 SBAR | : CC SBAR
+0.07 5 VP -> 3 VBP ADJP PP |
+1.0 5 S -> 13 CC , `` ADVP , '' S , | `` NP VP . ''
+1.0 5 VP -> 8 VBP , VBP CC VBP PP , | PP
+1.0 5 VP -> 6 VBN NP PP NP , | SBAR
+1.0 5 VP -> 6 VBD PP | SBAR , `` S
+1.0 5 VP -> 6 VBN NP PP , | PP ,
+0.02 5 VP -> 3 VBD ADVP VP |
+1.0 5 PRN -> 2 SINV , |
+1.0 5 S -> 9 PP , S , CC S , | PP .
+0.08 5 NP -> 4 RB DT JJ NN |
+0.14 5 VP -> 4 MD RB ADVP VP |
+0.08 5 NP -> 4 NP NN NN NN |
+1.0 5 VP -> 9 VP | CC VP CC VP , PP , PP
+1.0 5 NP -> 5 NP | : PP : SBAR
+1.0 5 VP -> 6 VB PRT NP PP , | PP
+0.25 5 QP -> 4 RB # CD CD |
+0.5 5 NP -> 3 NP | : SBAR
+1.0 5 SQ -> 5 SBAR , | VBZ NP VP
+1.0 5 VP -> 5 VBP NP PRT , | S
+1.0 5 S -> 5 NP | S , VP .
+1.0 5 S -> 8 CC PP , PRN , | NP VP .
+1.0 5 S -> 4 NP VP , | SBAR
+0.5 5 NP -> 3 JJ JJR NNS |
+1.0 5 VP -> 5 VBN ADVP PP , | SBAR
+1.0 5 VP -> 4 VBD ADVP PP | PRN
+1.0 5 VP -> 5 VB NP ADVP '' | S
+0.17 5 VP -> 4 VP CC VP SBAR |
+1.0 5 NP -> 5 NP | -LRB- NP PRN -RRB-
+1.0 5 VP -> 5 VBP NP PP | : SBAR
+0.03 5 NP -> 5 NNP , NNP CC NNP |
+1.0 5 QP -> 5 IN JJS # CD CD |
+1.0 5 S -> 4 PP : | NP VP
+1.0 5 S -> 7 CC NP , SBAR , | VP .
+1.0 5 S -> 4 S , | CC SINV
+0.5 5 NP -> 4 NP -LRB- PP -RRB- |
+1.0 5 S -> 5 PRN PP , | NP VP
+1.0 5 VP -> 4 VBG ADVP ADVP | SBAR
+1.0 5 S -> 6 NP : S : | VP .
+0.5 5 NP -> 6 DT JJ `` NN NN '' |
+1.0 5 VP -> 5 VBG PRT NP , | SBAR
+1.0 5 ADJP -> 3 ADVP VBN PP |
+1.0 5 S -> 5 S . | NP VP .
+1.0 5 VP -> 3 VB S | ADVP
+1.0 5 NP -> 5 NP PP , | VP PP
+1.0 5 NP -> 5 DT JJR JJ NN NN |
+1.0 5 VP -> 4 VBN CC VBN | SBAR
+1.0 5 NP -> 3 DT UCP NNP |
+0.5 5 NP -> 5 `` NP , '' | PP
+0.11 5 NP -> 4 NP PP | PP .
+1.0 5 VP -> 5 VB PRT NP ADVP S |
+1.0 5 VP -> 5 ADVP VBN PP , | PP
+1.0 5 VP -> 5 VB `` NP '' | SBAR
+1.0 5 NP -> 7 DT JJ NNP NN CC NN NN |
+1.0 5 NP -> 4 NP PP PP | S
+1.0 5 S -> 2 S | SBARQ
+1.0 5 VP -> 4 VBN ADJP , | PP
+1.0 5 PRN -> 3 : FRAG : |
+1.0 5 S -> 5 SBAR , | S NP VP
+1.0 5 VP -> 5 VBZ NP SBAR , | S
+1.0 5 NP -> 5 DT NN CC NNS NN |
+0.5 5 NP -> 3 RB NP NN |
+0.33 5 NP -> 3 DT $ CD |
+1.0 5 VP -> 4 VBN | S PRN S
+0.33 5 VP -> 5 VB NP PP PP | PP
+1.0 5 NP -> 3 IN NNP CD |
+1.0 5 NP -> 4 QP JJ CD NNS |
+0.25 5 VP -> 3 VBP PP | PP
+1.0 5 SBAR -> 3 IN S , |
+1.0 5 NP -> 8 DT NN , NN CC NN PRN | NN
+1.0 5 S -> 7 S : | S : CC S .
+1.0 5 ADJP -> 3 JJ | : PP
+1.0 5 S -> 8 CC | SBAR , PRN NP VP . ''
+0.25 5 NX -> 3 JJ NN NNS |
+1.0 5 NP -> 6 NP PP , ADJP , | SBAR
+0.04 5 NP -> 3 JJ NNP NNS |
+0.33 5 VP -> 4 VBN PRT NP | PP
+0.5 5 NP -> 5 DT NN NN CC NN |
+1.0 5 VP -> 8 VBN PP PP , '' PP , | PP
+1.0 5 S -> 4 NP VP , '' |
+0.25 5 NX -> 7 NX , | NX , NX CC NX
+1.0 5 S -> 4 PP S | CC S
+1.0 5 VP -> 5 VBD NP PP , | VP
+1.0 5 NP -> 4 DT JJ PRN | NN
+1.0 5 NP -> 5 NP | -LRB- CC NP -RRB-
+1.0 5 VP -> 5 VBD NP | S , SBAR
+1.0 5 VP -> 6 VP : VP : | CC VP
+1.0 5 NP -> 4 DT FW FW FW |
+1.0 5 VP -> 5 VBP ADVP ADJP , | PP
+1.0 5 S -> 6 SBAR , | NP `` VP ''
+0.33 5 PRN -> 7 -LRB- NP , NP , NP -RRB- |
+1.0 5 VP -> 8 VBN PP PP , '' | PP , PP
+0.11 5 NP -> 2 JJ NX |
+1.0 5 VP -> 5 VP | CC VP PRN SBAR
+1.0 5 NP -> 5 NP PP PRN , | NP
+0.13 5 ADVP -> 2 IN DT |
+1.0 5 S -> 8 S | CC S : CC , S .
+0.17 5 S -> 6 S , '' CC | S .
+0.2 5 VP -> 4 VBD ADVP PP | PP
+0.14 5 VP -> 4 VBN | PP , PP
+1.0 5 NP -> 6 NP PRN , | NP , PP
+1.0 5 VP -> 4 VBZ ADVP , | SBAR
+1.0 5 S -> 6 S : | S , CC S
+0.5 5 NP -> 4 RB DT ADJP NN |
+0.33 5 NP -> 5 DT JJ NNS CC NNS |
+1.0 5 VP -> 4 VBG ADJP ADVP | SBAR
+0.1 5 VP -> 4 VBD , `` | S
+0.5 5 VP -> 3 VBP ADVP ADVP |
+1.0 5 S -> 10 S , S , | S , S CC S .
+1.0 5 S -> 8 PP , | PRN , NP `` VP .
+0.5 5 VP -> 4 VBD PRT PP | SBAR
+1.0 5 VP -> 4 VBN , SBAR , |
+1.0 5 S -> 7 NP , '' SBAR , | VP .
+1.0 5 NP -> 3 NP : | SBARQ
+1.0 5 S -> 8 PP , PRN , | NP `` VP .
+1.0 5 S -> 8 `` CC SBAR , | NP VP : .
+1.0 5 VP -> 5 VBN NP ADVP , | SBAR
+1.0 5 S -> 5 S CC S | SBAR .
+0.05 5 NP -> 2 RB NN |
+0.5 5 VP -> 4 VBD ADVP NP | SBAR
+1.0 5 VP -> 4 VBG NP ADVP PRN |
+1.0 5 S -> 8 S , | S , NP ADVP VP .
+0.04 5 S -> 2 S VP |
+1.0 5 VP -> 5 NN PP PP , | S
+1.0 5 VP -> 6 VBD NP NP PP , | SBAR
+1.0 5 ADVP -> 3 PDT DT JJ |
+1.0 5 NP -> 6 NP : CC NP : | SBAR
+0.04 5 ADVP -> 2 RB RBR |
+0.5 5 VP -> 5 VBN NP NP , | PP
+1.0 5 SBAR -> 5 SBAR , | CC RB SBAR
+1.0 5 NP -> 5 PRP$ JJ NN NN NNS |
+1.0 5 VP -> 5 VBD NP PRT | S PP
+0.33 5 ADJP -> 4 RB JJ CC JJ |
+1.0 5 VP -> 3 VBG , | PP
+0.33 5 NP -> 3 NP | `` PP
+1.0 5 FRAG -> 7 CC ADVP , SBAR , | PP .
+1.0 5 VP -> 4 VB ADJP PP | SBAR
+1.0 5 UCP -> 4 VP | CC ADVP ADJP
+0.13 5 VP -> 3 VBG PP NP |
+1.0 5 VP -> 5 VBN NP , '' | S
+0.25 5 S -> 7 CC , PP , | NP VP .
+1.0 5 S -> 7 `` NP , | NP VP . ''
+1.0 5 SINV -> 7 CC SBAR , | ADVP VP NP .
+1.0 5 S -> 7 ADVP , S | CC S . ''
+0.11 5 VP -> 3 VB S | PP
+1.0 5 PRN -> 5 -LRB- INTJ , PP -RRB- |
+1.0 5 S -> 7 SBAR , S , | CC S .
+1.0 5 PRN -> 3 : ADVP : |
+1.0 5 S -> 7 ADVP , PRN | `` NP VP .
+1.0 5 VP -> 5 VP , RB VP | SBAR
+1.0 5 NP -> 4 NP PP | PRN PP
+1.0 5 S -> 7 CC NP , | SBAR , VP .
+1.0 5 VP -> 10 VP , VP , | VP , VP , CC VP
+1.0 5 ADVP -> 6 RB CC PRN | `` RB ''
+1.0 5 S -> 8 CC , PP , | PP NP VP .
+0.17 5 NP -> 6 DT JJ NN CC NN NN |
+1.0 5 NP -> 3 NP | : VP
+0.17 5 VP -> 4 VBD ADVP NP | PP
+1.0 5 NP -> 8 NN NN NN NNP NNP NNP | PRN NNS
+1.0 5 VP -> 5 VBD PP SBAR , | S
+1.0 5 S -> 6 SBAR , S , | S ,
+1.0 5 S -> 9 ADVP , ADVP , | SBAR , NP VP .
+1.0 5 NP -> 4 SBAR | CONJP RB SBAR
+1.0 5 NP -> 2 NNP RB |
+0.25 5 NP -> 2 DT RB |
+1.0 5 VP -> 4 VBD PP ADVP | SBAR
+0.08 5 NP -> 3 NP NP | PP
+0.5 5 NP -> 4 NP JJ NN | PP
+1.0 5 VP -> 8 VP , | VP , VP , CC VP
+1.0 5 VP -> 4 VBD NP SBAR | SBAR
+1.0 5 NP -> 5 NP , NP , | UCP
+1.0 5 NP -> 4 NP PP VP | PP
+1.0 5 S -> 4 SBAR , | VP ,
+1.0 5 NP -> 5 NP PRN | PP , PP
+1.0 5 S -> 7 CC PP , PRN | NP VP .
+1.0 5 VP -> 7 VB , ADVP , NP , | S
+1.0 5 S -> 4 SBAR : | NP VP
+0.5 5 VP -> 2 JJ | S
+1.0 5 VP -> 6 VBG PP , | SBAR , S
+1.0 5 NP -> 6 NP PP PP PP | VP .
+1.0 5 NP -> 4 NP PP | VP PP
+1.0 5 PP -> 3 TO NP , |
+1.0 5 S -> 6 LST SBAR , | NP VP .
+1.0 5 ADJP -> 4 RB JJ PP | PP
+1.0 5 S -> 8 PP , | PRN S , CC S .
+1.0 5 VP -> 3 VBG | `` SBAR
+1.0 5 S -> 11 ADVP , S : | S : S , CC S .
+0.17 5 NP -> 3 VBG JJ NNS |
+1.0 5 NP -> 3 RB RB VBZ |
+1.0 5 VP -> 5 VBP PRT NP , | S
+1.0 5 NP -> 7 `` NP '' PRN , | SBAR ,
+1.0 5 VP -> 3 NP VBD | SBAR
+1.0 5 VP -> 5 VBG NP ADVP , | S
+1.0 5 VP -> 6 VBN ADVP | -LRB- PP -RRB- PP
+1.0 5 VP -> 6 VBZ PP , | PP , PP
+1.0 5 S -> 5 `` S | CC S .
+1.0 5 VP -> 4 VBP ADJP , | PP
+0.5 5 S -> 3 NP VP , |
+0.02 5 NP -> 4 NP JJ NN NN |
+1.0 5 NP -> 3 RB RB | SBAR
+1.0 5 VP -> 6 VBD PRT PP : | `` SQ
+1.0 5 VP -> 4 VBZ PP , | VP
+1.0 5 NP -> 4 NP PP NP SBAR |
+1.0 5 S -> 7 CC PP | PRN NP VP . ''
+0.33 5 NP -> 4 DT NAC NNS NN |
+0.2 5 NP -> 6 DT NNP NNP NNP NNP NN |
+1.0 5 NP -> 8 NP VP | VP , '' VP , SBAR
+1.0 5 VP -> 6 VB ADJP NP PP , | PP
+1.0 5 VP -> 5 VBD S PP , | S
+1.0 5 VP -> 5 VB NP SBAR '' | PP
+1.0 5 S -> 8 PP PRN `` S | CC S . ''
+0.25 5 VP -> 3 VB PP | ADVP
+0.17 5 NP -> 2 PDT DT |
+1.0 5 VP -> 5 VBN ADVP PP , | PP
+1.0 5 VP -> 4 VBD NP PP | VP
+1.0 5 VP -> 4 VBN PRT '' | PP
+0.5 5 VP -> 4 VBN ADVP , | ADVP
+1.0 5 NP -> 4 NP | -LRB- VP -RRB-
+1.0 5 VP -> 5 VBG NP , | SBAR ,
+1.0 5 VP -> 2 TO NP |
+0.14 5 NP -> 3 JJ NNP NNP |
+1.0 5 S -> 10 S , | S , S , S CC S .
+1.0 5 NP -> 6 DT `` ADJP '' NN NN |
+1.0 5 VP -> 4 VBZ | SBAR , S
+0.09 5 NP -> 3 NNS CC NN |
+1.0 5 VP -> 4 VBG S NP | S
+1.0 5 VP -> 4 VP | : SBAR :
+1.0 5 S -> 8 SBAR , NP , ADVP , | VP .
+0.25 5 NP -> 3 PRP$ NNS S |
+0.5 5 S -> 6 PP , | S , CC S
+0.2 5 S -> 4 NP , NP VP |
+1.0 5 VP -> 4 VBZ PP , | S
+1.0 5 S -> 8 S , S , | NP ADVP VP .
+1.0 5 S -> 10 CC , SBAR , S , | CC S . ''
+1.0 5 NP -> 5 NP PP PP PP | SBAR
+0.04 5 PP -> 3 IN NP NP |
+0.5 5 S -> 5 PP , | NP `` VP
+1.0 5 S -> 4 NP PP , | SBAR
+1.0 5 S -> 7 NP , | SBAR , VP . ''
+1.0 5 SINV -> 6 `` S '' | VP NP .
+1.0 5 SINV -> 5 SINV , | CC SINV .
+0.03 5 NP -> 7 NP , NP , | NP CC NP
+0.07 5 NP -> 5 DT NNP NNP NN NN |
+1.0 5 S -> 5 SBAR , | S CC S
+1.0 5 S -> 10 ADVP , S , S , | S CC S .
+1.0 5 VP -> 6 VBZ NP PP PP | : NP
+0.05 5 VP -> 3 VBG NP SBAR |
+1.0 5 S -> 7 ADVP , | ADVP , NP VP .
+1.0 5 VP -> 6 VBD S , | S , PP
+1.0 5 PRN -> 6 -LRB- `` NNP NNP '' -RRB- |
+0.13 5 ADJP -> 3 RB JJ S |
+0.25 5 QP -> 5 IN JJS $ CD CD |
+1.0 5 VP -> 5 VB S , '' | SBAR
+0.5 5 NP -> 6 DT NNP NN CC NN NN |
+1.0 5 VP -> 2 NP NP |
+1.0 5 VP -> 4 NN , '' | SBAR
+1.0 5 S -> 5 NP : S : | VP
+1.0 5 S -> 7 ADVP , S , | CC RB S
+1.0 5 VP -> 5 VB NP SBAR , | PP
+0.5 5 ADVP -> 3 ADVP PP PP |
+1.0 5 S -> 8 : `` S , '' | NP VP .
+1.0 5 NP -> 6 NP PP PP , | SBAR ,
+1.0 5 S -> 6 ADVP , SBAR , NP VP |
+1.0 5 VP -> 7 VBG NP PP PP , | SBAR ,
+1.0 5 NP -> 4 DT RBS JJ NN |
+0.33 5 NP -> 2 RB JJR |
+0.2 5 S -> 6 CC NP , | NP VP .
+1.0 5 VP -> 5 VBD NP PP PP | VP
+1.0 5 VP -> 9 VP : CC VP , | CC VP , PP
+1.0 5 NP -> 2 S PRN |
+0.5 5 VP -> 7 VBD NP NP , PP , | PP
+1.0 5 VP -> 4 VB PRT NP ADVP |
+1.0 5 UCP -> 4 PP , | CC SBAR
+1.0 5 NP -> 4 NNP NNP NNP IN |
+1.0 5 NP -> 6 DT `` ADJP NN SBAR '' |
+1.0 5 S -> 5 NP , PRN | VP .
+1.0 5 UCP -> 4 NP , | CC VP
+0.33 5 NP -> 4 PRP$ NNP NNP NNS |
+1.0 5 VP -> 5 VBD NP | SBAR , PP
+0.2 5 PP -> 2 TO SBAR |
+1.0 5 VP -> 4 VBG | SBAR , SBAR
+1.0 5 VP -> 5 VBD , ADVP : | SBAR
+1.0 5 VP -> 5 VBD NP NP , | SBAR
+0.5 5 VP -> 5 VB NP PP , | ADVP
+0.25 5 ADVP -> 2 RB SBAR |
+1.0 5 VP -> 5 VBN NP S , | S
+1.0 5 S -> 3 S | NP VP
+1.0 5 S -> 8 `` S , '' | NP ADVP VP .
+0.25 5 NP -> 4 PDT DT NN NNS |
+1.0 5 NP -> 4 ADJP , JJ NNS |
+1.0 5 ADVP -> 2 RB | S
+1.0 5 NP -> 4 NP | VP , NP
+1.0 5 NP -> 4 CD JJ NP NNS |
+1.0 5 VP -> 7 VBN PP PP , S , | PP
+0.5 5 PP -> 4 PP , | CONJP PP
+1.0 5 SBAR -> 3 SBAR : | SBAR
+1.0 5 VP -> 4 VBP NP | : PP
+1.0 5 NP -> 4 NN CC NNS NN |
+0.14 5 NP -> 4 DT CD JJ NN |
+0.13 5 VP -> 4 VBG CC VBG NP |
+1.0 5 S -> 7 S , ADVP , | NP VP .
+0.2 5 VP -> 3 VBD ADJP | S
+1.0 5 S -> 7 SBAR , | PRN NP ADVP VP .
+1.0 5 VP -> 5 VBN PRT PP , | SBAR
+1.0 5 S -> 7 S : | CC S , CC S
+1.0 5 NP -> 4 PRP$ JJ NN | S
+1.0 5 NP -> 4 PRP$ VBN NN | S
+1.0 5 NP -> 5 DT VBG , JJ NN |
+1.0 5 NP -> 12 NP PP PP , | VP , ADJP , CC VP , PP
+1.0 5 NP -> 4 CD JJ NN | SBAR
+0.33 5 NP -> 3 S | CC S
+1.0 5 S -> 6 NP , NP , | VP .
+0.02 5 S -> 5 NP , | NP VP .
+1.0 5 VP -> 4 VBZ PP '' | SBAR
+1.0 5 S -> 10 SBAR , S , S , | S , PP .
+0.25 5 NP -> 4 DT JJ NN RB |
+1.0 5 NX -> 2 NP SBAR |
+1.0 5 VP -> 5 VBD PP | SBAR , S
+1.0 5 SBAR -> 3 WHNP S , |
+1.0 5 SINV -> 9 PP , `` S , '' | VP NP .
+1.0 5 VP -> 7 VBN PRT PP | : ADVP , SBAR
+1.0 5 NX -> 3 ADJP NN NNS |
+0.5 5 VP -> 3 ADVP VBG PP |
+0.11 5 VP -> 4 VB NP ADVP PP |
+1.0 5 S -> 7 SBAR , PRN | ADVP NP VP .
+1.0 5 VP -> 4 VBP NP | : S
+1.0 5 NP -> 4 NP | VP : S
+1.0 5 VP -> 5 VBZ NP NP , | S
+0.25 5 NP -> 4 NP JJ JJ NNS |
+1.0 5 VP -> 8 VP , VP , VP , | CC VP
+1.0 5 SINV -> 9 `` S , '' | VP NP , PP .
+1.0 5 NP -> 6 DT JJ NNP NNP | PRN NN
+1.0 5 S -> 5 NP S , | VP .
+1.0 5 VP -> 5 VB NP PP PP | SBAR
+1.0 5 SINV -> 6 VP NP , | `` S .
+0.5 5 VP -> 3 VBG NP PRT |
+1.0 5 S -> 8 `` S , '' | NP VP . ''
+0.06 5 ADJP -> 2 NP JJR |
+1.0 5 NP -> 5 DT CD NN NNS NN |
+0.33 5 NP -> 3 DT NN QP |
+1.0 5 FRAG -> 6 SBAR , | INTJ . VP .
+0.5 5 VP -> 4 VBP NP PP | S
+1.0 5 VP -> 5 VBD PP ADVP , | S
+1.0 5 S -> 6 ADVP SINV , | CC S .
+0.25 5 VP -> 3 NN PRT NP |
+0.5 5 NP -> 4 DT NN CC NNS |
+1.0 5 S -> 6 CC S , '' | CC S
+0.09 5 VP -> 3 VB | ADVP SBAR
+0.5 5 S -> 8 CC ADVP , PP , | NP VP .
+0.04 5 VP -> 4 VBD PP , ADVP |
+1.0 5 VP -> 5 VP , VP , | VP
+0.14 5 VP -> 4 VBD PRT NP PP |
+1.0 5 S -> 7 S : S : | CC S .
+0.14 5 VP -> 2 NNS PP |
+0.5 5 VP -> 6 VBD PP , ADVP , | PP
+1.0 5 S -> 5 LST S : | S .
+1.0 5 VP -> 4 VBZ ADJP , | S
+0.5 5 S -> 6 S : | S : S .
+1.0 5 VP -> 6 `` VB NP '' PP | PP
+1.0 5 VP -> 5 VBZ RB NP PP | SBAR
+0.5 5 PP -> 2 RB NP |
+1.0 5 VP -> 4 VBG : | `` S
+1.0 5 S -> 6 NP , '' | NP VP .
+0.09 5 NP -> 3 DT JJS NNS |
+1.0 5 VP -> 3 VB NP | PRN
+1.0 5 NP -> 4 NP | S , SBAR
+1.0 5 NP -> 8 NP , NP , NP CC NP , |
+1.0 5 NP -> 7 NP , NP , ADJP , | VP
+0.25 5 VP -> 3 VB ADVP | ADVP
+1.0 5 VP -> 5 VBP NP ADVP , | S
+0.5 5 VP -> 4 VBZ RB NP | SBAR
+1.0 5 S -> 8 ADVP , NP , S , | VP .
+0.11 5 VP -> 4 VBD | PP , S
+1.0 5 NP -> 6 CD JJ JJ NN NN NNS |
+1.0 5 S -> 4 CC S | CC S
+1.0 5 VP -> 4 VBD PRT PP ADVP |
+1.0 5 PRN -> 4 : RB ADJP : |
+1.0 5 SBAR -> 5 SBAR , | CC `` SBAR
+1.0 5 S -> 4 NP | SBAR VP .
+1.0 5 S -> 5 S | : CC S :
+0.13 5 S -> 5 S | : CC S .
+0.5 5 NP -> 4 DT `` NN '' |
+1.0 5 NP -> 5 NP : NP , | SBAR
+1.0 5 S -> 6 SBAR , | PP NP ADVP VP
+0.02 5 VP -> 3 VBN ADVP PP |
+1.0 5 NP -> 3 DT QP NX |
+0.08 5 VP -> 4 VBZ NP PP | PP
+1.0 5 ADVP -> 4 IN CC IN PP |
+1.0 5 VP -> 5 VBN NP , | ADVP SBAR
+1.0 5 VP -> 4 VBD S , | SBAR
+1.0 5 S -> 7 S , ADVP , | CC S .
+0.2 5 NP -> 3 NP JJS NNS |
+1.0 5 NP -> 6 DT JJ JJ FW FW NN |
+1.0 5 VP -> 5 VB NP , NP , |
+1.0 5 PRN -> 4 : CC VP | :
+1.0 5 S -> 5 NP | : S : VP
+1.0 5 VP -> 3 VBZ '' | SBAR
+0.03 5 VP -> 4 VBD | NP , S
+1.0 5 NP -> 3 DT NAC JJ |
+1.0 5 NP -> 6 DT JJ NNP CD JJ NN |
+1.0 5 NP -> 4 NP NP PP | SBAR
+1.0 5 VP -> 9 VP : CC VP , CC | VP , PP
+1.0 5 VP -> 3 VBZ CC VBZ |
+0.33 5 NP -> 3 RBR JJ NN |
+1.0 5 VP -> 4 VBZ RB ADVP | S
+1.0 5 NP -> 2 DT RBS |
+1.0 5 VP -> 5 VBN NP SBAR , | PP
+1.0 5 ADJP -> 5 CC RB JJ CC JJ |
+1.0 5 VP -> 5 VB ADVP ADJP , | PP
+1.0 5 VP -> 7 VBD NP PP , | PP , SBAR
+1.0 5 VP -> 4 VBG PRT PP | PP
+1.0 5 VP -> 4 VBZ ADJP ADVP | SBAR
+1.0 5 VP -> 3 VB NP PRN |
+0.07 5 NP -> 4 DT JJ NNS NN |
+1.0 5 NP -> 5 DT CD NN NNP NNP |
+0.05 5 SBAR -> 2 RB | S
+1.0 5 NP -> 5 NP , | RB NP ,
+1.0 5 S -> 6 CC PP S | CC S .
+1.0 5 NP -> 4 RB CD CC CD |
+1.0 5 NP -> 3 NN NN | S
+0.2 5 NP -> 3 QP DT NN |
+1.0 5 NP -> 5 NP | -LRB- NP -RRB- ADJP
+1.0 5 S -> 8 PP , PRN | S , CC S .
+0.2 5 VP -> 3 VBD ADVP ADJP |
+1.0 5 S -> 4 S , | RB SBARQ
+1.0 5 VP -> 5 VBN NP SBAR , | S
+0.06 5 VP -> 3 VBP RB ADJP |
+1.0 5 VP -> 9 VP : CC | VP , CC VP , PP
+1.0 5 S -> 5 SBAR , | NP VP :
+1.0 5 S -> 5 CC SBAR , | NP VP
+1.0 5 VP -> 5 `` VP '' | : VP
+1.0 5 S -> 7 ADVP , PP , | NP `` VP
+1.0 5 S -> 6 S , '' | CC `` S
+0.5 5 ADJP -> 2 JJR | SBAR
+0.03 5 NP -> 2 NP NNP |
+0.09 5 VP -> 3 TO ADVP VP |
+1.0 5 VP -> 3 `` VBZ '' |
+0.5 5 NP -> 4 NP | -LRB- PP -RRB-
+0.08 5 NP -> 5 NP , | NP , NP
+0.2 5 NP -> 4 NP NN NN NNS |
+0.5 5 NP -> 5 DT JJ NNS NN NN |
+1.0 5 PRN -> 5 , '' | VP NP ,
+1.0 5 NP -> 5 PRP$ CC PRP$ JJ NN |
+1.0 5 NP -> 6 NP | PRN : `` S .
+0.08 5 WHNP -> 2 WP$ NNS |
+1.0 5 NP -> 5 NP PP : SBAR : |
+1.0 5 VP -> 4 VBD ADJP PP | SBAR
+1.0 5 VP -> 5 VBN PRT ADVP , | S
+1.0 5 SQ -> 5 SBAR , | WHNP SQ .
+1.0 5 VP -> 5 VBZ PP , | ADVP S
+1.0 5 NP -> 5 NP RRC , | VP ,
+1.0 5 FRAG -> 6 SBAR , INTJ . | VP .
+0.33 5 WHNP -> 2 WDT NNS |
+1.0 5 NP -> 2 S | PRN
+1.0 5 S -> 8 CC , | PP , PP NP VP .
+1.0 5 S -> 6 S | CC S , PP .
+0.04 5 VP -> 3 VBZ ADVP | PP
+0.06 5 S -> 3 NP NP VP |
+1.0 5 NP -> 5 NP , PP , | PP
+1.0 5 NP -> 7 NP | SBAR : `` : ADJP VP
+0.04 5 VP -> 2 VBZ | ADVP
+1.0 5 NP -> 4 NP PP PRN | PP
+0.33 5 S -> 7 NP , | PP , VP . ''
+0.08 5 NP -> 3 NP NP PP |
+1.0 5 S -> 10 SBAR , | S , S , S , PP .
+1.0 5 NP -> 7 NP , ADJP , PP , | VP
+1.0 5 VP -> 5 VBD PP : | `` S
+0.02 5 ADJP -> 2 RB VBN |
+0.11 5 NP -> 3 DT JJ CD |
+0.2 5 VP -> 3 VBG ADVP NP |
+0.25 5 QP -> 2 RB DT |
+1.0 5 VP -> 5 VBP RB ADJP , | SBAR
+1.0 5 NP -> 6 DT `` NN NN '' NN |
+1.0 5 S -> 7 PP , | S PRN CC S .
+1.0 5 QP -> 5 RB JJ | IN CD NNS
+0.01 5 VP -> 4 VBD NP | PP PP
+1.0 5 NP -> 6 NP | : CC PRN NP :
+1.0 5 NP -> 6 NP , NP , | VP ,
+1.0 5 S -> 6 PP , PRN | NP VP .
+0.14 5 VP -> 4 VB NP PP NP |
+1.0 5 S -> 6 FRAG CC S | CC S .
+1.0 5 NP -> 4 NP PP | : SBAR
+0.5 5 NP -> 6 CD NNS POS JJ JJ NN |
+1.0 5 PRN -> 4 : ADVP VP : |
+1.0 5 S -> 13 S : S : S : | S : S , CC S .
+1.0 5 SQ -> 4 VBP NP VP . |
+1.0 5 VP -> 3 VBG PP PRN |
+1.0 5 S -> 6 NP , VP , | VP .
+1.0 5 NP -> 4 NP . | : NP
+1.0 5 NP -> 7 NP | : `` NP , '' SBAR
+1.0 5 VP -> 5 VB PP NP , | PP
+1.0 5 PRN -> 5 , '' | PRN , ``
+0.25 5 VP -> 5 VBN PP PP , | PP
+1.0 5 S -> 8 ADVP , PP , SBAR | NP VP .
+0.04 5 NP -> 2 JJ CD |
+1.0 5 VP -> 3 VBD PRT | SBAR
+1.0 5 NP -> 5 NP CD JJ NN NNS |
+1.0 5 SINV -> 9 `` S , '' | VP NP , ADVP .
+1.0 5 S -> 5 SBAR S | : CC S
+1.0 5 NP -> 5 DT JJ JJ NNP NN |
+0.25 5 NP -> 3 PRP$ CD NN |
+1.0 5 S -> 6 CC S , | IN S .
+1.0 5 S -> 9 ADVP , SBAR , | NP , S VP .
+1.0 5 VP -> 10 VP , VP , VP , | VP , CC VP
+0.5 5 NP -> 4 JJ , ADJP NN |
+0.11 5 NP -> 3 NP '' | PP
+1.0 5 S -> 8 S : S , | S CC S .
+1.0 5 NP -> 5 NP , ADJP , | S
+1.0 5 VP -> 4 S , | MD VP
+1.0 5 VP -> 6 `` ADVP VB '' NP PP |
+0.2 5 NP -> 3 NP ADJP NNS |
+1.0 5 S -> 11 ADVP , S : S : | S , CC S .
+1.0 5 VP -> 5 VBD ADVP SBAR , | SBAR
+1.0 5 NP -> 5 NP | SBAR , PP ,
+1.0 5 VP -> 5 VBD , PP , | PP
+0.01 5 VP -> 3 VBZ RB VP |
+0.06 5 VP -> 3 VB PP NP |
+1.0 5 SINV -> 6 S , | VP NP PP .
+0.14 5 NP -> 8 NP , NP , NP , | CC NP
+0.5 5 VP -> 4 VBG NP PRT SBAR |
+1.0 5 NP -> 4 NP VP : | S
+1.0 5 S -> 9 `` S , CC S , | SBAR , ''
+1.0 5 ADVP -> 2 RP PRN |
+0.14 5 NP -> 4 PRP$ ADJP NN NN |
+1.0 5 PP -> 4 PP , NP , |
+1.0 5 VP -> 2 VBG UCP |
+0.25 5 VP -> 3 NN NP PP |
+1.0 5 S -> 6 PP : | : NP VP .
+1.0 5 NP -> 5 NP PP | PRN , NP
+1.0 5 S -> 8 PP , PRN S , | CC S .
+1.0 5 VP -> 3 VP | : SBAR
+1.0 5 VP -> 5 VBG PP PP , | PP
+1.0 5 VP -> 6 VBN PP , SBAR , | PP
+1.0 5 VP -> 4 VBG ADVP , | S
+1.0 5 S -> 6 S CC S , | PP .
+1.0 5 VP -> 3 ADVP VB | SBAR
+1.0 5 S -> 7 SBAR , | ADVP NP VP . ''
+1.0 5 S -> 8 SBAR , | NP , ADVP , VP .
+1.0 5 VP -> 5 VBP ADVP NP , | SBAR
+1.0 5 VP -> 5 VBN PP , '' | S
+1.0 5 VP -> 6 VBN ADVP -LRB- PP -RRB- | PP
+1.0 5 NP -> 5 DT JJR NNP JJ NN |
+1.0 5 NP -> 3 RB NNS | S
+1.0 5 VP -> 4 VBG , | `` S
+1.0 5 VP -> 7 VBD , ADVP , SBAR , | S
+0.03 5 NP -> 7 NP , | NP , NP CC NP
+1.0 5 VP -> 3 VBN ADVP | PRN
+0.13 5 SBAR -> 3 NP IN S |
+0.33 5 VP -> 3 VB ADVP S |
+1.0 5 NP -> 4 NP | SBAR : SBAR
+1.0 5 S -> 7 S : S , | CC S .
+1.0 5 VP -> 3 VBN PRT | SBAR
+1.0 5 S -> 4 S | `` IN S
+0.11 5 VP -> 3 VBG PP S |
+1.0 5 NP -> 7 NP | -LRB- NP -RRB- -LRB- ADJP -RRB-
+1.0 5 VP -> 4 VBZ SBAR , | S
+1.0 5 NP -> 5 NP PP PP | PP .
+1.0 5 VP -> 4 VBD NP | SBAR SBAR
+1.0 5 PRN -> 6 , '' '' S , | ``
+1.0 5 VP -> 4 VB ADJP | : S
+1.0 5 S -> 8 CC PP , | PRN , NP VP .
+0.01 5 ADJP -> 3 JJ CC JJ |
+1.0 5 S -> 8 ADVP , | SBAR , NP ADVP VP .
+1.0 5 ADJP -> 2 NN | SBAR
+0.13 5 VP -> 4 VP CC VP NP |
+1.0 5 VP -> 5 ADVP VBN PP PP | S
+1.0 5 VP -> 4 VBP ADVP PP | SBAR
+0.5 5 NP -> 6 JJ NN NNS CC NN NNS |
+1.0 5 S -> 5 NP : PP | : VP
+0.1 5 VP -> 4 VBD NP NP | PP
+1.0 5 NP -> 4 DT CD VBG NNS |
+1.0 5 S -> 10 CC , SBAR , | S , CC S . ''
+0.14 5 NP -> 3 NP SBAR PP |
+1.0 5 VP -> 5 VBP NP NP , | SBAR
+0.03 5 ADJP -> 2 JJ SBAR |
+1.0 5 NP -> 4 DT JJ CD CD |
+0.5 5 VP -> 4 VBZ RB NP | PP
+1.0 5 VP -> 6 VB S , | PP , PP
+1.0 5 VP -> 4 NN ADVP PP | S
+1.0 5 VP -> 7 VBD NP , PP PP , | S
+1.0 5 S -> 10 S , S , S , S | CC S .
+0.17 5 ADJP -> 4 ADJP , | CC ADJP
+0.2 5 NP -> 4 NN NNS CC NNS |
+1.0 5 ADVP -> 2 RP | PRN
+1.0 5 UCP -> 4 NP | CC ADVP ADJP
+1.0 5 QP -> 6 IN CC IN # CD CD |
+1.0 5 NP -> 3 NP PRN | PRN
+1.0 5 NP -> 4 `` NP '' | SBAR
+1.0 5 S -> 6 PP PRN | `` NP VP .
+1.0 5 S -> 9 PP `` NP , '' S , | VP .
+0.33 5 S -> 7 CC NP , PP , | VP .
+1.0 5 NP -> 5 NNP NN NN NN NNS |
+1.0 5 NP -> 4 DT JJ NNS | S
+1.0 5 NP -> 5 NP VP , | VP ,
+1.0 5 VP -> 3 VBD ADJP | PRN
+0.25 5 VP -> 3 VBN ADVP SBAR |
+1.0 5 S -> 6 SBAR , | NP NP VP .
+1.0 5 NP -> 5 NP PP | S , VP
+1.0 5 S -> 8 PP , NP , PP , | VP .
+1.0 5 SINV -> 8 `` S , '' VP NP | SBAR .
+1.0 5 VP -> 7 VBG NP PP PP , SBAR , |
+1.0 5 VP -> 3 VBG PP | PRN
+1.0 5 NP -> 5 DT ADJP `` NX '' |
+1.0 5 S -> 10 ADVP , S , | S , S CC S .
+1.0 5 S -> 4 SBAR , | S VP
+0.5 5 VP -> 7 VP , | VP , VP CC VP
+0.01 5 S -> 4 PP , NP VP |
+1.0 5 S -> 5 NP , | PRN VP .
+1.0 5 SBAR -> 3 SBAR | : PRN
+1.0 5 VP -> 5 VBZ RB PP '' | PP
+1.0 5 VP -> 5 VB ADVP PP , | SBAR
+1.0 5 NP -> 4 PRP$ NN NNS NNS |
+1.0 5 VP -> 6 VBD PRT NP PP , | S
+1.0 5 VP -> 5 VBD ADJP NP , | S
+0.5 5 NP -> 4 DT NNP NN S |
+1.0 5 S -> 5 S : S : | S
+1.0 5 PP -> 9 ADVP PP , | ADVP PP , CC ADVP PP
+1.0 5 NP -> 4 DT ADJP ADJP NN |
+0.33 5 VP -> 4 VB ADJP PP | PP
+1.0 5 SINV -> 8 `` S , '' | VP NP : .
+1.0 5 VP -> 4 VBZ PP | : NP
+1.0 5 PRN -> 4 '' S , | ``
+1.0 5 VP -> 7 VBD ADVP ADVP PP PP , | S
+0.5 5 S -> 5 NP , S | VP .
+1.0 5 VP -> 2 VBP | SQ
+1.0 5 S -> 7 `` FRAG , '' | NP VP .
+1.0 5 SBARQ -> 4 WHADVP , | SQ .
+1.0 5 SINV -> 8 S , '' | VP NP , S .
+0.5 5 VP -> 5 VB | CC VB NP S
+1.0 5 VP -> 3 VP | IN VP
+0.06 5 VP -> 4 VBN PP PP PP |
+1.0 5 S -> 9 `` PP , SBAR , | NP VP . ''
+1.0 5 VP -> 6 VB NP PP , | '' S
+1.0 5 S -> 11 S : S : S : S : | CC S .
+1.0 5 VP -> 5 VBZ `` PP PP '' |
+0.08 5 NP -> 4 PRP$ JJ NN NNS |
+1.0 5 NP -> 6 NP | : CC NP : SBAR
+1.0 5 VP -> 6 VBD NP , PP , | SBAR
+1.0 5 S -> 8 `` S , '' '' | NP VP .
+1.0 5 VP -> 5 VB NP ADVP , | PP
+1.0 5 NP -> 4 CD RB ADJP NN |
+1.0 5 NP -> 6 DT JJ `` NN JJ '' |
+1.0 5 NX -> 5 NX , CC NX , |
+0.05 5 VP -> 3 ADVP VBG NP |
+1.0 5 VP -> 4 VB PP PP | S
+1.0 5 S -> 9 `` S CC S , | CC S . ''
+1.0 5 NP -> 9 NP PP ADJP , PP , | VP , PP
+1.0 5 SBAR -> 4 S , | CC S
+0.5 5 S -> 4 S | : NP .
+1.0 5 S -> 5 `` S , | CC SQ
+0.04 5 VP -> 2 VBZ ADVP |
+0.01 5 VP -> 3 VBD | PP PP
+1.0 5 NP -> 5 NP | PRN PP , PP
+1.0 5 S -> 7 `` ADVP S , | S . ''
+1.0 5 S -> 9 PP , | NP , PP , VP . ''
+0.11 5 PRN -> 3 , | PP ,
+0.33 5 NP -> 4 PRP$ JJ NNP NN |
+1.0 5 VP -> 5 VBD PP NP PP | S
+1.0 5 SINV -> 7 `` S , | VP NP PP .
+1.0 5 ADJP -> 6 JJ , RB JJ , SBAR |
+1.0 5 NP -> 4 DT QP NN NNS |
+1.0 5 NP -> 4 DT ADJP PRN | NN
+1.0 5 NP -> 4 NP PP | VP .
+1.0 5 PP -> 5 PP , | PP , PP
+1.0 5 VP -> 4 VBP NP NP | SBAR
+1.0 5 VP -> 5 VBD ADVP S , | ADVP
+1.0 5 VP -> 5 VBD PP : | `` FRAG
+1.0 5 S -> 11 -LRB- PP , PP , S , | CC S . -RRB-
+1.0 5 VP -> 5 VP , | RB VP SBAR
+1.0 5 S -> 8 LST -RRB- S : | CC ADVP S .
+1.0 5 S -> 7 NP ADVP VP , | CC S .
+1.0 5 PRN -> 4 -LRB- CC VP -RRB- |
+1.0 5 VP -> 5 VP , | VP , VP
+1.0 5 S -> 8 S , S | : CC S . ''
+1.0 5 PP -> 4 IN ADVP , | SBAR
+1.0 5 VP -> 3 VBZ | `` FRAG
+0.5 5 NP -> 5 DT NN CC NN NNS |
+1.0 5 VP -> 4 VBP , | `` SBAR
+1.0 5 VP -> 6 VP CC VP , | RB VP
+1.0 5 NP -> 6 NP | PRN , NP , PP
+1.0 5 VP -> 4 VBP | SBAR , ADVP
+1.0 5 VP -> 5 ADVP VBN PP , | SBAR
+1.0 5 VP -> 5 VBD NP PP NP | SBAR
+1.0 5 NP -> 7 `` NP '' PRN , SBAR , |
+0.25 5 VP -> 4 VBN | S , SBAR
+1.0 5 VP -> 4 VBN SBAR , | S
+1.0 5 S -> 6 SBAR , | S , S ,
+1.0 5 NP -> 6 NP , CC NP , | S
+0.33 5 NP -> 5 JJ NN CC NN NNS |
+0.5 5 VP -> 2 VB | PRN
+0.06 5 NP -> 4 `` NP '' PP |
+1.0 5 VP -> 4 VBP ADJP | : PP
+1.0 5 VP -> 6 VBD PRT | `` FRAG '' PRN
+0.07 5 VP -> 4 VB NP NP PP |
+1.0 5 VP -> 5 VBG NP , SBAR , |
+1.0 5 VP -> 4 LST VB NP | S
+1.0 5 VP -> 4 VBN PP NP | VP
+1.0 5 S -> 7 S : | S , CC S .
+1.0 5 UCP -> 5 `` ADJP '' | CC PP
+1.0 5 NP -> 4 CD JJ NN SBAR |
+1.0 5 VP -> 6 VB NP PP , SBAR , |
+1.0 5 VP -> 7 VBD PP PP | PP , '' S
+1.0 5 NP -> 4 NNP CC NNP NN |
+1.0 5 NP -> 4 NP PP | : ADJP
+1.0 5 S -> 7 PP , S | CC S . ''
+1.0 5 S -> 7 NP , S , | VP . ''
+1.0 5 S -> 8 PP PRN S | CC `` S . ''
+1.0 5 NP -> 6 NP ADJP , PP , | VP
+1.0 5 VP -> 5 VBZ NP | S , S
+1.0 5 S -> 11 ADVP , S : S : S , | CC S .
+1.0 5 NP -> 7 NP , NP , | PP , PP
+1.0 5 VP -> 8 VP : | VP : VP : CC VP
+1.0 5 NP -> 5 NP , '' SBAR , |
+0.5 5 VP -> 3 VBZ ADJP NP |
+0.33 5 NP -> 4 PDT DT JJ NNS |
+1.0 5 VP -> 5 VBP ADVP NP , | S
+0.01 5 VP -> 2 VBG SBAR |
+1.0 5 FRAG -> 3 NP : | S
+0.5 5 VP -> 3 VBP NP | VP
+1.0 5 S -> 9 CC ADVP PP , S , | CC S .
+1.0 5 SBARQ -> 5 SBAR , | WHNP S .
+1.0 5 PRN -> 4 : NP | SBAR :
+1.0 5 NP -> 5 NP -LRB- NP | PRN -RRB-
+1.0 5 VP -> 4 VBN NP '' | S
+0.2 5 QP -> 2 CC RB |
+0.14 5 WHNP -> 2 WHNP PP |
+1.0 5 S -> 10 SBAR , S , | S , S , PP .
+1.0 5 VP -> 9 VP : CC VP , CC VP , | PP
+1.0 5 S -> 4 SBAR , VP , |
+1.0 5 S -> 6 PP , S : | S .
+1.0 5 NP -> 3 NP | PRN ``
+1.0 5 S -> 9 ADVP , SBAR , NP , S | VP .
+1.0 5 VP -> 5 VBD NP ADVP PP | SBAR
+1.0 5 S -> 9 `` S , | CC S , SBAR , ''
+0.2 5 S -> 4 -LRB- NP -RRB- | VP
+1.0 5 S -> 6 SBAR , | PRN NP VP .
+1.0 5 NP -> 5 JJ `` NN NNS '' |
+0.5 5 S -> 4 S | : CC S
+0.33 5 NP -> 3 JJ NNS S |
+1.0 5 NP -> 5 NP RRC , VP , |
+1.0 5 VP -> 5 VB NP PP | SBAR SBAR
+1.0 5 VP -> 4 VB | SBAR , SBAR
+0.5 5 VP -> 3 VBZ ADJP | ADVP
+1.0 5 VP -> 4 VBZ `` ADJP '' |
+1.0 5 S -> 5 NP ADVP VP , '' |
+1.0 5 S -> 8 CC NP NP VP , | CC S .
+1.0 5 SQ -> 5 MD NP VP | SBAR .
+1.0 5 NP -> 7 JJ | -LRB- JJ NN -RRB- JJ NN
+1.0 5 NP -> 6 NNS , NN CC NN NNS |
+1.0 5 SINV -> 8 `` S , '' | VP NP SBAR .
+1.0 5 VP -> 3 VBP S | S
+0.5 5 NP -> 5 NP PP , | PP ,
+1.0 5 S -> 10 ADVP , S , S , S | CC S .
+1.0 5 VP -> 4 VBG NP | S SBAR
+1.0 5 ADJP -> 7 ADJP | : ADJP , ADJP , ADJP
+0.5 5 PP -> 4 PP CC ADVP PP |
+1.0 5 NP -> 5 DT JJ PRN | JJ NN
+0.11 5 ADVP -> 2 RB JJ |
+0.25 5 NP -> 3 DT ADJP NNP |
+1.0 5 S -> 6 SBAR , | S , S .
+0.5 5 VP -> 4 VBZ NP PRN | PP
+1.0 5 VP -> 5 VBZ NP PP , | PP
+1.0 5 ADVP -> 4 RB RBR CC RBR |
+1.0 5 UCP -> 6 ADJP , | CC ADVP RB NP
+0.25 5 NP -> 3 NP PP UCP |
+1.0 5 VP -> 5 VBG PRT PP NP | PRN
+1.0 5 NP -> 3 NP | SBAR SBAR
+0.04 5 NP -> 4 NP PP PP | PP
+0.5 5 S -> 4 S : | CC S
+1.0 5 S -> 6 S , | ADVP S . ''
+1.0 5 VP -> 7 VBD ADVP ADVP PP | PP , S
+1.0 5 VP -> 5 VBD RB PP NP | S
+1.0 5 VP -> 6 VBD PP SBAR , | `` S
+1.0 5 VP -> 5 VBZ NP PP | : ADVP
+1.0 5 SINV -> 7 VP NP : | `` S : .
+0.03 5 PP -> 3 IN NP ADVP |
+1.0 5 S -> 7 CC PP , | PRN NP VP .
+0.5 5 VP -> 4 CC VP | CC VP
+1.0 5 VP -> 7 VB NP PP , SBAR , | PP
+1.0 5 VP -> 4 VBD ADVP PP PRN |
+1.0 5 NP -> 5 NP VP , VP , |
+1.0 5 S -> 3 NP VP | PP
+1.0 5 PP -> 2 PP | SBAR
+0.33 5 NP -> 3 DT NN JJ |
+1.0 5 VP -> 4 VBG ADVP | : PP
+1.0 5 S -> 4 S , | IN S
+1.0 5 S -> 11 S : S : S : | S : CC S .
+0.5 5 NP -> 4 NP NN NNP NNP |
+0.33 5 NP -> 5 DT `` JJ '' NN |
+1.0 5 S -> 3 SBAR , | VP
+1.0 5 VP -> 5 VP | CC VP NP S
+1.0 5 VP -> 3 VBG | : PP
+0.5 5 S -> 6 S : S : | S .
+0.1 5 VP -> 3 VBN PRT NP |
+0.33 5 NP -> 6 NP : NP , | CC NP
+0.2 5 NP -> 5 PRP$ NN CC NN NNS |
+1.0 5 VP -> 6 VBD NP , PP , | PP
+1.0 5 VP -> 4 VBG PP '' | S
+1.0 5 S -> 10 S , S , S , | S CC S .
+1.0 5 VP -> 5 MD | `` SBAR , VP
+1.0 5 VP -> 5 VBZ S PP , | S
+1.0 5 VP -> 4 VB SBAR , | SBAR
+0.33 5 VP -> 3 VP , | NP
+0.11 5 VP -> 2 VBZ PRT |
+1.0 5 S -> 6 SBAR , '' | NP VP .
+1.0 5 NP -> 4 JJR JJ NN NN |
+0.25 5 VP -> 5 VBN PP | PP , PP
+1.0 5 NP -> 8 NN NN NN NNP NNP NNP PRN | NNS
+1.0 5 NP -> 5 `` NP , '' | VP
+1.0 5 VP -> 5 VBD UCP , '' | PP
+1.0 5 ADVP -> 3 RB DT NN |
+1.0 5 VP -> 4 VBZ ADJP | `` SBAR
+1.0 5 NP -> 4 DT JJ NN PP |
+1.0 5 S -> 5 S , | CC ADVP S
+1.0 5 NP -> 4 DT NN '' | SBAR
+1.0 5 NP -> 5 SBAR , | CC ADVP NP
+1.0 5 S -> 7 -LRB- S , | NP VP . -RRB-
+1.0 5 VP -> 6 VBP NP NP SBAR : | NP
+1.0 5 VP -> 6 VBG NP PP | : PP :
+1.0 5 VP -> 5 ADVP VB NP PP | PP
+0.5 5 NP -> 5 NP PP , PP , |
+1.0 5 S -> 7 S , | CC S : S .
+1.0 5 NP -> 5 DT ADJP , NNP NNS |
+0.17 5 S -> 5 NP , ADVP , VP |
+0.02 5 NP -> 4 NP PP , PP |
+1.0 5 NP -> 8 NP VP VP , '' VP , | SBAR
+1.0 5 VP -> 7 VBN PP PP , | S , PP
+1.0 5 VP -> 6 ADVP VBD NP NP , | S
+1.0 5 NP -> 6 NP , NP , VP , |
+0.5 5 NP -> 4 NP , NP PRN |
+1.0 5 VP -> 3 VBN , | S
+1.0 5 VP -> 5 VBZ NP | SBAR , S
+0.07 5 VP -> 4 VB NP NP | PP
+1.0 5 NP -> 7 NP : `` NP , '' | SBAR
+1.0 5 NP -> 4 `` NP , | SBAR
+1.0 5 S -> 10 CC `` NP , '' S , '' | VP .
+0.5 5 VP -> 2 VB PRN |
+1.0 5 VP -> 3 VBZ | SBAR PRN
+0.5 5 NP -> 3 CD NNS NNS |
+1.0 5 VP -> 7 VB NP PP , | ADVP , PP
+1.0 5 VP -> 4 VBD `` ADJP '' |
+1.0 5 S -> 4 S : | `` S
+1.0 5 VP -> 6 VBP NP NP | SBAR : NP
+1.0 5 S -> 7 SBAR , | S , CC S .
+1.0 5 VP -> 4 VP | CC , VP
+1.0 5 NP -> 5 PRP$ JJ JJ JJ NN |
+1.0 5 VP -> 4 VBG S PP | S
+1.0 5 SBAR -> 3 SBAR , | SBAR
+1.0 5 S -> 6 SBAR , | S CC S .
+0.14 5 NP -> 8 NP , | NP , NP , CC NP
+1.0 5 ADJP -> 5 `` JJ PP '' | PP
+0.14 5 VP -> 4 ADVP VBG NP PP |
+0.14 5 VP -> 3 VB ADVP VP |
+1.0 5 S -> 9 ADVP , SBAR , | NP ADVP VP . ''
+1.0 5 S -> 7 SBAR , PRN | NP ADVP VP .
+1.0 5 VP -> 4 VB S | : SBAR
+1.0 5 S -> 8 `` S , VP NP , | S .
+1.0 5 VP -> 4 VB ADJP | ADVP SBAR
+1.0 5 VP -> 5 VP CC VP | CC VP
+1.0 5 VP -> 6 VBG NP PP : PP : |
+1.0 5 VP -> 4 VBD PRT NP | S
+1.0 5 VP -> 3 NN PP PP |
+1.0 5 S -> 9 PP , S , | CC S , PP .
+1.0 5 VP -> 7 VBZ ADVP PP , S , | S
+1.0 5 S -> 4 NP VP , ADVP |
+0.17 5 NP -> 3 NP NN SBAR |
+0.2 5 NP -> 4 NP : | SBAR :
+1.0 5 VP -> 6 VBZ PP , PP , | PP
+1.0 5 NP -> 3 NP | PRN NNS
+1.0 5 VP -> 8 VBN CC VBN , CC ADVP VBN , |
+0.17 5 VP -> 2 JJ PP |
+1.0 5 NP -> 5 NNP CC NNP NN NNP |
+1.0 5 S -> 8 `` S , | VP NP , S .
+1.0 5 VP -> 8 VBN CC VBN , | CC ADVP VBN ,
+1.0 5 FRAG -> 4 NP : | S .
+1.0 5 SINV -> 10 `` S , '' | VP NP PP ADVP NP .
+1.0 5 UCP -> 6 NP , | CC PP , ADJP
+1.0 5 VP -> 5 VP , VP , | PP
+1.0 5 S -> 5 ADVP , | S VP .
+1.0 5 QP -> 7 RB RB CD NN TO CD NN |
+0.03 5 S -> 4 S CC | S .
+0.11 5 VP -> 4 VP : CC | VP
+1.0 5 NP -> 4 DT ADJP | PRN NN
+1.0 5 INTJ -> 4 UH . | UH .
+1.0 5 VP -> 4 VBG ADVP NP | S
+1.0 5 NP -> 5 NP -LRB- CC NP -RRB- |
+0.25 5 NX -> 2 NX PRN |
+1.0 5 SINV -> 9 `` S , '' | VP NP , SBAR .
+1.0 5 VP -> 5 VBD NP PP ADVP | S
+1.0 5 VP -> 4 VB ADJP | `` S
+0.5 5 VP -> 4 VBP NP | : SBAR
+1.0 5 FRAG -> 2 NP | S
+1.0 5 S -> 10 CC , | SBAR , S , CC S . ''
+1.0 5 VP -> 6 VBD : | `` S , ''
+1.0 5 VP -> 4 VBD S ADVP | S
+0.33 5 NP -> 5 DT JJ NNP NNP NNS |
+1.0 5 NP -> 5 DT ADJP ADJP NN NN |
+1.0 5 S -> 6 CC | SBAR , NP ADVP VP
+1.0 5 VP -> 3 VB : | SBAR
+1.0 5 S -> 6 SQ . '' | NP VP .
+1.0 5 VP -> 5 VBN PP PP NP | S
+1.0 5 VP -> 7 VBD PP PP PP , '' | S
+1.0 5 VP -> 5 VB PRT NP NP PP |
+1.0 5 NX -> 4 NX : NP : |
+1.0 5 VP -> 6 VP | CC VP , CC VP
+0.2 5 SBAR -> 2 IN SINV |
+0.5 5 NP -> 4 JJ NNS CC VBZ |
+1.0 5 VP -> 5 VBD PRT NP , | PP
+1.0 5 VP -> 4 VBN SBAR , | SBAR
+1.0 5 VP -> 4 VBN ADVP , | SBAR
+0.5 5 NP -> 3 NP : | SBAR
+1.0 5 VP -> 5 VB NP PP NP | SBAR
+1.0 5 VP -> 4 ADVP VBN , | PP
+1.0 5 S -> 5 S , | CC `` S
+0.5 5 S -> 8 CC ADVP , | PP , NP VP .
+0.13 5 NP -> 5 DT NNP NN NN NN |
+1.0 5 VP -> 5 VBN NP PP , | SBAR
+1.0 5 UCP -> 4 ADJP | CC `` VP
+1.0 5 NP -> 8 NP VP VP , '' | VP , SBAR
+1.0 5 S -> 7 SBAR , | PRN ADVP NP VP .
+0.17 5 VP -> 4 VBG NP PP S |
+1.0 5 S -> 5 S : | `` S .
+1.0 5 UCP -> 6 NP , CC PP , | ADJP
+1.0 5 VP -> 5 VB PRT PP ADVP | PP
+1.0 5 VP -> 3 VBD ADVP | PRN
+1.0 5 NP -> 5 DT JJ JJ NN | SBAR
+1.0 5 SINV -> 4 ADJP VP NP | PP
+0.5 5 NP -> 2 VB CD |
+0.14 5 NP -> 3 NP ADVP | PP
+1.0 5 VP -> 5 VB NP PP SBAR | SBAR
+1.0 5 SINV -> 9 `` FRAG , '' | VP NP , S .
+1.0 5 NP -> 3 PRP$ NN RB |
+1.0 5 S -> 8 S : S , S | CC S .
+1.0 5 NP -> 5 NP : RB NP : |
+1.0 5 VP -> 4 VB ADJP , | SBAR
+1.0 5 S -> 5 S | CC S SBAR .
+1.0 5 VP -> 6 VBN ADVP PP S , | PP
+1.0 5 S -> 9 `` S , CC S , SBAR , '' |
+1.0 5 NP -> 4 NP JJ NNS | S
+0.5 5 VP -> 6 VBD NP , ADVP , | PP
+0.5 5 NP -> 3 NP NN | PP
+1.0 5 NP -> 6 DT `` NNP NN '' NN |
+1.0 5 VP -> 4 VBN PRT PP | SBAR
+1.0 5 VP -> 6 VBD , ADVP : | `` S
+1.0 5 S -> 8 `` S , '' CC S , | SBAR
+1.0 5 NP -> 4 NNP RB VBN NNS |
+1.0 5 NP -> 3 NN NNS | S
+0.25 5 NP -> 6 DT NNP NNP NNP NN NN |
+1.0 5 VP -> 5 VBN NP | SBAR , PP
+1.0 5 NP -> 4 DT JJ NNS : |
+1.0 5 VP -> 5 ADVP VBD CC VBD PP |
+1.0 5 VP -> 5 ADVP VBN PRT PP | PP
+1.0 5 VP -> 4 VBD ADJP NP | SBAR
+1.0 5 NP -> 4 DT NNS NN NNS |
+1.0 5 SINV -> 4 S , | VP NP
+1.0 5 VP -> 9 VP : | CC VP , CC VP , PP
+0.2 5 ADJP -> 2 CD JJ |
+1.0 5 VP -> 4 VBG SBAR '' | PP
+1.0 5 S -> 5 S , | `` CC S
+1.0 5 VP -> 4 VBZ NP ADVP | SBAR
+1.0 5 VP -> 4 VBZ PP , | PP
+1.0 5 VP -> 4 VB '' NP | PP
+0.25 5 VP -> 3 VBP PP PP |
+1.0 5 VP -> 4 VBD , | `` SQ
+1.0 5 NP -> 7 NNP NNP NNP NNP CC NNP NNP |
+1.0 5 SQ -> 5 VBP NP ADVP VP . |
+0.5 5 NP -> 6 NP , `` NP , '' |
+1.0 5 S -> 6 ADVP S , | CC S .
+0.01 5 PP -> 2 VBN PP |
+1.0 5 PRN -> 4 '' | S , ``
+1.0 5 VP -> 4 VBZ , | `` FRAG
+0.5 5 NP -> 4 NP CD NN NN |
+1.0 5 UCP -> 5 S , | CC SINV .
+0.11 5 VP -> 3 VBP PRT NP |
+1.0 5 S -> 6 ADVP PRN , | NP VP .
+1.0 5 VP -> 5 VBD NP S , | SBAR
+1.0 5 S -> 6 SBAR , S , | S .
+0.5 5 NP -> 6 `` NP , '' NP , |
+1.0 5 VP -> 5 VBN NP PP : | S
+1.0 5 NP -> 4 NAC NNP NNP NNP |
+1.0 5 VP -> 5 VBZ NP SBAR , | SBAR
+1.0 5 VP -> 4 VP '' | CC VP
+1.0 5 VP -> 4 DT VP | CC VP
+1.0 5 NP -> 5 CD JJ NNP JJ NNS |
+1.0 5 S -> 8 CC SBAR , '' | NP VP . ''
+1.0 5 VP -> 6 VB NP PP , | SBAR ,
+0.5 5 NP -> 6 NN , NN CC NN NNS |
+0.25 5 NP -> 4 NP JJS NN NNS |
+1.0 5 NP -> 8 DT NN , NN CC NN | PRN NN
+1.0 5 VP -> 7 VBZ ADVP PP , | S , S
+1.0 5 S -> 8 CC PP , S , | CC S .
+0.07 5 VP -> 3 VBP ADVP | PP
+1.0 5 S -> 7 CC NP , | S , VP .
+1.0 5 VP -> 5 VBD NP ADVP , | S
+1.0 5 VP -> 4 VB S '' | SBAR
+1.0 5 SINV -> 8 `` S . '' | VP NP . ''
+1.0 5 VP -> 6 VBP , CONJP VB , | NP
+0.5 5 PRN -> 4 -LRB- CC NP -RRB- |
+0.08 5 NP -> 3 JJR JJ NNS |
+1.0 5 ADJP -> 5 `` JJ '' RB | S
+1.0 5 VP -> 6 VBN ADJP PP , '' | PP
+0.17 5 VP -> 5 VBD NP | PP , SBAR
+1.0 5 NP -> 6 `` DT JJ NN '' | S
+1.0 5 S -> 10 SBAR , S , S , S , | PP .
+1.0 5 NP -> 6 NP VP , | PP , NP
+1.0 5 SINV -> 6 ADVP ADVP VP NP | S .
+1.0 5 NP -> 4 NP , '' | VP
+1.0 5 PRN -> 5 -LRB- S , PP -RRB- |
+1.0 5 ADJP -> 3 JJ PRN | SBAR
+1.0 5 VP -> 4 VBG NP S | SBAR
+1.0 5 NP -> 6 DT JJ NNP NNP PRN | NN
+1.0 5 VP -> 4 VBZ NP PP | S
+1.0 5 VP -> 6 VBD PP , ADVP , | SBAR
+1.0 5 NP -> 6 NP PRN : | `` S .
+1.0 5 S -> 6 NP | : S : VP .
+0.17 5 ADJP -> 4 `` JJ '' PP |
+1.0 5 NP -> 4 NP S , | SBAR
+1.0 5 S -> 5 S : | S : .
+1.0 5 VP -> 4 VBD `` NP '' |
+1.0 5 ADJP -> 4 RB JJ S | SBAR
+1.0 5 SINV -> 9 `` S , '' VP NP , | SBAR .
+1.0 5 VP -> 4 VB PP NP | SBAR
+1.0 5 VP -> 4 VBD ADVP NP | S
+1.0 5 NP -> 3 NN NNS | SBAR
+0.14 5 NP -> 3 NN JJ NNS |
+1.0 5 VP -> 5 VBD PP , | PP PP
+1.0 5 S -> 8 PP , `` S , | CC S ''
+1.0 5 VP -> 4 VBD | SBAR , NP
+1.0 5 SINV -> 6 VP NP : | S . ''
+1.0 5 S -> 4 NP VP : | SBARQ
+1.0 5 NP -> 5 NP , NP | : NP
+1.0 5 FRAG -> 7 CC ADVP , | SBAR , PP .
+1.0 5 VP -> 3 VBZ S | S
+0.08 5 NP -> 3 PRP$ NN S |
+0.5 5 VP -> 4 VBZ NP | PRN PP
+1.0 5 VP -> 5 ADVP VBZ NP PP | PP
+1.0 5 S -> 5 S : | S : S
+1.0 5 VP -> 7 VBG , UCP , | PP , NP
+0.08 5 ADJP -> 2 ADVP JJ |
+1.0 5 PRN -> 5 , '' VP NP , |
+1.0 5 QP -> 3 $ CD NNS |
+0.5 5 NP -> 3 DT JJ NNPS |
+1.0 5 VP -> 6 `` ADVP VB INTJ '' | SBAR
+1.0 5 S -> 6 SBAR , PRN | NP VP .
+1.0 5 SINV -> 8 `` S , '' | VP NP . ''
+1.0 5 NP -> 4 NNP JJ JJ NNS |
+1.0 5 NP -> 7 NP , '' | PRN , `` NP
+0.33 5 NP -> 5 DT JJ CD JJ NNS |
+0.07 5 VP -> 4 VB NP | PP SBAR
+1.0 5 VP -> 3 VBP RB S |
+0.01 5 VP -> 3 VB NP SBAR |
+0.06 5 ADVP -> 2 RBR RB |
+1.0 5 NP -> 5 NP `` S '' | PRN
+1.0 5 VP -> 6 VBZ RB ADVP ADJP SBAR | SBAR
+1.0 5 NP -> 5 DT JJ | PRN JJ NN
+1.0 5 VP -> 4 VBG NP NP | S
+1.0 5 NP -> 4 NP , NP | VP
+1.0 5 NP -> 5 `` JJ NNS '' | S
+1.0 5 VP -> 4 VBD S | : SBAR
+1.0 5 VP -> 7 VBD NP PP PP PP , | S
+0.33 5 VP -> 4 VBZ CC VBZ NP |
+1.0 5 NP -> 5 NP PP PP | VP .
+1.0 5 VP -> 5 VBN NP PP , | VP
+1.0 5 VP -> 4 VB ADJP , | S
+1.0 5 S -> 7 ADVP , S , CC RB | S
+1.0 5 VP -> 4 VBD ADVP PP | S
+1.0 5 NP -> 5 NP PP S , | VP
+1.0 5 S -> 5 PRN | PP , NP VP
+1.0 5 VP -> 4 VBD NP | `` S
+1.0 5 NP -> 5 NP -LRB- NP -RRB- | ADJP
+1.0 5 VP -> 6 VBN PP , | SBAR , PP
+1.0 5 VP -> 4 VB NP NP | S
+1.0 5 SINV -> 9 `` FRAG , '' VP NP , | S .
+1.0 5 VP -> 5 VBD NP S , | PP
+1.0 5 NP -> 3 NP | VP S
+1.0 5 VP -> 6 VP , ADVP , | CC VP
+1.0 5 NP -> 4 NP PP NP | SBAR
+1.0 5 NP -> 3 QP CD NNS |
+1.0 5 VP -> 5 VB NP | SBAR , PP
+1.0 5 S -> 6 ADVP S , CC | S .
+0.17 5 NP -> 3 $ CD QP |
+0.5 5 VP -> 3 VB , | PP
+0.5 5 NP -> 5 DT ADJP JJ NN NNS |
+0.33 5 VP -> 4 VBD PRT PP | PP
+1.0 5 S -> 6 FRAG | CC S CC S .
+1.0 5 NP -> 4 NP PP | SBAR :
+1.0 5 VP -> 6 VBN ADVP ADVP PP , | SBAR
+1.0 5 NP -> 4 NP RB POS NN |
+0.33 5 VP -> 5 VP | CC VP , PP
+1.0 5 S -> 6 ADVP , SBAR , | NP VP
+0.25 5 NP -> 3 NP , | UCP
+1.0 5 VP -> 6 VBD , | `` S . ''
+1.0 5 VP -> 9 VP CC VP | CC VP , PP , PP
+1.0 5 VP -> 5 VB NP | SBAR '' PP
+1.0 5 SINV -> 6 S VP NP , | S .
+1.0 5 NP -> 6 `` NP , '' | SBAR ,
+1.0 5 NP -> 3 NP SBAR | SBAR
+0.5 5 NP -> 6 DT `` JJ NN NN '' |
+0.1 5 VP -> 3 VBZ PP | PP
+1.0 5 NP -> 5 DT JJ ADJP NN | S
+1.0 5 NP -> 4 NNP NN VBN NNS |
+1.0 5 NX -> 7 `` NX '' CC `` NX '' |
+0.03 5 PP -> 2 IN ADVP |
+1.0 5 VP -> 4 VBP | SBAR PRN S
+1.0 5 NP -> 3 NP PRN | NNS
+1.0 5 VP -> 5 VBD ADVP PP , | SBAR
+1.0 5 NP -> 3 NP | VP ,
+1.0 5 VP -> 5 VBD S NP , | S
+1.0 5 NX -> 2 NX | SBAR
+1.0 5 NP -> 4 DT NN NN | SBAR
+1.0 5 NX -> 3 JJ JJ NNS |
+0.02 5 NP -> 3 NP NNP NNP |
+1.0 5 VP -> 6 ADVP VBN PP PP , | PP
+1.0 5 VP -> 5 VBG ADVP | S , PP
+1.0 5 SINV -> 6 `` SBARQ '' | VP NP .
+1.0 5 VP -> 5 VP '' | CC `` VP
+0.33 5 NP -> 4 DT ADJP NN NNS |
+1.0 5 PRN -> 7 : S , `` PP '' : |
+1.0 5 S -> 3 S NP VP |
+0.2 5 ADVP -> 3 RB RBR RB |
+1.0 5 NP -> 6 NP , NP , PP , |
+1.0 5 NP -> 11 NP , NP , NP , NP , CC NP , |
+1.0 5 VP -> 6 VBD NP , PP , | S
+1.0 5 VP -> 4 VBG NP PP | PRN
+1.0 5 S -> 6 SBAR , S , S , |
+1.0 5 NP -> 3 ADVP JJ NNS |
+0.33 5 NP -> 5 NP , | NP , VP
+1.0 5 VP -> 4 ADVP VBN , | SBAR
+1.0 5 S -> 6 NP , | VP , VP .
+1.0 5 VP -> 6 VP | CC VP , RB VP
+1.0 5 VP -> 4 VP : SBAR : |
+0.25 5 NP -> 5 PRP$ NNP NNP NNP NN |
+1.0 5 NP -> 4 ADJP NN PRN NNS |
+1.0 5 SBAR -> 5 SBAR , | CC ADVP SBAR
+1.0 5 VP -> 6 VBD NP PP PP PP | S
+0.5 5 NP -> 6 CC DT NNP CC NNP NNS |
+1.0 5 VP -> 3 VBN ADVP ADJP |
+0.33 5 VP -> 4 VBP NP PP | PP
+1.0 5 VP -> 5 VBD PP PP , | S
+1.0 5 NP -> 4 NP PRN | TO NP
+0.02 5 VP -> 3 VBP ADVP VP |
+1.0 5 VP -> 4 VBG NP ADVP | PRN
+1.0 5 VP -> 4 VBP `` NP '' |
+1.0 5 VP -> 4 VB NP ADVP | SBAR
+1.0 5 VP -> 5 VBZ PP PP , | PP
+1.0 5 VP -> 2 POS ADJP |
+1.0 5 SQ -> 2 VP . |
+1.0 5 S -> 6 SBAR , | NP ADVP VP :
+0.11 5 VP -> 2 VBD PRT |
+1.0 5 S -> 6 PP , | PRN NP VP .
+0.08 5 NP -> 2 JJ NNPS |
+1.0 5 SBAR -> 3 WHADVP , | S
+1.0 5 NP -> 14 NP , NP , NP , NP , NP , NP CC NP , |
+1.0 5 VP -> 5 VBD NP : | `` S
+1.0 5 NP -> 7 NP -LRB- NP -RRB- | -LRB- ADJP -RRB-
+1.0 5 ADVP -> 3 RB , | PP
+1.0 5 S -> 8 ADVP , NP , | S , VP .
+1.0 5 S -> 8 CC NP , S , | VP . ''
+1.0 5 ADJP -> 2 QP JJ |
+1.0 5 NP -> 9 NP PP ADJP , PP , VP , | PP

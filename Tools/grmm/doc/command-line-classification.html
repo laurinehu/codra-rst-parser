@@ -1,0 +1,1090 @@
+<HTML>
+<BODY>
+<TITLE>MALLET Classification from the Command Line</TITLE>
+
+<h1>MALLET Classification from the Command Line (DRAFT)</h1>
+
+<i>MALLET</i> is a library of  Java code useful for
+statistical natural language processing, document classification, clustering, information extraction, and other machine learning applications to text.
+In addition to supporting classification tasks through the MALLET library,
+classification tasks are also supported using command line programs, described here.
+
+<p>For more information about obtaining the source and citing its use, see the <a
+href="http://mallet.cs.umass.edu/">MALLET home page</a>.
+
+<p>This documentation is intended as a brief tutorial for using
+the command line classification facilities in 
+Mallet. These facilities are available in MALLET version 0.3 or later,
+and in CVS versions after March 1, 2004.
+
+<p>The examples on this page assume that you have compiled mallet and
+and that <tt>mallet-install-directory>/mallet/bin</tt> is on your path. 
+Several of the examples
+also assume that you have downloaded the <a
+href="http://www.cs.cmu.edu/afs/cs/project/theo-11/www/naive-bayes/20_newsgroups.tar.gz">20_newsgroups</a>
+data set, unpacked it in your home directory, and therefore that its
+files are available in the directory <tt>~/20_newsgroups</tt>.
+
+<h3>1. Introduction</h3>
+
+A typical usage of MALLET for classification involves two steps: <br>
+1)  Read documents or other objects to be classified into MALLET,
+and convert these to a list of instances, where each instance
+is a feature vector.<br>
+<!--#2) Optionally process the instance list to do splits, feature selection, etc.<br> -->
+2) Classify the feature vectors.
+
+MALLET can also compute diagnostic information from an instance list,
+such as information gain, or printing the label associated with each 
+instance.
+
+<p>You can obtain on-line documentation of each MALLET command-line
+program by specifying the <tt> --help </tt> option.
+ The <tt>--help</tt> option is useful checking the latest details of
+particular options, but does not provide a tutorial or an overview of
+MALLET's use.
+
+<!--
+<p>Command-line options in rainbow and all the <i>Bow</i> library
+frontends are handled by the <tt>libargp</tt> library from the FSF.
+Many command-line options have both long and short forms.  For
+example, to set the verbosity level to 4 (to make rainbow give more
+runtime diagnostic messages than usual), you can type
+"<tt>--verbosity=4</tt>", or "<tt>--verbosity 4</tt>", or "<tt>-v
+4</tt>".  For more detail about the verbosity option, see section 5.1.
+-->
+
+<h3>2. Reading documents, building a list of feature vectors</h3>
+
+<p> Before performing classification or diagnostics with MALLET,
+you must first convert your data into a list of feature vectors. 
+Data may be in a single list that is split at classification 
+time into training and testing portions, or the user may manually
+create two lists.
+
+<p>In the most basic setting, the text data should be in plain text
+files, one file per document.  No special tags are needed at the
+beginning or end of documents.  Thus, for example, you should be able
+to index a directory of UseNet articles or MH mailboxes without any
+preprocessing. 
+
+<p>The files should be organized in directories, such that all documents
+with the same class label are contained within a directory.  (MALLET
+does not directly support classification tasks in which individual
+documents have multiple class labels.  We recommend handling this as a
+series of binary classification tasks.)
+
+<p>To build a list of feature vectors from documents,
+use the text2vectors command.  The <tt>--input</tt> option
+specifies a list of directory names, one directory per class.
+The <tt>--output</tt> option specifies the name of the file
+to put the feature vectors into.  The command generates
+one feature vector per document, where each word is a dimension
+in the vector and the value of the vector at each position is
+the count of that word in the document.
+For example, to build a model that distinguishes among the three
+<tt>talk.politics</tt> classes of <i>20_newsgroups</i>, (and store
+the feature vectors in the file <tt>news.vectors</tt>), invoke 
+<tt>text2vectors</tt> like this:
+
+<pre>
+   text2vectors --input ~/20_newsgroups/talk.politics.* 
+       --skip-header --output news2.vectors
+
+</pre>
+
+where <tt>~/20_newsgroups/talk.politics.*</tt> would be expanded by
+the shell like this:
+
+<pre>
+   ~/20_newsgroups/talk.politics.guns ~/20_newsgroups/talk.politics.mideast
+          ~/20_newsgroups/talk.politics.misc
+</pre>
+and <tt>--skip-header</tt> specifies that only text occurring after
+two blank lines will be accepted from each document.
+
+<p>To build a list containing feature vectors from all 20 newsgroups, type:
+
+<pre>
+   text2vectors --input ~/20_newsgroups/* 
+        --skip-header --output news2.vectors
+</pre>
+
+The label for each instance is derived from the file path of this instance by removing
+the common prefix of all instances.
+
+<h4>2.1. Document Tokenizing Options</h4>
+
+<p>When indexing a file, <tt>text2vectors</tt> turns the file's
+stream of characters into tokens by a process called tokenization.
+
+<p>By default, <tt>text2vectors</tt> tokenizes all alphabetic sequences of
+characters (that is characters in A-Z and a-z), changing each sequence
+to lowercase and tossing out any token which is on the "stoplist", a
+list of common words such as "the", "of", "is", etc.
+
+<p>
+<tt>text2vectors</tt> supports several options for tokenizing text.
+For example, the previously introduced 
+ <tt>--skip-headers</tt> option causes MALLET to
+skip newsgroup or email headers before beginning tokenization. We
+used it for the <i>20_newsgroups</i> dataset, since the headers
+include the name of the correct newsgroup! 
+
+<p> The classification tool (see section <tt>3.1</tt>) normally takes a single set of vectors
+and splits them into training and testing sets at classification time.
+The user may wish to produce training and testing sets into separate files,
+perhaps because they come from different sources or the user wishes
+to resuse the sets. Because the training and testing vectors used
+at classification time must use a common processing pipe and dictionaries,
+producing separate testing and training files requires that the same
+pipe and dictionaries must be in both files.  This is accomplished by
+specifying the "use-pipe-from" parameter on the second file to be produced.
+For example,
+<pre>
+   text2vectors --input ~/20_newsgroups/talk* --skip-header --output train.vectors
+</pre>
+produces a set of vectors from the USENET talk hierarchy.
+Following this with 
+<pre>
+   text2vectors --use-pipe-from train.vectors --input ~/20_newsgroups/alt* --skip-header --output test.vectors
+</pre>
+produces a set of test vectors with the same processing pipe and dictionaries
+as the training vectors, and thus may be used in the same classification task.
+Not that the <tt>-use-pipe-from</tt> option rewrites the specified file with
+the state of the dictionary after the text has been processed into vectors,
+so that both the <tt>-use-pipe-from</tt> vectors and the newly created vectors
+both have exactly the same dictionary.
+
+<p>Some other examples of handy tokenizing options are:
+
+<p><table border=1>
+
+<tr><td> <tt>--preserve-case</tt></td> </td>
+<td> Do not force all strings to lowercase.
+  (The default is to  force lowercase.)
+</td></tr>
+
+<tr><td> <tt>--remove-stopwords</tt></td>
+<td> Do not include stopwords in the feature vectors.
+The default is to include them.  The stoplist is the SMART
+system's list of 524 common words, like "the" and "of".
+IS THIS TRUE?
+</td></tr>
+
+<tr><td> <tt>--skip-html</tt> </td>
+<td>Skip all characters between "<" and ">".  Useful for tokenizing HTML
+files. The default is to include text between "<" and ">".
+</td></tr>
+
+<tr><td> <tt>--gram-sizes n1,n2,n3..</tt> </td>
+<td>Include among features all n-grams of the sizes n1,n2,n3.. specified.
+The default is not to generate additional n-gram features.
+</td></tr>
+
+<tr><td> <tt>--string-pipe "Pipe constructor"</tt>  </td>
+<td> Specify the construction of a MALLET pipe that will be
+run immediately after the input has become a CharSequence
+and before the input is tokenized.
+<!--INSERT EXAMPLE HERE-->
+</td></tr>
+
+<tr><td> <tt>--token-pipe "Pipe constructor"</tt>  </td>
+<td> Specify the construction of a MALLET pipe that will be
+run immediately after the input has become a Token but before
+case-folding, stopword removal, or n-gram feature expansion has occurred.
+<!--INSERT EXAMPLE HERE-->
+</td></tr>
+
+<tr><td> <tt>--fv-pipe "Pipe constructor"</tt>  </td>
+<td> Specify the construction of a MALLET pipe that will be
+run immediately after features have been created from tokens.
+This is currently the last step in processing.
+<!--INSERT EXAMPLE HERE-->
+
+</td></tr>
+
+</table>
+
+<p>For a complete list of <tt>text2vectors</tt> tokenizing options, 
+see the output of <tt>text2vectors --help</tt>.
+
+<h4>2.2. Specifying Feature Vectors directly</h4>
+In addition to generating feature vectors from documents, MALLET
+users can specify feature vectors directly in a text form.
+This text form is then converted into an internal  of
+feature vectors and written to a file with the <tt>csv2vectors</tt>
+command.
+
+<p>For example, the command
+ <pre>
+    csv2vectors --input datafile --output data.vectors
+ </pre>
+will read a file containing "comma-separated-values-style" feature
+vectors  and save it as a MALLET InstanceList of feature vectors.
+The input datafile is assumed to contain one instance per line, where
+each line has the following format:
+ <pre>
+    instance_id_name class_label datafeature1 datafeature2 datafeature3 ...
+ </pre>
+The items on each line may be delimited with whitespace or commas
+and may not contain whitespace characters or commas themselves.
+
+<p>Data in other formats can also be accomodated by <tt>csv2vectors</tt>.
+The data on each line is split into fields using the following
+regular expression:  <tt>^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$ </tt>.
+Data that matches the first parenthesized group on the line is taken
+as the name, data from the second as the label, and the remainder of
+the line as the datafeatures.  Group numbers are start at 0;
+the group number for the name in this expression is 0, for the label is 1,
+ and for the data is 2.
+
+Users may specify their own reqular expression to split each line
+into fields with the <tt> --lineRegex </tt> option, and to specify
+the group numbers that will be taken as the name, label, and datafeatures
+with the <tt>--name n</tt>, <tt>--label n</tt>, <tt>--data n</tt> options,
+respectively.
+<!-- INSERT EXAMPLE HERE -->
+
+
+
+<h3>3. Classification</h3>
+
+<p>Once a list of feature vectors has been created MALLET can
+can perform classification. 
+In a typical usage, we  split the feature vectors
+in to a <i>training</i> set and a <i>test</i> set.
+A classifier will collect statistics from the training set 
+and derive internal parameters from those statistics.
+The classifier will then apply those parameters to classifying the
+validation set and output the classifications.
+
+<p>The <tt>--num trials</tt> option performs a specified
+number of trials and prints the classifications of the documents in
+each trial's test-set to standard output.  For example,
+
+<pre>
+   vectors2classify --input data.vectors --training-portion 0.6 --num-trials 3
+</pre>
+
+will output the results of three trials, each with a randomized
+train-test split in which 60 percent of the documents are used for
+training, and 40 percent for testing.  Details of the
+<tt>--training-portion</tt> option are described in section 3.1.
+
+<p> The normal output of vectors2classify include accuracies, standard deviation and 
+standard error for the training and test data, and a confusion matrix.
+
+<p>For example, the command
+
+<pre>
+ vectors2classify --input news2.vectors --trainer NaiveBayes --training-portion 0.6 --num-trials 2
+</pre>
+
+will, for an instance list built from the three <tt>talk.politics</tt> classes,
+print something like the following:
+
+<p>
+<dd><table border=1>
+<tr><td>
+<pre>
+-------------------- Trial 0  --------------------
+ 
+Trial 0 Training NaiveBayesTrainer with 1800 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer training data accuracy= 0.9533333333333334
+Trial 0 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.8941666666666667
+      label   0   1   2  |total
+  0    guns 382   .  18  |400
+  1 mideast  12 365  30  |407
+  2    misc  47  20 326  |393
+ 
+Trial 0 Trainer NaiveBayesTrainer test data accuracy= 0.8941666666666667
+ 
+-------------------- Trial 1  --------------------
+ 
+Trial 1 Training NaiveBayesTrainer with 1800 instances
+Trial 1 Training NaiveBayesTrainer finished
+Trial 1 Trainer NaiveBayesTrainer training data accuracy= 0.9505555555555556
+Trial 1 Trainer NaiveBayesTrainer Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.9025
+      label   0   1   2  |total
+  0    guns 372   .  17  |389
+  1 mideast   5 376  19  |400
+  2    misc  58  18 335  |411
+ 
+Trial 1 Trainer NaiveBayesTrainer test data accuracy= 0.9025
+ 
+NaiveBayesTrainer
+Summary. train accuracy mean = 0.9519444444444445 stddev = 0.001388888888888884 stderr = 9.82092751647979E-4
+Summary. test accuracy mean = 0.8983333333333333 stddev = 0.004166666666666652
+stderr = 0.002946278254943937
+</pre>
+</tr></td>
+</table></dd>
+<p>
+The selection of training statistics can be specified with the <tt> --report </tt> option.
+The default report is <tt> --report train:confusion train:accuracy test:accuracy</tt>, which prints
+out a confusion matrix and accuracy for each training trial and the mean, standard deviation,
+and standard error of the accuracy over all trials.
+
+<p>
+The general form of a report option is a dataset:statistic pair, where the dataset is the
+list of instances to be reported and is one of <tt> train</tt>, <tt>validation</tt> or
+ <tt>test</tt>, and the statistic is the information desired about the instance list and is
+one of <tt>confusion</tt>, <tt>accuracy</tt>, <tt>f1</tt>, or <tt>raw</tt>.
+On each trial, the input instance list is partioned into a training, testing and validation
+set.  For each of these sets, any combination of statistics can be output.  
+The <tt>f1</tt> statistic is reported against a label, with is specified following
+an "=" as follows:
+<pre>
+ vectors2classify --input news2.vectors --trainer NaiveBayes --training-portion 0.6 --report train:f1=mideast
+</pre>
+will generate a line like the following in the output
+<pre>
+Trial 0 Trainer NaiveBayesTrainer test data F1(mideast) = 0.9626373626373625
+</pre>
+
+<p>
+<p>Raw classification results, selected with the <tt>raw</tt> statistic, are printed as a series of text lines that look
+something like this:
+<pre>
+   /home/mccallum/20_newsgroups/talk.politics.misc/178939 misc misc:0.98 mideast:0.015 guns:0.005
+</pre>
+
+<p>That is, one test file per line, consisting of the following fields:
+<pre>
+   directory/filename TrueClass TopPredictedClass:score1 2ndPredictedClass:score2 ...
+</pre>
+
+<p>
+We have already seen that the (default) output from
+<pre>
+ vectors2classify --input news2.vectors --trainer NaiveBayes --training-portion 0.6 --num-trials 2
+</pre>
+
+is the same as:
+<pre>
+ vectors2classify --input news2.vectors --trainer NaiveBayes --training-portion 0.6 --num-trials 2 
+     --report train:confusion train:accuracy test:accuracy
+</pre>
+
+Note that multiple options can be specified in a single <tt> --report </tt> option
+Multiple --report options can be specified with the same effect.
+ The same example with multiple <tt> --report </tt> options is 
+<pre>
+ vectors2classify --input news2.vectors --trainer NaiveBayes --training-portion 0.6 --num-trials 2 --report train:confusion --report train:accuracy
+</pre>
+
+<!--
+<p>(To give you some idea of the speed of rainbow: On a 200 MHz
+Pentium, the above rainbow command finishes in 14 seconds.  The
+command reads the model from disk, and performs two trials--each
+building a model from about 1800 documents and testing on about 1200.
+The rainbow-stats command finishes in 2 seconds.)
+
+<p>The Perl script <tt>rainbow-be</tt>, also provided in the Bow
+source distribution, reads lines like this and outputs
+precision-recall breakeven points.
+
+<p>You can vary the precision with which classification scores are
+printed using the <tt>--score-precision=NUM</tt> option, where
+<tt>NUM</tt> is the number of digits to print after the decimal point.
+Note, however, that several internal variables are of type
+<i>float</i>, (which has only about 7 digits of resolution) and the
+classification scores are calculated as <i>double</i>'s, (which has
+only about 17 digits of resolution), so precision is inherently
+limited.  The default printed score precision is 10.
+This option works only with the naive Bayes classifier.
+
+-->
+<h4>3.1. Specifying the Training and Testing Sets</h4>
+
+In cases in which the test documents have been included with
+the training documents as part of the list of feature vectors,
+the training set is specified with the <tt>--training-portion</tt>
+option.  For example, 
+
+<pre>
+   vectors2classify --input data.vectors --training-portion 0.6 --num-trials 1
+</pre>
+
+will use a pseudo-random number generator to select .6 of the
+documents in the feature vector list and place them into the training set, then place
+the remaining documents in the test set.
+
+
+<p>The default value for <tt>--training-portion</tt> is 1.0, indicating that no
+documents are placed in the test set. 
+
+<p> A portion of the feature vectors can be reserved for validation.  The validation
+portion is specified with the --validation-portion option.  For example,
+
+<pre>
+   vectors2classify --input data.vectors --training-portion 0.6 --validation-portion 0.1
+</pre>
+
+will use .6 of the feature vectors for training, .3 for testing, and .1 for
+validation.
+
+<p> Although the validation set is available to the MALLET classifiers, currently
+none of the MALLET classifiers are sophisticated enough to use it.
+
+<!--
+<h5>3.1.1. Training Set</h5>
+
+<p>The training set can be specified using the <tt>--train-set</tt>
+option with the same types of arguments described above.  For example,
+
+<pre>
+   rainbow -d ~/model --test-set=~/filelist1 --train-set=~/filelist2 --test=1
+</pre>
+
+will take all test documents from the list in <tt>~/filelist1</tt>,
+all training documents from <tt>~/filelist2</tt>, and ignore all
+documents that don't appear in either list.  It is an error for a
+document to be listed in both the test set and the train set.
+
+<p>The default value for the <tt>--train-set</tt> is the keyword
+<tt>remaining</tt>, which specifies that all documents not placed in
+the test set should be placed in the training set.
+
+<p>The keyword <tt>remaining</tt> can also be used for the test set.
+For example,
+
+<pre>
+   rainbow -d ~/model --train-set=1pc --test-set=remaining --test=1
+</pre>
+
+will put one document from each class into the training set, and put
+all the rest of the documents in the testing set.
+-->
+
+
+<h5>3.1.1. Generating and Classifying vectors from separate files</h5>
+
+You can classify files that were converted to vectors at a different
+time than the training data.  Section 2.1 describes one way to generate
+such files so that they have the same processing pipe and dictionaries
+and are thus compatible for use in the same classification task.
+
+To use separate files for training and testing (and validation),
+use the <tt>--training-file</tt>, <tt>--testing-file</tt>, and 
+<tt>--validation-file</tt> options instead of the <tt>--input</tt> 
+option.
+
+For example,
+<pre>
+   vectors2classify --training-file train.vectors --testing-file test.vectors
+</pre>
+will train the default classifier with vectors in train.vectors and classify 
+vectors in test.vectors 
+<p>
+Another method of generating separate vector files is splitting an existing
+vector file. The  <tt> vectors2vectors </tt> program supports the same
+splitting mechanism found in <tt>vectors2classify</tt>.
+
+For example,
+<pre>
+   vectors2vectors --input news2.vectors --training-portion .6 
+           --training-file train.vectors --testing-file test.vectors
+</pre>
+will randomly split the vectors in news2.vectors into a training file and
+a testing file, in the specified proportion, and which are compatible (
+using the same pipe and dictionaries) for classifying.
+
+<!--
+<p>You can classify a single file (read from standard input or from a
+specified filename) using the <tt>--query</tt> option.
+
+-->
+<!--
+<h4>3.2. Rainbow Classification as a Server</h4>
+
+<p>Rainbow can also efficiently classify individual documents not in
+the model by running as a server.  In this mode, rainbow starts, reads
+the model from disk, then waits for query documents by listening on a
+network socket.
+
+<p>To do this, run rainbow with the command line option
+<tt>--query-server=PORT</tt> (where <tt>PORT</tt> is some port number
+larger than 1000).  For example
+
+<pre>
+   rainbow -d ~/model --query-server=1821
+</pre>
+
+<p>In order to test the server, telnet to whatever port you specified
+(e.g. "<tt>telnet localhost 1821</tt>"), type in a document you want
+to classify, then type '<tt>.</tt>' alone on a line, followed by
+Return.  Rainbow will then print back to the socket (and thus to your
+screen) a list of classes and their scores.  If you write your own
+program to connect to a rainbow server (to replace <tt>telnet</tt> in
+this example), make sure to use the sequence "<tt>\r\n</tt>" to send a
+newline.  Thus, to indicate the end of a query document, you should
+send the sequence "<tt>\r\n.\r\n</tt>".
+
+-->
+<!--
+<h4>3.2. Feature Selection</h4>
+
+<p>Feature set or "vocabulary" size may be reduced by by occurrence
+counts or by average mutual information with the class variable
+(<i>[Cover & Thomas, "Elements of Information Theory" Wiley & Sons,
+1991]</i>, (which we also call "information gain").
+
+<p><table border=1>
+
+<tr><td> <tt>--prune-vocab-by-infogain=N</tt><br>
+or <tt>-T</tt></td> </td>
+<td> Remove all but the top <tt>N</tt> words by selecting words with highest
+     average mutual information with the class variable.  Default is
+     <tt>N</tt>=0, which is a special case that removes no words.
+</td></tr>
+
+<tr><td> <tt>--prune-vocab-by-doc-count=N</tt><br>
+or <tt>-D</tt></td> </td>
+<td> Remove words that occur in <tt>N</tt> or fewer documents.
+</td></tr>
+
+<tr><td> <tt>--prune-vocab-by-occur-count=N</tt><br>
+or <tt>-O</tt></td> </td>
+<td> Remove words that occur less than <tt>N</tt> times.
+</td></tr>
+
+</table>
+
+<p>For example, to classify using only the 50 words that have the
+highest mutual information with the class variable, type:
+
+<pre>
+   rainbow -d ~/model --prune-vocab-by-infogain=50 --test=1
+</pre>
+
+<p>If you want to see what these 50 words are, type:
+
+<pre>
+   rainbow -d ~/model -I 50
+</pre>
+
+There is more information about <tt>-I</tt> and other
+diagnostic-printing command-line options options in section 4.
+-->
+
+<h4>3.2. Selecting the Classification Method</h4>
+
+MALLET supports several different classification methods, (and the
+code makes it easy to add more).  The default is Naive Bayes, but
+Maximum Entropy, Decision Tree, and Winnow
+are all available. These are specified with the option <tt>--trainer</tt> 
+followed by one of the trainer names:
+<tt>NaiveBayes, MaxEnt,  Winnow</tt>.  For example,
+<pre>
+   vectors2classify --input news2.vectors --trainer MaxEnt --training-portion 0.7
+</pre>
+
+will use  Maximum Entropy  for classification.
+
+More than one trainer can be specified at the same time, which
+will cause all specified trainers to be trained on the same data.
+For example,
+<pre>
+   vectors2classify --input news2.vectors --trainer NaiveBayes --trainer MaxEnt --training-portion 0.7
+</pre>
+will classify the same split train/test data using both the Naive Bayes and Maximum
+Entropy classifiers.
+
+Internal to MALLET, trainers and classifiers are separate classes; 
+a classifier is generated from its corresponding trainer class after training.
+The <tt>--trainer</tt> option is actually specifying a trainer constructor
+to be run.  When no parenthesis appear in the argument to <tt>--trainer</tt>
+a "new" is prepended to the argument and "Trainer()" is appended to the
+argument (if not already present) to generate a constructor call.
+For example, specifying <tt>--trainer NaiveBayes</tt>
+is the same as specifying <tt>--trainer "new NaiveBayesTrainer()"</tt>.
+(Note quotation marks needed to protect the ()'s from the shell)
+Users may specify any constructor call directly as the argument to <tt>--trainer</tt>.
+
+Explicitly specifying a constructor (with a preceding "new" and trailing "Trainer")
+is most often used when specifying arguments to a trainer.
+For example,
+<pre>
+   vectors2classify --input news2.vectors --trainer "new MaxEntTrainer(0.01)" --training-portion 0.6
+</pre>
+will train using the Maximum Entropy classifier initialized with a gaussian prior
+variance of 0.01.
+
+<!--
+<h4>3.4. Naive Bayes Options</h4>
+
+The following options change parameters of Naive Bayes.
+
+<p><table border=1>
+
+<tr><td> <tt>--smoothing-method=METHOD</tt></td> </td>
+<td> Set the method for smoothing word probabilities to avoid zeros;
+ <tt>METHOD</tt> may be one of: <tt>goodturing, laplace, mestimate,
+ wittenbell</tt>.  The default is <tt>laplace</tt>, which is a uniform
+ Dirichlet prior with alpha=2.
+</td></tr>
+
+<tr><td> <tt>--event-model=EVENTNAME</tt></td> </td>
+<td> Set what objects will be considered the `events' of the
+  probabilistic model.  <tt>EVENTNAME</tt> can be one of:
+  <tt>word</tt> (i.e. multinomial, unigram), <tt>document</tt>
+  (i.e. multi-variate Bernoulli, bit vector), or
+  <tt>document-then-word</tt> (i.e. document-length-normalized
+  multinomial).  For more details on these methods, see <i><a
+  href="http://www.cs.cmu.edu/~mccallum">A Comparison of Event Models
+  for Naive Bayes Text Classification</a></i>.  The default is
+  <tt>word</tt>. 
+</td></tr>
+
+<tr><td> <tt>--uniform-class-priors</tt></td> </td>
+<td> When classifying and calculating mutual information, use equal
+ prior probabilities on classes, instead of using the distribution
+ determined from the training data.
+</td></tr>
+
+</table>
+
+-->
+
+<h3>4. Diagnostics</h3>
+
+<p>In addition to using a list of feature vectors for document classification,
+ you can also print various information about them.  
+
+<h4>4.1. Words by Mutual Information with the Class</h4>
+
+<p>To see a list of the words that have highest average
+mutual information with the class variable (sorted by mutual
+information), use the <tt>--print-word-infogain</tt> 
+option.  For example
+
+<pre>
+   vectors2info --input all20news.vectors --print-infogain 10
+</pre>
+
+<p>When invoked on a model containing all 20 classes of the
+<i>20_newsgroups</i> dataset, the following is printed to standard
+out:
+
+<pre>
+0 windows
+1 god
+2 dod
+3 government
+4 writes
+5 he
+6 team
+7 game
+8 people
+9 x
+
+
+
+<!--
+  0.09381 windows
+  0.09003 god
+  0.07900 dod
+  0.07700 government
+  0.06609 team
+  0.06570 game
+  0.06448 people
+  0.06323 car
+  0.06171 bike
+  0.05609 hockey
+-->
+</pre>
+
+<!--
+The above is calculated using all the training data.  To restrict the
+calculation to a subset of the data, use any of the methods for
+defining the training set described in section 3.1.  For example, to
+calculate mutual information based just on the the documents listed in
+<tt>~/docs1</tt>, type:
+
+<pre>
+   rainbow -d ~/model --train-set=~/docs1 -I 10
+</pre>
+
+-->
+<h4>4.2. Class Labels </h4>
+To print the labels of all of classes found in the feature list,
+use the --print-labels option.
+For example,
+<pre>
+   vectors2info --input all20news.vectors --print-labels
+</pre>
+
+<p>When invoked on a model containing all 20 classes of the
+<i>20_newsgroups</i> dataset, the following is printed to standard
+out:
+
+<pre>
+alt.atheism
+comp.graphics
+comp.os.ms-windows.misc
+comp.sys.ibm.pc.hardware
+comp.sys.mac.hardware
+comp.windows.x
+misc.forsale
+rec.autos
+rec.motorcycles
+rec.sport.baseball
+rec.sport.hockey
+sci.crypt
+sci.electronics
+sci.med
+sci.space
+soc.religion.christian
+talk.politics.guns
+talk.politics.mideast
+talk.politics.misc
+talk.religion.misc
+</pre>
+
+<!--
+<h4>4.2. Words by Probability</h4>
+
+To print the probability of all the words use the
+<tt>--print-word-probabilities</tt> option.  For example, the
+following command will print the word probabilities in the
+<tt>talk.politics.mideast</tt> class, after pruning the vocabulary to
+the ten words that have highest mutual information with the class.
+
+<pre>
+   rainbow -d ~/model -T 10 --print-word-probabilities=talk.politics.mideast
+</pre>
+
+<p>Here is the output of this command.  Notice that the word
+probabilities correctly sum to one. 
+
+<pre>
+   god                             0.05026782
+   people                          0.64977338
+   government                      0.24062629
+   car                             0.03502266
+   game                            0.00412031
+   team                            0.01030078
+   bike                            0.00041203
+   dod                             0.00041203
+   hockey                          0.00123609
+   windows                         0.00782859
+</pre>
+
+-->
+
+<!--
+<h4>4.3. Word Counts and Probabilities</h4>
+
+<p>To print the number of times a word occurs in each class (as well as
+the total number of words in the class, and the word's probability in
+each class), use the <tt>--print-word-counts</tt> option.  For
+example, the following command prints diagnostics about the word
+<i>team</i>.
+
+<pre>
+   rainbow -d ~/model --print-word-counts=team
+</pre>
+
+<p>Here is the output on the above command, on a model built from
+<i>20_newsgroups</i>.  Note that the word probabilities (in
+parenthesis) may not simply be equal to the ratio of the two previous
+counts because of smoothing.
+
+<pre>
+        2 /    125039  (  0.00002) alt.atheism
+        6 /    119511  (  0.00005) comp.graphics
+        5 /     91147  (  0.00005) comp.os.ms-windows.misc
+        1 /     71002  (  0.00001) comp.sys.mac.hardware
+       12 /    131120  (  0.00009) comp.windows.x
+       15 /     62130  (  0.00024) misc.forsale
+        2 /     83942  (  0.00002) rec.autos
+       10 /     78685  (  0.00013) rec.motorcycles
+      543 /     88623  (  0.00613) rec.sport.baseball
+      970 /    115109  (  0.00843) rec.sport.hockey
+        9 /    136655  (  0.00007) sci.crypt
+        1 /     81206  (  0.00001) sci.electronics
+        8 /    125235  (  0.00006) sci.med
+       71 /    128754  (  0.00055) sci.space
+        2 /    141389  (  0.00001) soc.religion.christian
+       13 /    135054  (  0.00010) talk.politics.guns
+       24 /    208367  (  0.00012) talk.politics.mideast
+       14 /    164266  (  0.00009) talk.politics.misc
+        9 /    130013  (  0.00007) talk.religion.misc
+</pre>
+
+<p>(Note: the probability of the word <i>team</i> is not equal to the
+probability of team from the <tt>--print-word-probabilities</tt>
+command above, because we did not reduce vocabulary size to 10 in this
+example. 
+-->
+
+<!--
+<h4>4.4. Document Names</h4>
+
+<p>To print a list of the filenames of all documents, use the
+<tt>--print-doc-names</tt> option.  Document filenames are printed in
+the order in which they were indexed.  Thus all documents of the same
+class appear contiguously.
+
+<p>This command is often useful for generating lists of document names
+to be used with the <tt>--test-set</tt> and <tt>--train-set</tt>
+options.
+
+<p>For example, the following command prints 10 randomly selected
+documents that were indexed.  In order to obtain a random
+selection, <tt>gawk</tt>, the GNU version of <tt>awk</tt>, is used
+to generate random numbers, and <tt>sort</tt> is used to permute the
+list.  The command <tt>head</tt> is then used to select the first 10
+from the permuted list.
+
+<pre>
+   rainbow -d ~/model --print-doc-names \
+   | gawk '{print rand(), $1}' | sort -n | gawk '{print $2}' | head -n 10
+</pre>
+
+<p>Example output of this command on the <i>20_newsgroups</i> data set
+is:
+
+<pre>
+   ~/20_newsgroups/rec.motorcycles/104735
+   ~/20_newsgroups/comp.windows.x/67345
+   ~/20_newsgroups/sci.med/59555
+   ~/20_newsgroups/talk.politics.misc/178418
+   ~/20_newsgroups/misc.forsale/76867
+   ~/20_newsgroups/rec.sport.hockey/52601
+   ~/20_newsgroups/talk.politics.mideast/77394
+   ~/20_newsgroups/comp.os.ms-windows.misc/9661
+   ~/20_newsgroups/talk.politics.mideast/75947
+   ~/20_newsgroups/talk.politics.misc/179105
+</pre>
+
+<p>You can also print the names of just those documents that fall into
+one of the sets of the test/train split.  For example
+
+<pre>
+   rainbow -d ~/model --train-set=3pc --print-doc-names=train
+</pre>
+
+will select three documents from each class to be in the training set,
+and print just those documents.  The output of this command might be:
+
+<pre>
+   ~/20_newsgroups/talk.politics.guns/53329
+   ~/20_newsgroups/talk.politics.guns/54704
+   ~/20_newsgroups/talk.politics.guns/54656
+   ~/20_newsgroups/talk.politics.mideast/76420
+   ~/20_newsgroups/talk.politics.mideast/76523
+   ~/20_newsgroups/talk.politics.mideast/77392
+   ~/20_newsgroups/talk.politics.misc/179005
+   ~/20_newsgroups/talk.politics.misc/176939
+   ~/20_newsgroups/talk.politics.misc/179083
+</pre>
+-->
+
+<h4>4.3. Printing Entire Word/Document Matrix</h4>
+
+<p>You can print the entire word/document matrix to standard output in
+using the <tt>--print-matrix</tt> option.  Documents are printed one
+to a line.  The first (white-space separated) field is the document
+name; this is followed by entries for the words.
+
+<p>There are several different alternatives for the format in which
+the words are printed, and all of them are amenable to processing by
+<tt>perl</tt> or <tt>awk</tt>, and somewhat human-readable.  The
+alternatives are specified by an optional "formatting" argument to the
+<tt>--print-matrix</tt> option.
+
+<p>The format is specified as a string of three characters, consisting
+of selections from the following three groups
+
+<p><table border=1>
+
+<tr><td colspan=2>
+Print entries for all words in the vocabulary, or just print the words
+that actually occur in the document.</td></tr>
+
+<tr><td width=15% align=center><tt>a</tt></td><td>all</td></tr>
+<tr><td width=15% align=center><tt>s</tt></td><td>sparse, (default)</td></tr>
+
+<tr><td colspan=2>
+Print word counts as integers or as binary presence/absence indicators.
+</td></tr>
+
+<tr><td width=15% align=center><tt>b</tt></td><td>binary</td></tr>
+<tr><td width=15% align=center><tt>i</tt></td><td>integer, (default)</td></tr>
+
+<tr><td colspan=2>
+How to indicate the word itself.
+</td></tr>
+
+<tr><td width=15% align=center><tt>n</tt></td><td>integer word index</td></tr>
+<tr><td width=15% align=center><tt>w</tt></td><td>word string</td></tr>
+<tr><td width=15% align=center><tt>c</tt></td><td>combination of
+   integer word index and word string, (default)</td></tr> 
+<tr><td width=15% align=center><tt>e</tt></td><td>empty, don't print
+   anything to indicate the identity of the word</td></tr>
+
+</table>
+
+<p>For example, to print a sparse matrix, in which the word string and
+the word counts for each document are listed, use the format string
+``<tt>siw</tt>''.  The command
+
+<pre>
+   vectors2info --input testdata.vectors --print-matrix=siw 
+</pre>
+
+<p> generates a large output, the first part of the first few lines of which
+are shown here:
+
+<pre>
+file:20news-18828/alt.atheism/49960 alt.atheism  from 13  mathew 3  mantis
+file:20news-18828/alt.atheism/51139 alt.atheism  from 2  subject 1  to 6  message
+file:20news-18828/alt.atheism/51140 alt.atheism  from 1  subject 1  to 1  message 1  id 1 
+file:20news-18828/alt.atheism/51123 alt.atheism  subject 1  atheism 1  to 2  message 1  id 1 
+file:20news-18828/alt.atheism/51125 alt.atheism  subject 1  anything 1  to 11  message 1  id 1 
+file:20news-18828/alt.atheism/51126 alt.atheism  subject 1  message 1  id 1  date 1  mar 1  gmt 1 
+file:20news-18828/alt.atheism/51127 alt.atheism  subject 1  to 1  message 1  id 1  date 1  mar 1  
+file:20news-18828/alt.atheism/51130 alt.atheism  from 1  subject 1 
+
+</pre>
+<!--
+   ~/20_newsgroups/alt.atheism/53366 alt.atheism  god 2  jesus 1  nasa 2  people 2  
+   ~/20_newsgroups/alt.atheism/53367 alt.atheism  jesus 2  jewish 1  christian 1  
+   ~/20_newsgroups/alt.atheism/51247 alt.atheism  god 4  evidence 2  
+   ~/20_newsgroups/alt.atheism/51248 alt.atheism  
+   ~/20_newsgroups/alt.atheism/51249 alt.atheism  nasa 1  country 2  files 1  law 3  system 1  government 1  
+   ~/20_newsgroups/alt.atheism/51250 alt.atheism  god 3  people 2  evidence 1  law 1  system 1  public 5  rights 1  fact 1  religious 1  
+   ~/20_newsgroups/alt.atheism/51251 alt.atheism  
+   ~/20_newsgroups/alt.atheism/51252 alt.atheism  people 4  evidence 2  system 2  religion 1  
+   ~/20_newsgroups/alt.atheism/51253 alt.atheism  god 19  christian 1  evidence 1  faith 5  car 2  space 1  game 1  
+   ~/20_newsgroups/alt.atheism/51254 alt.atheism  people 1  jewish 3  game 1  bible 7  
+-->
+
+<p>To print a non-sparse matrix, indicating the binary
+presence/absence of all words in the vocabulary for each document, use
+the format string 
+``<tt>abe</tt>''.  The command
+
+<pre>
+   vectors2info --input testdata.vectors --print-matrix=abe
+</pre>
+
+<p> generates a large output, the first part of the first few lines of which
+are shown here:
+
+<pre>
+file:20news-18828/alt.atheism/53366 alt.atheism  1  1  0  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/53367 alt.atheism  0  0  0  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/51247 alt.atheism  1  0  0  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/51248 alt.atheism  0  0  0  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/51249 alt.atheism  0  0  1  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/51250 alt.atheism  1  1  0  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/51251 alt.atheism  0  0  0  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/51252 alt.atheism  0  1  0  0  0  0  0  0  0  0  
+file:20news-18828/alt.atheism/51253 alt.atheism  1  0  0  1  1  0  0  0  0  0  
+file:20news-18828/alt.atheism/51254 alt.atheism  0  1  0  0  1  0  0  0  0  0  
+</pre>
+
+<p>
+
+<p>For a summary of all the diagnostic options, see the "Diagnostics"
+section of the <tt>rainbow --help</tt> output.
+
+-->
+
+<h3>5. General options</h3>
+
+<h4>5.1. Verbosity of Progress Messages</h4>
+
+<p>MALLET prints messages about its progress to standard error as it
+runs.  You can change the verbosity of these progress messages with
+the <tt>--verbosity=LEVEL</tt>  option.  The argument
+<tt>LEVEL</tt> should be an integer from 0 to 8, 0 being silent (no
+progress messages printed to standard error), and 8 being the  most
+verbose. Levels 0-8 correspond to the java.logger predefined levels
+off, severe, warning, info, config, fine, finer, finest, all.
+The default verbosity level is taken from the MALLET logging.properties
+file, which currently defaults to the INFO level (3).
+
+<p>For example, the following command will print no progress or
+log messages.
+
+<pre>
+   vectors2classify  --verbosity 0 --input news2.vectors 
+</pre>
+
+<p> Progress messages are those messages which are typically very
+repetitive, and only the last one is generally of interest.  By
+default, messages that MALLET deems to be progress messages are
+written on top of each other, with no intervening newline.
+This is implemented by a custom message formatter installed in
+the logging hierarchy.
+
+<p>If all messages are to be seen on separate lines, the special
+progress message formatting can be turned off by specifying 
+the --noOverwriteProgressMessages option.
+For example, the MaxEnt trainer prints the log likelihood at
+each step during training as a progress message.
+ Normally, each of these messages overwrites the previous
+one on the users terminal.  To supress this behavior, and
+see each log likelihood on its own line the user would 
+specify this as shown in the following example:
+<pre>
+   vectors2classify  --input news2.vectors --trainer MaxEnt --noOverwriteProgressMessages 
+</pre>
+
+<!--
+<p>Some of the progress messages print backspace characters in order
+to show running counters.  When running rainbow with GDB inside an
+Emacs buffer, however, the backspace character is printed as a
+character escape sequence and fills the buffer.  You can avoid
+printing progress messages that contain backspace characters by using
+the <tt>--no-backspaces</tt> (or <tt>-b</tt>) option.
+-->
+
+<h4>5.1. Initializing of the Pseudo-Random Seed</h4>
+
+<p>MALLET uses a pseudo-random number generator to create 
+the randomized test-train splits described in section 3.1.
+You can specify the seed for this random number generator using the
+<tt>--random-seed</tt> option.  For example
+
+<pre>
+   vectors2classify --training-portion 0.7 --random-seed=2
+</pre>
+
+<!--
+<p>You can verify that use of the same random seed results in
+identical test/train splits by using the <tt>--print-doc-names</tt>
+option.  For example
+
+<pre>
+   rainbow -d ~/model --random-seed=1 --train-set=4pc --print-doc-names=train
+</pre>
+
+will perform the specified test/train split, then print only the
+training documents.  The above command will produce the same output
+each time it is called.  However, the above command with the
+<tt>--random-seed=1</tt> option removed will print different document
+names each time.
+-->
+
+<p>If this option is not given, then the seed is set using the
+computer's real-time clock.
+
+<p>
+<p>
+
+
+<hr>
+Last updated: 11 March 2004,
+<i><a href="mailto:mccallum@cs.cmu.edu">mccallum@cs.cmu.edu</a></i>
+
+</BODY>
+</HTML>

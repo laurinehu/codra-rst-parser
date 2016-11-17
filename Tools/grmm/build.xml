@@ -1,0 +1,155 @@
+<project name="mallet" default="compile" basedir=".">
+  <description>A Machine Learning for Language Toolkit</description>
+  <!-- 
+    Properties
+    -->
+  <property name="src" location="src"/>
+  <property name="class" location="class"/>
+  <property name="lib" location="lib"/>
+  <property name="dist" location="dist"/>
+  <property name="doc" location="doc/api"/>
+
+  <path id="project.classpath">
+    <pathelement path="${class}"/>
+    <fileset dir="lib" includes="*.jar"/>
+  </path>
+
+  <path id="project.base.source.files">
+    <fileset dir="${src}" includes="edu/umass/cs/mallet/base/**/*.java"/>
+    <fileset dir="${src}" includes="gnu/**/*.java"/>
+  </path>
+
+  <path id="project.users.source.files">
+    <fileset dir="${src}" includes="edu/umass/cs/mallet/users/**/*.java"/>
+  </path>
+
+
+  <fileset id="project.resources"
+    dir="${src}">
+    <include name="**/resources/*.*"/>
+    <include name="**/*.properties"/>
+  </fileset>
+
+  <!--
+    Initialization 
+    -->
+  <target name="init">
+    <!-- Create a time stamp -->
+    <tstamp/>
+    <!-- Create an output directory for class files -->
+    <mkdir dir="${class}"/>
+    <copy todir="${class}" overwrite="true" includeemptydirs="true">
+      <fileset refid="project.resources"/>
+    </copy>
+    <!-- Create an output directory for the final jar -->
+    <mkdir dir="${dist}"/>
+    <copy file="${lib}/mallet-deps.jar" todir="${dist}"/>
+  </target>
+
+  
+  <!--
+    Target: compile
+    -->
+  <target
+    name="compile"
+    depends="init"
+    description="Compile all the source files">
+    <!-- 
+      -->
+    <javac
+      source="1.4"
+      destdir="${class}"
+      classpathref="project.classpath"
+      debug="true"
+      >
+      <src path="${src}"/>
+      <include name="edu/**/*.java"/>
+      <include name="gnu/**/*.java"/>
+    </javac>
+  </target>
+ 
+  <!-- Create a jar file -->
+  <target name="jar" depends="compile">
+      <jar destfile="${dist}/mallet.jar/" basedir="${class}"/>
+  </target>
+ 
+  <!--
+    Target: mallet-base
+    -->
+  <target
+    name="mallet-base"
+    depends="init"
+    description="Compile mallet base">
+    <!--
+      -->
+    <javac
+      source="1.4"
+      destdir="${class}"
+      classpathref="project.classpath"
+      debug="true"
+      >
+      <src path="${src}"/>
+      <include name="edu/umass/cs/mallet/base/**/*.java"/>
+      <include name="edu/umass/cs/mallet/projects/seg_plus_coref/**/*.java"/>
+      <include name="gnu/**/*.java"/>
+    </javac>
+  </target>
+
+  
+  <target name="compile-mine"
+          depends="init"
+          description="Compile current user's personal files.">
+    <javac source="1.4"
+           destdir="${class}"
+           classpathref="project.classpath"
+           debug="true">
+        <src path="${src}"/>
+        <include name="edu/umass/cs/mallet/base/**/*.java"/>
+        <include name="edu/umass/cs/mallet/share/**/*.java"/>
+        <include name="edu/umass/cs/mallet/grmm/**/*.java"/>
+        <include name="edu/umass/cs/mallet/users/${user.name}/**/*.java"/>
+        <include name="gnu/**/*.java"/>
+    </javac>
+  </target>
+
+  <!--
+    Target: base
+    -->
+  <target
+    name="base">
+    <ant target="mallet-base"/>
+  </target>
+
+  <!--
+    Target: clean
+    -->
+  <target name="clean" description="clean built files">
+    <!-- Delete class files -->
+    <delete dir="${class}"/>
+  </target>
+
+
+  <!--
+    Target: test
+   -->
+  <target name="test" depends="compile">
+    <junit>
+      <classpath refid="project.classpath" />
+      <formatter type="plain" usefile="true" />
+      <batchtest>
+        <fileset dir="${class}" includes="**/Test*.class" excludes="**/*$*"/>
+      </batchtest>
+    </junit>
+  </target>
+
+  <target name="test-grmm" depends="compile">
+    <junit>
+      <classpath refid="project.classpath" />
+      <formatter type="plain" usefile="true" />
+      <batchtest>
+        <fileset dir="${class}" includes="edu/umass/cs/mallet/grmm/**/Test*.class" excludes="**/*$*"/>
+      </batchtest>
+    </junit>
+  </target>
+
+</project>

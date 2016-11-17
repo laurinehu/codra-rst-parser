@@ -1,0 +1,62 @@
+Nov 14, 2013 3:59:40 PM java.util.logging.LogManager$RootLogger log
+INFO: help = false
+Nov 14, 2013 3:59:40 PM java.util.logging.LogManager$RootLogger log
+INFO: prefix-code = null
+Nov 14, 2013 3:59:40 PM java.util.logging.LogManager$RootLogger log
+INFO: help = false
+Nov 14, 2013 3:59:40 PM java.util.logging.LogManager$RootLogger log
+INFO: prefix-code = null
+Nov 14, 2013 3:59:40 PM java.util.logging.LogManager$RootLogger log
+INFO: model-file = dcrf.doc.gz
+Nov 14, 2013 3:59:40 PM java.util.logging.LogManager$RootLogger log
+INFO: testing = tmp_doc.feat
+Testing: Number of instances = 10
+Testing:  i	Label	N	Correct	Returned	P	R	F1
+Testing:  0	0	10	0	0	1.0	0.0	0.0	
+Testing:  1	1	0	0	10	0.0	1.0	0.0	
+Testing:  2	U	10	0	0	1.0	0.0	0.0	
+Testing:  3	(Satellite=Background,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  4	(Nucleus=span,Satellite=Manner-Means)	0	0	0	1.0	1.0	1.0	
+Testing:  5	(Nucleus=Joint,Nucleus=Joint)	0	0	0	1.0	1.0	1.0	
+Testing:  6	(Nucleus=Topic-Comment,Nucleus=Topic-Comment)	0	0	0	1.0	1.0	1.0	
+Testing:  7	(Nucleus=span,Satellite=Elaboration)	0	0	8	0.0	1.0	0.0	
+Testing:  8	(Satellite=Cause,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  9	(Nucleus=span,Satellite=Explanation)	0	0	0	1.0	1.0	1.0	
+Testing:  10	(Nucleus=span,Satellite=Evaluation)	0	0	1	0.0	1.0	0.0	
+Testing:  11	(Satellite=Contrast,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  12	(Nucleus=span,Satellite=Summary)	0	0	0	1.0	1.0	1.0	
+Testing:  13	(Satellite=Evaluation,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  14	(Nucleus=Topic-Change,Nucleus=Topic-Change)	0	0	0	1.0	1.0	1.0	
+Testing:  15	(Nucleus=span,Satellite=Topic-Comment)	0	0	0	1.0	1.0	1.0	
+Testing:  16	(Nucleus=TextualOrganization,Nucleus=TextualOrganization)	0	0	0	1.0	1.0	1.0	
+Testing:  17	(Nucleus=span,Satellite=Contrast)	0	0	0	1.0	1.0	1.0	
+Testing:  18	(Nucleus=Same-Unit,Nucleus=Same-Unit)	0	0	0	1.0	1.0	1.0	
+Testing:  19	(Nucleus=span,Satellite=Attribution)	0	0	0	1.0	1.0	1.0	
+Testing:  20	(Nucleus=span,Satellite=Temporal)	0	0	0	1.0	1.0	1.0	
+Testing:  21	(Nucleus=span,Satellite=Cause)	0	0	0	1.0	1.0	1.0	
+Testing:  22	(Nucleus=span,Satellite=Background)	0	0	0	1.0	1.0	1.0	
+Testing:  23	(Nucleus=Contrast,Nucleus=Contrast)	0	0	1	0.0	1.0	0.0	
+Testing:  24	(Satellite=Temporal,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  25	(Nucleus=Temporal,Nucleus=Temporal)	0	0	0	1.0	1.0	1.0	
+Testing:  26	(Nucleus=span,Satellite=Condition)	0	0	0	1.0	1.0	1.0	
+Testing:  27	(Satellite=Explanation,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  28	(Satellite=Attribution,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  29	(Nucleus=Cause,Nucleus=Cause)	0	0	0	1.0	1.0	1.0	
+Testing:  30	(Nucleus=Comparison,Nucleus=Comparison)	0	0	0	1.0	1.0	1.0	
+Testing:  31	(Nucleus=span,Satellite=Enablement)	0	0	0	1.0	1.0	1.0	
+Testing:  32	(Satellite=Summary,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  33	(Nucleus=span,Satellite=Comparison)	0	0	0	1.0	1.0	1.0	
+Testing:  34	(Nucleus=span,Satellite=Topic-Change)	0	0	0	1.0	1.0	1.0	
+Testing:  35	(Satellite=Elaboration,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  36	(Satellite=Topic-Comment,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  37	(Satellite=Comparison,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  38	(Satellite=Condition,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  39	(Satellite=Enablement,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  40	(Nucleus=Explanation,Nucleus=Explanation)	0	0	0	1.0	1.0	1.0	
+Testing:  41	(Nucleus=Condition,Nucleus=Condition)	0	0	0	1.0	1.0	1.0	
+Testing:  42	(Nucleus=Evaluation,Nucleus=Evaluation)	0	0	0	1.0	1.0	1.0	
+Testing:  43	(Satellite=Manner-Means,Nucleus=span)	0	0	0	1.0	1.0	1.0	
+Testing:  Factor 0 accuracy: (0 10) 0.0
+Testing:  Factor 1 accuracy: (0 10) 0.0
+Testing CorrectT 0  maxt 10
+Testing Joint accuracy: 0.0

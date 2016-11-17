@@ -1,0 +1,16 @@
+5 tmp.chp:0/4
+Founded in 1899 by a group of Swiss , English and Catalan footballers | led by Joan Gamper , | the club has become a symbol of Catalan culture and Catalanism , hence the motto " M ?? s que | un club " | ( More than a club ) . | 
+1{0:13}[Founded/S]<[S]3{18:38}[become/S] 2{13:18}[led/VP]<[NP]1{0:13}[group/NP] 4{38:41}[un/VP]<[NP]3{18:38}[que/NP] 5{41:48}[(/PRN]<[NP]4{38:41}[club/NP] 
+---
+1 tmp.chp:1/4
+Unlike many other football clubs , the supporters own and operate Barcelona . | 
+Depend:NONE
+---
+2 tmp.chp:2/4
+It is the world 's second-richest football club in terms of revenue , | with an annual turnover of $613 million and the third most valuable , worth $2.6 billion . | 
+1{0:13}[club/NP]<[VP]2{13:30}[worth/VP] 
+---
+3 tmp.chp:3/4
+The official Barcelona anthem is the " Cant | del Bar ?? a " , | written by Jaume Picas and Josep Maria Espin ?? s . | 
+2{8:14}[??/SBAR]<[NP]1{0:8}[Cant/NP] 3{14:25}[written/VP]<[NP]2{8:14}["/NP] 
+---
