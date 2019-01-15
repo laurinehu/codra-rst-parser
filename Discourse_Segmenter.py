@@ -488,7 +488,7 @@ def do_segment(infile):
     has_one_word = extract_features(tok_f, par_f, tag_f, "tmp.feat", "tmp.words", edufile = "tmp.edu")   
 
     if has_one_word != -1:
-        #train_model("train.seg")
+        train_model("train.seg")
         pred = apply_model("tmp.feat")
         processLROutput("tmp.tok", "tmp.words", pred, "tmp.edu") 
 
